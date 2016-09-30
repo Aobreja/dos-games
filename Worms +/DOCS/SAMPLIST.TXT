@@ -1,0 +1,114 @@
+
+            ----------------------------------------------
+            DESCRIPTION OF ALL SAMPLES USED IN THE GAME...
+            ----------------------------------------------
+
+
+Sample          Description.
+-------------   ----------------------------------------------------------
+
+Fire Punch      Sort of a karate-yell
+
+Ooof1           Short sounds of pain: played after one another in quick
+Ooof2           succession, these will sound like you're falling down
+Ooof3           the stairs or something.
+
+Ooww1           Slightly longer and more vocal "oow!" sounds for when
+Ooww2           a worm gets injured.
+Ooww3
+
+Wobble         Said when the worm has jumped really far and needs to
+                catch his balance. Does not lose his go, however.
+
+Jump1           Two different "hup!" sounds for when the worm is jumping.
+Jump2
+
+Collect Crate   Funny expression for when the worm finds and collects a
+                weapon crate, giving him additional weapons or bonuses.
+
+Bungee!         Said by worm as he hurls himself out in a bungee jump.
+
+Wheeee!         Two different things that the worm says as he is swinging
+Whoooo!         on a rope
+
+Take Cover      Said by worm who is about to be hit by a grenade!
+
+Watch This      Said by a worm as he throws a grenade.
+
+Fire!           As above but with bazooka.
+
+Grenade!        Said by worm who has just realised a grenade has landed
+                by his feet and is about to be hit.
+
+Yes sir!        Said by worm when you click "start game" from the main menu.
+
+Die!            Said by worm who is about to throw a grenade or
+                shoot a missile at opponent.
+
+Oh dear...      Said by worm just as he is about to die / blow himself up.
+
+What the...     Said by worm who has just realised a grenade has landed by
+                his feet and is about to blow up.
+
+Whoops!         Said by worm who has just missed his shot.
+
+hehe (laugh)    Said by a worm as he leaves a dynamite behind and runs off,
+                and when a worm kills a team captain.
+
+Noooooo         Yelled by a worm as he is thrown off the playing area.
+
+Revenge!        Said by worm who has just injured an opponent who recently
+                injured himself.
+
+Oi Nutter!      Said after a worm has injured himself or one of his
+                team-mates.
+
+Perfect!        Said after a worm has done a particularly great shot.
+
+Stupid          Said after a worm has injured himself or one of his
+                team-mates.
+
+Traitor!        As above.
+
+You'll regret.. Said by worm who has just been injured by an opponent.
+
+I'll get you!   As above.
+
+Just you wait!  As above.
+
+Leave me alone! As above.
+
+Missed!         Said in a teasing way to an opponent who just missed
+                his shot.
+
+Bye bye...      Said by worm just as he is about to die / blow himself up
+
+Excellent!      Said after a worm has done a particularly great shot.
+
+Fatality!       Said after a worm has done a particularly great shot,
+                and it led to the death of an opponent.
+
+First Blood!    Said by worm in the beginning of the game when things
+                are starting to get nasty.
+
+Flawless..      Said by a worm whose team has just won the match but has
+                not lost any energy or worms!
+
+Win match       Sample for team winning the match.
+
+Hello...        Said by worm who is waiting for the player to take some
+                action.
+
+Hurry!          Said by worm who is waiting for the player to take some
+                action, and time is running low.
+
+Boring...       Said by worm if the player ran out of time or chose to
+                skip his go or misses a shot.
+
+Come on then    Said by worm who is waiting for the player to take some
+                action.
+
+Coward!         Said by worm if the player ran out of time or chose to
+                skip his go.
+
+

@@ -1,0 +1,29 @@
+--------------------
+WORMS AND WINDOWS'95
+--------------------
+
+For running Worms:Reinforcements on Windows'95 we recommend that you have
+the following MINIMUM requirement;
+
+DX4-100 CPU, 16Mb Ram, 2X CD Rom, 16Bit Soundblaster or compatible,
+512Mb+ HD, Mouse, Keyboard.
+
+We also recommend that you do not run any other games or large applications
+at the same time as Worms:Reinforcements.
+
+If your spec does not match or supercede the one above, then we recommend
+that you run Worms through DOS mode. Details on how to do this are in the
+TROUBLE.TXT document.
+
+Windows howver does make Network games much easier! Worms has been tested
+on various Windows'95 configurations and has proved to be very stable. The
+game itself was written in a Win'95 environment and no problems were
+encountered. That said, Worms is not Windows 95 native and should not be
+run from within a small window on the desktop.
+
+
+
+
+
+
+

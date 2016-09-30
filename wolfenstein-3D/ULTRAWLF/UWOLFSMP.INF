@@ -1,0 +1,46 @@
+8000, 65535             ; 00 - 'halt stop'
+8000, 65535             ; 01 - hund bemerkt spieler
+4000, 65535             ; 02 - tÅr geht auf
+8000, 65535             ; 03 - zufallende tÅr
+8000, 65535             ; 04 - mp
+8000, 65535             ; 05 - pistole
+8000, 65535             ; 06 - mg
+8000, 65535             ; 07 - 'hÅfao...'
+4000, 65535             ; 08 - 'guten tag'
+8000, 65535             ; 09 - 'mutti'
+4000, 65535             ; 0a - mg 2
+8000, 65535             ; 0b - mp 2
+8000, 65535             ; 0c - schrei
+8000, 65535             ; 0d - schrei
+8000, 65535             ; 0e - schrei
+4000, 65535             ; 0f - geheimtÅr
+8000, 65535             ; 10 - kîter getroffen
+8000, 65535             ; 11 - aaaarrrrgghh
+4000, 65535             ; 12 - 'die alt schweinhun'
+4000, 65535             ; 13 - 'eva, ...'
+8000, 65535             ; 14 - 'mein leben'
+8000, 65535             ; 15 - lauter schu·
+8000, 65535             ; 16 - blubbern
+8000, 65535             ; 17 - '...hund'
+4000, 65535             ; 18 - 'gottimhimmel'
+4000, 65535             ; 19 - lache 1
+4000, 65535             ; 1a - lache 2
+8000, 65535             ; 1b - 'stehnbleibn'
+4000, 65535             ; 1c - 'meins...'
+8000, 65535             ; 1d - angreifende tîle
+8000, 65535             ; 1e - fahrstuhl
+8000, 65535             ; 1f - scheppern
+4000, 65535             ; 20 - 'yeah!'
+8000, 65535             ; 21 - 'seit...'
+8000, 65535             ; 22 - schrei
+8000, 65535             ; 23 - schrei
+4000, 65535             ; 24 - 'donnerwetter'
+4000, 65535             ; 25 - 'eine kleine amerikaner..'
+4000, 65535             ; 26 - '...thief..'
+8000, 65535             ; 27 - furz
+8000, 65535             ; 28 - schrei
+8000, 65535             ; 29 - schrei
+8000, 65535             ; 2a - schrei
+4000, 65535             ; 2b - '...deutschland..'
+4000, 65535             ; 2c - 'mein...'
+4000, 65535             ; 2d - 'rosen...'

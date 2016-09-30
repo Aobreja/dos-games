@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "emyTREAD"         SHADED FLAT <4,4,4>
+MATdef "emyWHEEL" TRANS SHADED TEXT data\cars\animbase\enemy.whl
+MATdef "emyWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "emyRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "emyRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "emyRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "emyRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "emyENGINE BLOCK"  SHADED TEXT data\cars\vette\v03\f07.bpp
+MATdef "emyBACK"          SHADED TEXT data\cars\vette\v03\f10.bpp
+MATdef "emyWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "emyBOTTOM"        SHADED TEXT data\cars\vette\v03\f11.bpp
+MATdef "emyBONNET"        SHADED TEXT data\cars\vette\v03\f01.bpp
+MATdef "emyFRONT_WINGS"   SHADED TEXT data\cars\vette\v03\f02.bpp
+MATdef "emyTOP (CAB)"     SHADED TEXT data\cars\vette\v03\f05.bpp
+MATdef "emyREAR_WINGS"    SHADED TEXT data\cars\vette\v03\f03.bpp
+MATdef "emyDOORS"         SHADED TEXT data\cars\vette\v03\f06.bpp
+MATdef "emyHEAD LIGHT"    SHADED TEXT data\cars\vette\v03\f04.bpp
+MATdef "emySIDES"         SHADED TEXT data\cars\vette\v03\f08.bpp
+MATdef "emyBACKLITES"     SHADED TEXT data\cars\vette\v03\f09.bpp
+matdef "emyTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\enemy.tur
+
+pf data\cars\enemy.asc
+
+

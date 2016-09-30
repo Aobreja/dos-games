@@ -1,0 +1,914 @@
+
+;-------------------      Fichier de Configuration Menu
+;------------------- Copyright Adeline Software International 1994
+
+Version_US: 1
+
+[Language]
+Language,English,Franáais, Deutsch, Espa§ol, Italiano
+
+[LanguageCD]
+LanguageCD,English,Franáais,Deutsch,None
+
+;-----------------------------------------------------------------------------
+;                               FRANCAIS
+;-----------------------------------------------------------------------------
+[Franáais]
+DEFAULT_PATH,        RELENT
+
+BIG_TITLE_INSTALL,           RELENTLESS Install Program - 1994 Adeline Software International
+BIG_TITLE_SETUP,             RELENTLESS Setup Program - 1994 Adeline Software International
+
+TITLE_MAIN,          Menu Principal
+MAIN_CARD_VIDEO,     Configuration carte vidÇo
+MAIN_CARD_MUSIC,     Configuration carte sonore (Musique)
+MAIN_CARD_SOUND,     Configuration carte sonore (Effets)
+MAIN_OPTIONS_CD,     Configuration des Voix
+MAIN_SAVE_CONF,      Sauvegarder Configuration
+MAIN_QUIT,           Retour au Dos
+
+TITLE_VIDEO,            Carte Super-VGA
+
+TITLE_MUSIC,            Carte sonore (Musique)
+
+TITLE_SOUND,            Carte sonores (Effets)
+
+;--------------------
+
+TITLE_INSTALL,          Menu d'installation
+INS_INSTALL_HD,         Installation sur disque dur
+INS_DESINSTALL_HD,      DÇsinstallation compläte
+INS_SEE_README,         Lire le fichier README.TXT
+INS_QUIT,               Retour au Dos
+
+TITLE_OPTION_CD,        Menu des options de Voix (.VOX))
+OPT_LANGUAGE_CD,        Choix de la langue ParlÇe -
+OPT_FLAG_TEXT,          Afficher les textes dans le jeu - OUI
+OPT_FLAG_NOTEXT,        Afficher les textes dans le jeu - NON
+OPT_FLAG_DELETE,        Garder les fichiers Voix sur disque dur - NON
+OPT_FLAG_UNDELETE,      Garder les fichiers Voix sur disque dur - OUI
+OPT_DELETE_NOW,         Effacer tout de suite les fichiers Voix
+OPT_QUIT,               Retour
+
+CHOOSE_DRIVE,           Choisissez le disque de destination
+MB_FREE,                Mo disponibles
+NECESSARY_HDSPACE,      Place nÇcessaire
+NOT_ENOUGH_HDSPACE,     Pas assez de place sur ce disque !
+DIR_NAME,               Entrez le nom du rÇpertoire (ou ENTREE)
+INSTALLING,             Installation en cours...
+ERROR_PATH,             RÇpertoire invalide...
+ERROR_INSTALL,          Erreur pendant l'installation...
+UNINSTALL_GAME,         DÇsinstallation compläte du jeu ?
+CH_YES,                 Oui
+CH_NO,                  Non
+
+
+
+FIRST_TIME_0,           Pour changer la configuration tapez SETUP <ENTREE>
+FIRST_TIME_1,           Pour lancer le jeu tapez RELENT <ENTREE>
+FIRST_TIME_2,           Bonne aventure !
+
+
+
+INSERT_DISK,            InsÇrez la disquette $$ et appuyez sur une touche
+
+;--------------------
+
+MidiBase,               Adresse
+MidiIRQ,                IRQ
+MidiDMA,                Canal DMA
+
+WaveBase,               Adresse
+WaveIRQ,                IRQ
+WaveDMA,                Canal DMA
+
+MixerBase,              Adresse Mixer
+
+LanguageCD,             Choix de la langue parlÇe
+
+
+;-----------------------------------------------------------------------------
+;                               ANGLAIS
+;-----------------------------------------------------------------------------
+[English]
+DEFAULT_PATH,        RELENT
+TITLE_MAIN,             Main Menu
+BIG_TITLE_INSTALL,           RELENTLESS Install Program - 1994 Adeline Software International
+BIG_TITLE_SETUP,             RELENTLESS Setup Program - 1994 Adeline Software International
+
+MAIN_CARD_VIDEO,        Video Card Configuration
+MAIN_CARD_MUSIC,        Music Sound Card Configuration
+MAIN_CARD_SOUND,        FX Sound Card Configuration
+MAIN_OPTIONS_CD,        Speech Configuration
+MAIN_SAVE_CONF,         Save Parameters
+MAIN_QUIT,              Quit to DOS
+
+TITLE_VIDEO,            Super-VGA card
+
+TITLE_MUSIC,            Music Sound Card
+
+TITLE_SOUND,            FX Sound Card
+
+;--------------------
+
+TITLE_INSTALL,          Installation Menu
+INS_INSTALL_HD,         Hard Disk Installation
+INS_DESINSTALL_HD,      Uninstall the Game
+INS_SEE_README,         Read the README.TXT file
+INS_QUIT,               Quit to Dos
+
+TITLE_OPTION_CD,        Speech Options Menu (.VOX)
+OPT_LANGUAGE_CD,        Spoken Language -
+OPT_FLAG_TEXT,          Display Text in the Game - YES
+OPT_FLAG_NOTEXT,        Display Text in the Game - NO
+OPT_FLAG_DELETE,        Keep Speech Files on Hard Disk - NO
+OPT_FLAG_UNDELETE,      Keep Speech Files on Hard Disk - YES
+OPT_DELETE_NOW,         Delete Speech Files Now
+OPT_QUIT,               Main Menu
+
+CHOOSE_DRIVE,           Choose Destination Drive
+MB_FREE,                Mb available
+NECESSARY_HDSPACE,      Space required
+NOT_ENOUGH_HDSPACE,     Not enough room on this disk!
+DIR_NAME,               Enter the directory name (or press RETURN)
+INSTALLING,             Installing...
+ERROR_PATH,             Invalid directory...
+ERROR_INSTALL,          Error during installation...
+UNINSTALL_GAME,         Uninstall the game?
+CH_YES,                 Yes
+CH_NO,                  No
+
+
+
+FIRST_TIME_0,           To change your configuration type SETUP <RETURN>
+FIRST_TIME_1,           To run the game type RELENT <RETURN>
+FIRST_TIME_2,           Happy adventuring!
+
+
+
+INSERT_DISK,            Insert disk $$ and press a key
+
+;--------------------
+
+MidiBase,               Address
+MidiIRQ,                IRQ
+MidiDMA,                DMA Channel
+
+WaveBase,               Address
+WaveIRQ,                IRQ
+WaveDMA,                DMA Channel
+
+MixerBase,              Mixer Address
+
+LanguageCD,             Spoken Language
+
+;-----------------------------------------------------------------------------
+;                               DEUTSCH
+;-----------------------------------------------------------------------------
+[Deutsch]
+DEFAULT_PATH,        RELENT
+BIG_TITLE_INSTALL,           RELENTLESS Install Program - 1994 Adeline Software International
+BIG_TITLE_SETUP,             RELENTLESS Setup Program - 1994 Adeline Software International
+
+TITLE_MAIN,             HauptmenÅ
+MAIN_CARD_VIDEO,        Konfiguration der Videokarte
+MAIN_CARD_MUSIC,        Konfiguration der Musikkarte
+MAIN_CARD_SOUND,        Konfiguration der Soundkarte
+MAIN_OPTIONS_CD,        Einstellung der Stimmen
+MAIN_SAVE_CONF,         Konfiguration abspeichern
+MAIN_QUIT,              ZurÅck zum Dos
+
+TITLE_VIDEO,            Super-VGA-Karte
+
+TITLE_MUSIC,            Musikkarte
+
+TITLE_SOUND,            Soundkarte
+
+;--------------------
+
+TITLE_INSTALL,          InstallationsmenÅ
+INS_INSTALL_HD,         Installation auf der Festplatte
+INS_DESINSTALL_HD,      Komplette Desinstallation
+INS_SEE_README,         Datei README.TXT lesen
+INS_QUIT,               ZurÅck zum Dos
+
+TITLE_OPTION_CD,        OptionsmenÅ fÅr Stimmen (.VOX)
+OPT_LANGUAGE_CD,        Wahl der gesprochenen Sprache -
+OPT_FLAG_TEXT,          Ingame-Texte anzeigen - JA
+OPT_FLAG_NOTEXT,        Ingame-Texte anzeigen - NEIN
+OPT_FLAG_DELETE,        Stimm-Dateien auf der Festplatte behalten - NEIN
+OPT_FLAG_UNDELETE,      Stimm-Dateien auf der Festplatte behalten - JA
+OPT_DELETE_NOW,         Stimm-Dateien jetzt lîschen
+OPT_QUIT,               ZurÅck zum HauptmenÅ
+
+CHOOSE_DRIVE,           WÑhlen Sie das Ziellaufwerk
+MB_FREE,                Freie Mega Bytes
+NECESSARY_HDSPACE,      Notwendiger Speicherplatz auf der Festplatte
+NOT_ENOUGH_HDSPACE,     Nicht genÅgend Speicherplatz auf der Festplatte !
+DIR_NAME,               Geben Sie den Namen des Verzeichnisses ein ( bzw. drÅcken ENTER )
+INSTALLING,             Installation laÅft...
+ERROR_PATH,             Verzeichnis ungÅltig...
+ERROR_INSTALL,          Fehler wÑhrend der Installation...
+UNINSTALL_GAME,         Komplette Desinstallation des Spiels ?
+CH_YES,                 Ja
+CH_NO,                  Nein
+
+
+
+FIRST_TIME_0,           Um die Konfiguration zu Ñndern geben Sie SETUP ein und drÅcken <RETURN>
+FIRST_TIME_1,           Um das Spiel zu starten geben Sie RELENT ein und drÅcken <RETURN>
+FIRST_TIME_2,           Viele tolle Abenteuer !
+
+
+INSERT_DISK,            Legen Sie die Diskette $$ ein und drÅcken irgendeine Taste
+
+;--------------------
+
+MidiBase,               Adresse
+MidiIRQ,                Unterbrechung
+MidiDMA,                DMA Kanal
+
+WaveBase,               Adresse
+WaveIRQ,                Unterbrechung
+WaveDMA,                DMA Kanal
+
+MixerBase,              Mixer-Adresse
+
+LanguageCD,             Wahl der gesprochenen Sprache
+
+;-----------------------------------------------------------------------------
+;                               ESPA•OL
+;-----------------------------------------------------------------------------
+[Espa§ol]
+DEFAULT_PATH,        RELENT
+BIG_TITLE_INSTALL,           RELENTLESS Install Program - 1994 Adeline Software International
+BIG_TITLE_SETUP,             RELENTLESS Setup Program - 1994 Adeline Software International
+
+TITLE_MAIN,             Men£ Principal
+MAIN_CARD_VIDEO,        Configuraci¢n tarjeta v°deo
+MAIN_CARD_MUSIC,        Configuraci¢n tarjeta sonora (M£sica)
+MAIN_CARD_SOUND,        Configuraci¢n tarjeta sonora (Sonidos)
+MAIN_OPTIONS_CD,        Configuraci¢n de las Voces
+MAIN_SAVE_CONF,         Guardar Configuraci¢n
+MAIN_QUIT,              Regresar a Dos
+
+TITLE_VIDEO,            Tarjeta Super-VGA
+
+TITLE_MUSIC,            Tarjeta sonora (M£sica)
+
+TITLE_SOUND,            Tarjeta sonora (Efectos) sonoros
+
+;--------------------
+
+TITLE_INSTALL,          Men£ Instalaci¢n
+INS_INSTALL_HD,         Instalaci¢n en disco duro
+INS_DESINSTALL_HD,      Desinstalaci¢n completa
+INS_SEE_README,         Leer el fichero README.TXT
+INS_QUIT,               Regresar a Dos
+
+TITLE_OPTION_CD,        Men£ de las opciones Voces (.VOX)
+OPT_LANGUAGE_CD,        Selecci¢n del idioma hablado -
+OPT_FLAG_TEXT,          Visualizar los textos en el juego - S°
+OPT_FLAG_NOTEXT,        Visualizar los textos en el juego - NO
+OPT_FLAG_DELETE,        Guardar los ficheros Voces en disco duro - NO
+OPT_FLAG_UNDELETE,      Guardar los ficheros Voces en disco duro - S°
+OPT_DELETE_NOW,         Borrar ahora los ficheros Voces
+OPT_QUIT,               Regresar
+
+CHOOSE_DRIVE,           Escoja el disco de destino
+MB_FREE,                Megabytes libres
+NECESSARY_HDSPACE,      Espacio necesario
+NOT_ENOUGH_HDSPACE,     ≠No hay suficiente espacio en el disco!
+DIR_NAME,               Introduzca el nombre del directorio ( o ENTRAR )
+INSTALLING,             Instalaci¢n en curso...
+ERROR_PATH,             Directorio inv†lido...
+ERROR_INSTALL,          Error durante la instalaci¢n...
+UNINSTALL_GAME,         ®Desinstalaci¢n completa del juego?
+CH_YES,                 S°
+CH_NO,                  No
+
+
+FIRST_TIME_0,           Para cambiar la Configuraci¢n escriba SETUP y presione <ENTRAR>
+FIRST_TIME_1,           Para lanzar el juego escriba RELENT y presione <ENTRAR>
+FIRST_TIME_2,           ≠Buena aventura!
+
+
+INSERT_DISK,            Inserte el disquete $$ y presione una tecla
+
+;--------------------
+
+MidiBase,               Direcci¢n
+MidiIRQ,                Interrupci¢n
+MidiDMA,                Canal DMA
+
+WaveBase,               Direcci¢n
+WaveIRQ,                Interrupci¢n
+WaveDMA,                Canal DMA
+
+MixerBase,              Direcci¢n Mixer
+
+LanguageCD,             Selecci¢n del idioma hablado
+
+;-----------------------------------------------------------------------------
+;                               Italiano
+;-----------------------------------------------------------------------------
+[Italiano]
+DEFAULT_PATH,        RELENT
+BIG_TITLE_INSTALL,           RELENTLESS Install Program - 1994 Adeline Software International
+BIG_TITLE_SETUP,             RELENTLESS Setup Program - 1994 Adeline Software International
+
+TITLE_MAIN,             Menu Principale
+MAIN_CARD_VIDEO,        Configurazione scheda video
+MAIN_CARD_MUSIC,        Configurazione scheda sonora (Musica)
+MAIN_CARD_SOUND,        Configurazione scheda sonora (Suoni)
+MAIN_OPTIONS_CD,        Configurazione delle voci
+MAIN_SAVE_CONF,         Salvare le configurazioni
+MAIN_QUIT,              Ritorno a Dos
+
+TITLE_VIDEO,            Scheda Super-VGA
+
+TITLE_MUSIC,            Scheda sonora (Musica)
+TITLE_SOUND,            Scheda sonora (Effetti) sonori
+
+;--------------------
+
+TITLE_INSTALL,          Menu Installazione
+INS_INSTALL_HD,         Installazione su disco fisso
+INS_DESINSTALL_HD,      Disinstallazione completa
+INS_SEE_README,         Leggere il file README.TXT
+INS_QUIT,               Ritorno a Dos
+
+TITLE_OPTION_CD,        Menu delle opzioni Voce (.VOX)
+OPT_LANGUAGE_CD,        Scelta della lingua parlata -
+OPT_FLAG_TEXT,          Visualizzare i testi nel gioco - SI
+OPT_FLAG_NOTEXT,        Visualizzare i testi nel gioco - NO
+OPT_FLAG_DELETE,        Conservare i file Voce sul disco fisso - NO
+OPT_FLAG_UNDELETE,      Conservare i file Voce sul disco fisso - SI
+OPT_DELETE_NOW,         Cancellare subito i file Voce
+OPT_QUIT,               Ritorno
+
+CHOOSE_DRIVE,           Scegliere il disco di destinazione
+MB_FREE,                Megabyte liberi
+NECESSARY_HDSPACE,      Spazio necessario
+NOT_ENOUGH_HDSPACE,     Spazio insufficiente sul disco!
+DIR_NAME,               Digitare il nome della directory ( o INVIO )
+INSTALLING,             Installazione in corso...
+ERROR_PATH,             Directory non valida...
+ERROR_INSTALL,          Errore durante l'installazione...
+UNINSTALL_GAME,         Disinstallazione completa del gioco ?
+CH_YES,                 Sç
+CH_NO,                  No
+
+
+
+FIRST_TIME_0,           Per cambiare la configurazione digitare SETUP e <RETURN>
+FIRST_TIME_1,           Per lanciare il gioco digitare RELENT e <RETURN>
+FIRST_TIME_2,           Buona avventura!
+
+
+
+INSERT_DISK,            Inserire il dischetto $$ e premere un tasto
+
+;--------------------
+
+MidiBase,               Indirizzo
+MidiIRQ,                Interrupt
+MidiDMA,                Canale DMA
+
+WaveBase,               Indirizzo
+WaveIRQ,                Interrupt
+WaveDMA,                Canale DMA
+
+MixerBase,              Indirizzo Mixer
+
+LanguageCD,             Scelta della lingua parlata
+
+;-----------------------------------------------------------------------------
+;                               DESCRIPTION HARDWARE
+;-----------------------------------------------------------------------------
+
+;---------------------------- Cartes VidÇo
+
+[Video]
+Don't know
+Vesa compatible
+Ati Chipset
+Ati Mach32/Mach64
+Ati Ultra Pro
+Ati VGA Wonder
+Cirrus Logic Chipset
+CL-GD 542X Chipset
+Compaq AVGA Chipset
+Compaq QVision
+Diamond Speedstar (Tseng)
+Diamond Stealth (S3)
+Genoa Chipset
+HP Ultra (S3)
+NCR
+NCR 77C22 Chipset
+OAK OTI 067/077 Chipset
+Orchid Designer VGA (Tseng)
+Orchid Pro Designer VGA (Tseng)
+Orchid Fahrenheit (S3)
+Paradise
+Quadram VGA Spectra (Tseng)
+Realtek PT-505
+Realtek RTG 3105 Chipset
+STB Lightspeed (Tseng)
+STB VGA EM-16 Plus (Tseng)
+STB VGA Extra/EM (Tseng)
+S3 Incorporated Chipset
+Tecmar VGA/AD (Tseng)
+Tseng 3000 Chipset
+Tseng 4000 Chipset
+Trident VGA
+T8800/T9400 Chipset
+Western Digital Chipset
+WD90CXX Chipset
+
+;---------------------------- Cartes Music
+
+[Music]
+No Music
+Adlib (OPL2)
+Adlib Gold (OPL3)
+Gravis Ultrasound (MIDI)
+Microsoft Windows Sound System (OPL3)
+Pro Audio Spectrum (OPL2)
+Pro Audio Spectrum Plus (OPL3)
+Pro Audio Spectrum 16 (OPL3)
+Roland MT32 (MIDI)
+Sound Blaster 1 (OPL2)
+Sound Blaster 2 (OPL2)
+Sound Blaster Pro 1 (OPL2)
+Sound Blaster Pro 2 (OPL3)
+Sound Blaster 16 (OPL3)
+Sound Blaster AWE32 (MIDI)
+Wave Blaster on Sound Blaster 16 (MIDI)
+Yamaha OPL3
+
+;---------------------------- Cartes Sound
+
+[Sound]
+No Sound
+Adlib Gold
+Gravis Ultrasound
+Microsoft Windows Sound System
+Sound Blaster 1
+Sound Blaster 2
+Sound Blaster 2 & SB2 CD interface
+Sound Blaster Pro 1
+Sound Blaster Pro 2
+Sound Blaster 16
+Sound Blaster AWE32
+Wave Blaster on Sound Blaster 16
+
+;-----------------------------------------------------------------------------
+;               Description des drivers, Interrupt, DMA etc.
+;-----------------------------------------------------------------------------
+
+
+;---------------------------- Cartes Video
+[Don't know]
+SvgaDriver,VESA
+
+[Vesa compatible]
+SvgaDriver,VESA
+
+[Ati Chipset]
+SvgaDriver,ATI.DLL
+
+[Ati Mach32/Mach64]
+SvgaDriver,ATI.DLL
+
+[Ati Ultra Pro]
+SvgaDriver,ATI.DLL
+
+[Ati VGA Wonder]
+SvgaDriver,ATI.DLL
+
+[Cirrus Logic Chipset]
+SvgaDriver,CIRRUS.DLL
+
+[CL-GD 542X Chipset]
+SvgaDriver,CIRRUS.DLL
+
+[Compaq AVGA Chipset]
+SvgaDriver,COMPAQ.DLL
+
+[Compaq QVision]
+SvgaDriver,COMPAQ.DLL
+
+[Diamond Speedstar (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[Diamond Stealth (S3)]
+SvgaDriver,S3.DLL
+
+[Genoa Chipset]
+SvgaDriver,GENOA.DLL
+
+[HP Ultra (S3)]
+SvgaDriver,S3.DLL
+
+[NCR]
+SvgaDriver,NCR.DLL
+
+[NCR 77C22 Chipset]
+SvgaDriver,NCR.DLL
+
+[OAK OTI 067/077 Chipset]
+SvgaDriver,OAK.DLL
+
+[Orchid Designer VGA (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[Orchid Pro Designer VGA (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[Orchid Fahrenheit (S3)]
+SvgaDriver,S3.DLL
+
+[Paradise]
+SvgaDriver,PARADISE.DLL
+
+[Quadram VGA Spectra (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[Realtek PT-505]
+SvgaDriver,REALTEK.DLL
+
+[Realtek RTG 3105 Chipset]
+SvgaDriver,REALTEK.DLL
+
+[STB Lightspeed (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[STB VGA EM-16 Plus (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[STB VGA Extra/EM (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[S3 Incorporated Chipset]
+SvgaDriver,S3.DLL
+
+[Tecmar VGA/AD (Tseng)]
+SvgaDriver,TSENG.DLL
+
+[Tseng 3000 Chipset]
+SvgaDriver,TSENG.DLL
+
+[Tseng 4000 Chipset]
+SvgaDriver,TSENG.DLL
+
+[Trident VGA]
+SvgaDriver,TRIDENT.DLL
+
+[T8800/T9400 Chipset]
+SvgaDriver,TRIDENT.DLL
+
+[Western Digital Chipset]
+SvgaDriver,PARADISE.DLL
+
+[WD90CXX Chipset]
+SvgaDriver,PARADISE.DLL
+
+;---------------------------- Cartes Music
+[No Music]
+MidiExec,NoExec
+MidiDriver,NoMidi
+MidiType
+MidiBase
+MidiIRQ
+MidiDMA
+
+[Adlib (OPL2)]
+MidiExec,NoExec
+MidiDriver,A32ADLIB.DLL
+MidiType,FM
+MidiBase,388h
+MidiIRQ
+MidiDMA
+
+[Adlib Gold (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32ALGFM.DLL
+MidiType,FM
+MidiBase,388h
+MidiIRQ
+MidiDMA
+
+[Gravis Ultrasound (MIDI)]
+MidiExec,LOADPATS.EXE
+MidiDriver,GUSMID32.DLL
+MidiType,Midi
+MidiBase
+MidiIRQ
+MidiDMA
+
+[Microsoft Windows Sound System (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32OP3FM.DLL
+MidiType,FM
+MidiBase,388h
+MidiIRQ
+MidiDMA
+
+[Pro Audio Spectrum (OPL2)]
+MidiExec,NoExec
+MidiDriver,A32PASFM.DLL
+MidiType,FM
+MidiBase
+MidiIRQ
+MidiDMA
+
+[Pro Audio Spectrum Plus (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32PASOP.DLL
+MidiType,FM
+MidiBase
+MidiIRQ
+MidiDMA
+
+[Pro Audio Spectrum 16 (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32PASOP.DLL
+MidiType,FM
+MidiBase
+MidiIRQ
+MidiDMA
+
+[Sound Blaster 1 (OPL2)]
+MidiExec,NoExec
+MidiDriver,A32SBFM.DLL
+MidiType,FM
+MidiBase,210h,220h,230h,240h,250h,260h
+MidiIRQ
+MidiDMA
+
+[Sound Blaster 2 (OPL2)]
+MidiExec,NoExec
+MidiDriver,A32SBFM.DLL
+MidiType,FM
+MidiBase,210h,220h,230h,240h,250h,260h
+MidiIRQ
+MidiDMA
+
+[Sound Blaster Pro 1 (OPL2)]
+MidiExec,NoExec
+MidiDriver,A32SP1FM.DLL
+MidiType,FM
+MidiBase,220h,240h
+MidiIRQ
+MidiDMA
+
+[Sound Blaster Pro 2 (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32SP2FM.DLL
+MidiType,FM
+MidiBase,220h,240h
+MidiIRQ
+MidiDMA
+
+[Sound Blaster 16 (OPL3)]
+MidiExec,NoExec
+MidiDriver,A32SP2FM.DLL
+MidiType,FM
+MidiBase,220h,240h,260h,280h
+MidiIRQ
+MidiDMA
+
+[Wave Blaster on Sound Blaster 16 (MIDI)]
+MidiExec,NoExec
+MidiDriver,A32MT32.DLL
+MidiType,Midi
+MidiBase,330h,300h
+MidiIRQ
+MidiDMA
+
+[Sound Blaster AWE32 (MIDI)]
+MidiExec,NoExec
+MidiDriver,A32GFX.DLL
+MidiType,Midi
+MidiBase,220h,240h,260h,280h
+MidiIRQ
+MidiDMA
+
+[Roland MT32 (MIDI)]
+MidiExec,NoExec
+MidiDriver,A32MT32.DLL
+MidiType,Midi
+MidiBase,330h,300h
+MidiIRQ
+MidiDMA
+
+[Yamaha OPL3]
+MidiExec,NoExec
+MidiDriver,A32OP3FM.DLL
+MidiType,FM
+MidiBase,388h
+MidiIRQ
+MidiDMA
+
+;---------------------------- Cartes Sound & Mixer
+[No Sound]
+WaveExec,NoExec
+WaveDriver,NoWave
+WaveBase
+WaveIRQ
+WaveDMA
+WaveRate
+MixerDriver,NoMixer
+WaveVolume
+MusicVolume
+CDVolume
+LineVolume
+MasterVolume
+
+[Adlib Gold]
+WaveExec,NoExec
+WaveDriver,W_GOLD.DLL
+WaveBase,388h
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_GOLD.DLL
+WaveVolume,255
+MusicVolume,150
+LineVolume,150
+MasterVolume,255
+
+[Gravis Ultrasound]
+WaveExec,LOADPATS.EXE
+WaveDriver,W_GUS.DLL
+WaveBase
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,NoMixer
+MusicVolume,35
+
+[Microsoft Windows Sound System]
+WaveExec,NoExec
+WaveDriver,W_MWSS.DLL
+WaveBase,530h,604h,E80h,F40h
+WaveIRQ,2,7,9,10,11
+WaveDMA,0,1,3
+WaveRate,22000
+MixerDriver,M_MWSS.DLL
+WaveVolume,255
+MusicVolume,70
+LineVolume,192
+MasterVolume,255
+
+[Pro Audio Spectrum]
+WaveExec,NoExec
+WaveDriver,W_PAS.DLL
+WaveBase
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_PAS.DLL
+WaveVolume,255
+MusicVolume,163
+CDVolume,195
+LineVolume,195
+MasterVolume,255
+
+[Pro Audio Spectrum Plus]
+WaveExec,NoExec
+WaveDriver,W_PAS.DLL
+WaveBase
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_PAS.DLL
+WaveVolume,255
+MusicVolume,163
+CDVolume,195
+LineVolume,195
+MasterVolume,255
+
+[Pro Audio Spectrum 16]
+WaveExec,NoExec
+WaveDriver,W_PAS16.DLL
+WaveBase
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_PAS.DLL
+WaveVolume,255
+MusicVolume,163
+CDVolume,195
+LineVolume,195
+MasterVolume,255
+
+[Sound Blaster 1]
+WaveExec,NoExec
+WaveDriver,W_SB.DLL
+WaveBase,210h,220h,230h,240h,250h,260h
+WaveIRQ,5,7
+WaveDMA,1
+WaveRate,22000
+MixerDriver,NoMixer
+MusicVolume,95
+
+[Sound Blaster 2]
+WaveExec,NoExec
+WaveDriver,W_SB2.DLL
+WaveBase,220h,240h
+WaveIRQ,5,7
+WaveDMA,1
+WaveRate,22000
+MixerDriver,NoMixer
+MusicVolume,95
+
+[Sound Blaster 2 & SB2 CD interface]
+WaveExec,NoExec
+WaveDriver,W_SB2.DLL
+WaveBase,220h,240h
+WaveIRQ,5,7
+WaveDMA,1
+WaveRate,22000
+MixerDriver,M_SB2CD.DLL
+MixerBase,250h,260h
+WaveVolume,255
+MusicVolume,166
+CDVolume,192
+MasterVolume,255
+
+[Sound Blaster Pro 1]
+WaveExec,NoExec
+WaveDriver,W_SBPRO.DLL
+WaveBase,220h,240h
+WaveIRQ,2,5,7,10
+WaveDMA,0,1,3
+WaveRate,22000
+MixerDriver,M_SBPRO.DLL
+WaveVolume,255
+MusicVolume,166
+CDVolume,192
+LineVolume,192
+MasterVolume,255
+
+[Sound Blaster Pro 2]
+WaveExec,NoExec
+WaveDriver,W_SBPRO.DLL
+WaveBase,220h,240h
+WaveIRQ,2,5,7,10
+WaveDMA,0,1,3
+WaveRate,22000
+MixerDriver,M_SBPRO.DLL
+WaveVolume,255
+MusicVolume,166
+CDVolume,192
+LineVolume,192
+MasterVolume,255
+
+[Sound Blaster 16]
+WaveExec,NoExec
+WaveDriver,W_SB16.DLL
+WaveBase,220h,240h,260h,280h
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_SB16.DLL
+WaveVolume,255
+MusicVolume,187
+CDVolume,216
+LineVolume,216
+MasterVolume,255
+
+[Wave Blaster on Sound Blaster 16]
+WaveExec,NoExec
+WaveDriver,W_SB16.DLL
+WaveBase,220h,240h,260h,280h
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_SB16.DLL
+WaveVolume,255
+MusicVolume,163
+CDVolume,195
+LineVolume,195
+MasterVolume,255
+
+[Sound Blaster AWE32]
+WaveExec,NoExec
+WaveDriver,W_SB16.DLL
+WaveBase,220h,240h,260h,280h
+WaveIRQ
+WaveDMA
+WaveRate,22000
+MixerDriver,M_SB16.DLL
+WaveVolume,255
+MusicVolume,195
+CDVolume,191
+LineVolume,191
+MasterVolume,255
+
+;-----------------------------------------------------------------------------
+;                               THE END!
+;-----------------------------------------------------------------------------
+[End]

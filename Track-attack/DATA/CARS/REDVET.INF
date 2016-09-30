@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATDEF "cTREAD"         SHADED FLAT <4,4,4>
+MATDEF "cWHEEL" TRANS SHADED TEXT data\cars\animbase\redvet.whl
+MATDEF "cWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "cRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATDEF "cRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATDEF "cRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATDEF "cRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATDEF "cENGINE BLOCK"  SHADED TEXT data\cars\vette\v02\s07.bpp
+MATDEF "cBACK"          SHADED TEXT data\cars\vette\v02\s10.bpp
+MATDEF "cWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "cBOTTOM"        SHADED TEXT data\cars\vette\v02\s11.bpp
+MATDEF "cBONNET"        SHADED TEXT data\cars\vette\v02\s01.bpp
+MATDEF "cFRONT_WINGS"   SHADED TEXT data\cars\vette\v02\s02.bpp
+MATDEF "cTOP (CAB)"     SHADED TEXT data\cars\vette\v02\s05.bpp
+MATDEF "cREAR_WINGS"    SHADED TEXT data\cars\vette\v02\s03.bpp
+MATDEF "cDOORS"         SHADED TEXT data\cars\vette\v02\s06.bpp
+MATDEF "cHEAD LIGHT"    SHADED TEXT data\cars\vette\v02\s04.bpp
+MATDEF "cSIDES"         SHADED TEXT data\cars\vette\v02\s08.bpp
+MATDEF "cBACKLITES"     SHADED TEXT data\cars\vette\v02\s09.bpp
+matdef "cTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\redvet.tur
+
+pf data\cars\redvet.asc
+
+

@@ -1,0 +1,62 @@
+
+                 -----------------------------------------
+                 WORMS - REINFORCEMENTS SAMPLE BANK EDITOR
+                 -----------------------------------------
+
+
+The utility itself has been quickly put together to enable you to organize
+your own sample banks quickly and efficiently. A seperate document called
+SAMPLES.TXT explains how to go about preparing your samples before using
+them in this program.
+
+We have also prepared 3 MINIMAL banks which contain soundfx ONLY so you
+can quickly build up new banks by adding SPEECH/SAMPLES only. You can
+load these in as MINIMAL.SFX, MINTOON1.SFX, MINTOON2.SFX.
+
+The program is pretty straight forward to use;
+
+(1)  Prepare all your samples and decide roughly what you want before
+     using this program. (Read SAMPLES.TXT for more advice).
+
+(2)  Load up this program and LOAD an existing bank. For the first time it is
+     easier to load up a full bank and edit that. If you have a full set of
+     samples ready to load in, then select one of the MINIMAL.SFX banks and
+     load that in.
+
+(3)  Select the EDIT BANK function.
+
+(4)  Clicking on the soundfx will bring up a file select box, move to where
+     your samples are and click on the file and then load. The file is
+     automatically added into the bank.
+
+(5)  Continue until you are finished. Remember that a bank CAN NOT and MUST
+     NOT exceed 760K in size. Also note that you CAN load the same sample
+     for 2 effects, the program will automatically only use one amount of data
+     and free the space up for the second set.
+
+(6)  Select SAVE SOUND SET and save the file in to a temporary directory.
+     Remember to give the file an ".SFX" identifier after the 8 characters
+     of the file name.
+     
+(7)  EXIT out of the program.
+
+(8)  Copy the file to your Worms:Reinforcements directory, placing it in
+     the DATA/CUSTOM/SFX directory.
+
+(9)  Run the game and select the sample bank in the Team Entry menu!!
+
+(10) Enjoy!
+
+
+* Remember that we shall include all the best sample banks we make and
+receive on our World Wide Web Site. There will already be some available
+on the release of REINFORCEMENTS... Free to download and enjoy!
+
+HTTP:\\www.team17.com
+
+
+
+
+
+
+

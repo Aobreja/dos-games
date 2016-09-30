@@ -1,0 +1,73 @@
+# Insel der HÅgel
+#---Global map settings---------------------------------------------------------
+
+[GLOBAL_MAP_SETTINGS]
+
+#Map id
+!GLOBAL_SET_MAP    100
+
+#Map bob lib id
+!GLOBAL_SET_BOBS	 0
+
+
+#Free play
+!FM_MAX_PLAYER	4
+!FM_MAX_HUMAN	1
+
+!FM_HQ_POS	 32,   53
+!FM_HQ_POS  103,  82
+!FM_HQ_POS   103, 28
+!FM_HQ_POS   36,  97
+
+!FM_CHARACTER	0
+!FM_CHARACTER	1
+!FM_CHARACTER	2
+!FM_CHARACTER	3
+
+#---Map commands----------------------------------------------------------------
+
+[MAPCOMMANDS]
+#---Map commands----------------------------------------------------------------
+
+!ENABLE_HOUSE 0
+!ENABLE_HOUSE 1
+!ENABLE_HOUSE 2
+!ENABLE_HOUSE 3
+!ENABLE_HOUSE 4
+!ENABLE_HOUSE 5
+!ENABLE_HOUSE 6
+!ENABLE_HOUSE 7
+!ENABLE_HOUSE 8
+!ENABLE_HOUSE 9
+!ENABLE_HOUSE 10
+!ENABLE_HOUSE 11
+!ENABLE_HOUSE 12
+!ENABLE_HOUSE 13
+!ENABLE_HOUSE 14
+!ENABLE_HOUSE 15
+#					Schiffswerft
+!ENABLE_HOUSE 17
+!ENABLE_HOUSE 18
+!ENABLE_HOUSE 19
+!ENABLE_HOUSE 20
+!ENABLE_HOUSE 21
+!ENABLE_HOUSE 22
+#					Hafen
+#                   Hauptschloss
+!ENABLE_HOUSE 25
+!ENABLE_HOUSE 26
+!ENABLE_HOUSE 27
+!ENABLE_HOUSE 28
+!ENABLE_HOUSE 29
+!ENABLE_HOUSE 30
+!ENABLE_HOUSE 31
+
+
+
+# Tiere      Typ  Anzahl  X  Y
+
+#!ADD_ANIMAL   1     10    13  26
+#!ADD_ANIMAL   2     10    13  26
+
+
+

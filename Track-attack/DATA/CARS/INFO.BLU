@@ -1,0 +1,34 @@
+axis 2
+clearbuffer static_backdrop bpp\grid.bpp
+palette car\cued.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "BSIDE RIGHT" SHADED TEXT data\cars\gaz\blu0017.bpp
+matdef "BSIDE LEFT" SHADED TEXT data\cars\gaz\blu0018.bpp
+matdef "BTYRE RING"      SHADED FLAT <4,4,4>
+matdef "BRAM RACER WHEELS" TRANS SHADED TEXT data\cars\gaz\wheel4.bpp
+matdef "BRAM RACER WHEELS I" TRANS SHADED TWOSIDE TEXT data\cars\gaz\wheel4.bpp
+matdef "BWHEELARCH"      SHADED FLAT <16,16,16>
+matdef "BBACK"           SHADED TEXT data\cars\gaz\blu0006.bpp
+matdef "BTAIL LIGHT"     SHADED TEXT data\cars\gaz\blu0014.bpp
+matdef "BBONNET"         SHADED TEXT data\cars\gaz\blu0007.bpp
+matdef "BNOSE"           SHADED TEXT data\cars\gaz\blu0008.bpp
+matdef "BUNDER CAR"      SHADED TEXT data\cars\gaz\blu0019.bpp
+matdef "BENGINE_TOP_1"   TRANS SHADED TWOSIDE TEXT data\cars\gaz\blu0011.bpp
+matdef "BENGINE BLOCK"   SHADED TEXT data\cars\gaz\blu0010.bpp
+matdef "BTOP (CAB)"      SHADED TEXT data\cars\gaz\blu0005.bpp
+matdef "BSUSSPENSION"    TWOSIDE TRANS SHADED TEXT data\cars\bpp\blue0009.bpp
+matdef "BRAM BAR FRONT"  TWOSIDE TRANS SHADED TEXT data\cars\gaz\blu0015.bpp
+matdef "BRAM BAR BACK"   TWOSIDE TRANS SHADED TEXT data\cars\gaz\blu0016.bpp
+matdef "BTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\gaz\turbo4.bpp
+
+matdef "BANG"	SHADED TEXT data\cars\bang.bpp
+
+pf data\cars\car.blu
+
+

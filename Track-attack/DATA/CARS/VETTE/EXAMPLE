@@ -1,0 +1,32 @@
+axis 2
+clearbuffer
+palette vette\car.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table vette\light.tab
+
+MATDEF "TREAD"         SHADED FLAT <4,4,4>
+MATDEF "WHEEL"         TRANS SHADED TEXT vette\bpp\w03.bpp
+MATDEF "RAM BAR BACK"  TWOSIDE TRANS SHADED TEXT vette\bpp\vram03.bpp
+MATDEF "RAM BAR FRONT" TWOSIDE TRANS SHADED TEXT vette\bpp\vram03.bpp
+MATDEF "RAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT vette\bpp\v222.bpp
+MATDEF "RAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT vette\bpp\v222.bpp
+MATDEF "ENGINE BLOCK"  SHADED TEXT vette\bpp\x07.bpp
+MATDEF "BACK"          SHADED TEXT vette\bpp\x10.bpp
+MATDEF "WHEEL_INSIDE"  TRANS SHADED TEXT vette\bpp\w02.bpp
+MATDEF "WHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "BOTTOM"        SHADED TEXT vette\bpp\v11.bpp
+MATDEF "BONNET"        SHADED TEXT vette\bpp\x01.bpp
+MATDEF "FRONT_WINGS"   SHADED TEXT vette\bpp\x02.bpp
+MATDEF "TOP (CAB)"     SHADED TEXT vette\bpp\x05.bpp
+MATDEF "REAR_WINGS"    SHADED TEXT vette\bpp\x03.bpp
+MATDEF "DOORS"         SHADED TEXT vette\bpp\x06.bpp
+MATDEF "HEAD LIGHT"    SHADED TEXT vette\bpp\x04.bpp
+MATDEF "SIDES"         SHADED TEXT vette\bpp\x08.bpp
+MATDEF "BACKLITES"     SHADED TEXT vette\bpp\x09.bpp
+
+pf vette\corvetta.asc
+

@@ -1,0 +1,190 @@
+
+Arc Developments batch converter (c) Alistair Hale  1993
+9999 files processed ...
+
+
+    DAM1.BBM ->     DAM1.BPP  width  48 depth  56
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    DAM2.BBM ->     DAM2.BPP  width  48 depth  64
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    DAM3.BBM ->     DAM3.BPP  width 144 depth  96
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND1.BBM ->     IND1.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND2.BBM ->     IND2.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND3.BBM ->     IND3.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND4.BBM ->     IND4.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND5.BBM ->     IND5.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND6.BBM ->     IND6.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    IND7.BBM ->     IND7.BPP  width 160 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   PLACE.BBM ->    PLACE.BPP  width 224 depth  24
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD1.BBM ->     HUD1.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD2.BBM ->     HUD2.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD3.BBM ->     HUD3.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD4.BBM ->     HUD4.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD5.BBM ->     HUD5.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD6.BBM ->     HUD6.BPP  width 144 depth  48
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    HUD0.BBM ->     HUD0.BPP  width  73 depth  41
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   FUEL1.BBM ->    FUEL1.BPP  width 128 depth   8
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   FUEL2.BBM ->    FUEL2.BPP  width 129 depth   9
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   FUEL3.BBM ->    FUEL3.BPP  width 129 depth   9
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   FUEL4.BBM ->    FUEL4.BPP  width 128 depth   8
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   FUEL0.BBM ->    FUEL0.BPP  width  16 depth  32
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    FUEL.BBM ->     FUEL.BPP  width  16 depth  32
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  FUEL0_.BBM ->   FUEL0_.BPP  width  16 depth   8
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+     POS.BBM ->      POS.BPP  width 224 depth  24
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+NUM_SMAL.BBM -> NUM_SMAL.BPP  width  90 depth   9
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   SLASH.BBM ->    SLASH.BPP  width   7 depth  12
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+     MPH.BBM ->      MPH.BPP  width  24 depth  11
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+     KPH.BBM ->      KPH.BPP  width  23 depth  10
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+    LAPS.BBM ->     LAPS.BPP  width  27 depth   8
+Non-background pens set in palette are
+ 0-127, 136-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------

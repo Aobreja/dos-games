@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "ronTREAD"         SHADED FLAT <4,4,4>
+MATdef "ronWHEEL" TRANS SHADED TEXT data\cars\animbase\ronin.whl
+MATdef "ronWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "ronRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "ronRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "ronRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "ronRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "ronENGINE BLOCK"  SHADED TEXT data\cars\vette\v04\h07.bpp
+MATdef "ronBACK"          SHADED TEXT data\cars\vette\v04\h10.bpp
+MATdef "ronWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "ronBOTTOM"        SHADED TEXT data\cars\vette\v04\h11.bpp
+MATdef "ronBONNET"        SHADED TEXT data\cars\vette\v04\h01.bpp
+MATdef "ronFRONT_WINGS"   SHADED TEXT data\cars\vette\v04\h02.bpp
+MATdef "ronTOP (CAB)"     SHADED TEXT data\cars\vette\v04\h05.bpp
+MATdef "ronREAR_WINGS"    SHADED TEXT data\cars\vette\v04\h03.bpp
+MATdef "ronDOORS"         SHADED TEXT data\cars\vette\v04\h06.bpp
+MATdef "ronHEAD LIGHT"    SHADED TEXT data\cars\vette\v04\h04.bpp
+MATdef "ronSIDES"         SHADED TEXT data\cars\vette\v04\h08.bpp
+MATdef "ronBACKLITES"     SHADED TEXT data\cars\vette\v04\h09.bpp
+matdef "ronTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\ronin.tur
+
+pf data\cars\ronin.asc
+
+

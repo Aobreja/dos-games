@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATDEF "LUCTREAD"         SHADED FLAT <4,4,4>
+MATDEF "LUCWHEEL" TRANS SHADED TEXT data\cars\animbase\lucky.whl
+MATDEF "LUCWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "LUCRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "LUCRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "LUCRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "LUCRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "LUCBONNET"        SHADED TEXT data\cars\mustang\grey\h04.bpp
+MATDEF "LUCWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "LUCFRONT_WINGS"   SHADED TEXT data\cars\mustang\grey\h03.bpp
+MATDEF "LUCREAR_WINGS"    SHADED TEXT data\cars\mustang\grey\h02.bpp
+MATDEF "LUCDOORS"         SHADED TEXT data\cars\mustang\grey\h01.bpp
+MATDEF "LUCBOTTOM"        SHADED TEXT data\cars\mustang\grey\h12.bpp
+MATDEF "LUCTOP (CAB)"     SHADED TEXT data\cars\mustang\grey\h05.bpp
+MATDEF "LUCSIDE_GLASS"    SHADED TEXT data\cars\mustang\grey\h06.bpp
+MATDEF "LUCBACK"          SHADED TEXT data\cars\mustang\grey\h07.bpp
+MATDEF "LUCHEAD LIGHT"    SHADED TEXT data\cars\mustang\grey\h08.bpp
+MATDEF "LUCTAIL LIGHT"    SHADED TEXT data\cars\mustang\grey\h10.bpp
+MATDEF "LUCTAIL LIGHT H"  SHADED TEXT data\cars\mustang\grey\h10a.bpp
+MATDEF "LUCENGINE BLOCK"  SHADED TEXT data\cars\mustang\grey\h09.bpp
+matDEF "LUCTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\lucky.tur
+
+pf data\cars\lucky.asc
+
+

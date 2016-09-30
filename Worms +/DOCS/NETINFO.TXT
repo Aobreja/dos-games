@@ -1,0 +1,264 @@
+PLAYING WORMS:REINFORCEMENTS OVER A LOCAL AREA NETWORK
+------------------------------------------------------
+
+This document is laid out as follows;
+
+A) Introduction
+B) Configuring your network card using a Novell Driver
+C) Configuring your network card using a Packet Driver
+D) Playing WORMS:REINFORCEMENTS using WINDOWS drivers
+E) Playing WORMS:REINFORCEMENTS over the Modem or Null Modem Connection
+F) Playing the game
+G) Trouble Shooting, Getting hold of appropriate driver-software
+
+
+A) Introduction
+---------------
+
+Worms:Reinforcements offers network play, with the addition of being able
+to message any or all of the players - adding to the espionage factor! Worms
+is still turn based and you get to watch your opponents every move!
+
+Each game of Worms:Reinforcements can be played by up to four players on a
+Local Area Network network. The network "language" Worms:Reinforcements
+speaks is called IPX. If you are familiar with playing games over a network,
+chances are that you already know how to make your network card "talk" IPX.
+
+More people can join the network "group" (actually up to 16) but only 4 may
+play at once, the rest may "spectate".
+
+
+B) General Conditions for Network Play
+--------------------------------------
+
+You will need a CD of the game in each machine you`ll be using.
+
+
+Any network card can be used as long as:
+
+i) The network card can be used on a Novell NetWare network.
+   Most network cards come with a driver for Novell networks. Check your
+   cards documentation for more information. These differ from card to
+   card and are copyright, we cannot supply you with drivers.
+
+ -or-
+
+ii) You can find a Packet Driver for it. Packet drivers for most
+   cards are available from Internet Sites and Shareware resource sites,
+   we have details of such sites on our World Wide Web pages.
+   (http:\www.team17.com) - Locate the Worms:Reinforcements/Utilities
+
+
+ -or-
+
+iii) You can find a driver for Windows or Windows for Workgroups/Windows 95
+   for it. Check your cards documentation for more information.
+
+
+
+C) Playing Worms:Reinforcements using a Novell driver
+-----------------------------------------------------
+
+Three different drivers are needed to enable Worms:Reinforcements to be
+played using a Novell driver. Some cards come with all these drivers.
+
+The three drivers are: LSL.COM, IPXODI.COM and a "MLID driver"
+that matches your card. The filename for this depends on what card you
+have. Your cards documentation or network administrator should be able
+to give you the filename.
+
+Example:
+
+If you have a NE2000 compatible card, the MLID driver is called NE2000.COM
+
+The three drivers must be loaded in the following sequence:
+
+1) LSL.COM              Type LSL.COM
+2) NE2000.COM           Type NE2000.COM
+3) IPXODI.COM           Type IPXODI.COM
+
+You are now ready to start playing Worms:Reinforcements over the network.
+
+
+
+D) Playing Worms:Reinforcements using a Packet Driver
+-----------------------------------------------------
+
+Two different drivers are needed to play Worms:Reinforcements using a
+Packet Driver. The name of the Packet Driver depends on which card you
+have. In addition, you need an IPX driver. The most commonly used is called
+PDIPX.COM which is available from good shareware resources and on the Inter
+net.
+
+The Packet Driver usually needs additional options to be specified. If you
+are not sure which options to use, check the documentation for your
+Packet Driver. These options specify which "interrupt vector" the
+Packet Driver should hook on to, etc. If you are unable to find a Packet
+Driver for your card, a very popular set of Packet Drivers, called Crynwr,
+is available from good shareware/freeware suppliers - our website can offer
+directions so that you can pick these up easily enough.
+
+Example:
+
+If you have a 3Com Etherlink III ISA network card, the packet driver is
+called 3C509.COM
+
+The drivers must be loaded in the following sequence:
+
+1) 3C509.COM          Type 3C509 0x65
+2) PDIPX.COM          Type PDIPX
+
+You are now ready to start playing Worms:Reinforcements
+
+
+
+E) Playing Worms:Reinforcements using Windows
+---------------------------------------------
+
+Microsoft Windows for Workgroups and Windows 95 come with drivers for most
+cards. If the network drivers are not already installed, follow the
+documentation on how to add a network card to Windows. Make sure that the
+driver for IPX is installed:
+
+Windows for Workgroups:
+-----------------------
+
+Open the Control Panel and click on the Network icon. Click on the Drivers
+button and a list should appear. Look for "IPX/SPX-compatible protocol".
+We recommend that users do NOT run WORMS:REINFORCEMENTS under Windows 3.0 or
+3.1 or 3.11, but under DOS or WIN'95. If possible, set up your network card
+through DOS using IPX.
+
+Windows 95:
+-----------
+
+Choose Start, Settings and Control Panel. Click on the Network icon and
+a list should appear. Look for "IPX/SPX-compatible protocol". If it's not in
+the list, click on the Add button, and choose Protocol. Select Microsoft
+from the list to the left, and then "IPX/SPX-compatible protocol" from the
+list on the right. After the machine has restarted, you are ready to play
+Worms:Reinforcements.
+
+
+
+F) Starting Worms:Reinforcements for network play
+-------------------------------------------------
+
+After you have started your IPX, Worms:Reinforcements can in most cases
+be started without any additional options.
+
+In some cases you might have to tweak the settings to match your environment.
+
+You can specify options by using the SET command in DOS before starting
+Worms:Reinforcements. The options you can specify are:
+
+-W Time limit for waiting for other players to join the network.
+-S Socket number. In some cases, you can not use the default socket 7777
+   on your network. You should check with your network administrator before
+   choosing another socket.
+
+Set NETINFO=1  (Turns on network) 
+
+
+
+G) PLAYING WORMS:REINFORCEMENTS VIA MODEM
+-----------------------------------------
+
+Playing games like Worms over the modem is not an easy task due to 
+the technicalities of actualling getting two remote machines to talk to
+each other reliably. We have made the Modem configuration as configurable
+as possible to ensure that users can modify the set-ups for their own
+modems. Worms by Modem does require at least some technical knowledge of
+your Modem, or at least your modem's manual to hand!
+
+A modem is connected to your machine via a so called serial port. First
+of all you need to find the correct settings for the serial port the modem
+is hooked up to. Check the documentation for your machine. If you are
+unable to find the settings, at least make sure the modem is hooked on to
+serial port 1 or 2 (COM1 or COM2).
+
+Settings for serial ports cosist of an address and an IRQ number.
+
+The standard settings for COM1 is address 3F8, IRQ 4
+The standard settings for COM2 is address 2F8, IRQ 3
+The most common settings for COM3 is address 3E8, IRQ 4
+The most common settings for COM4 is address 2E8, IRQ 3
+
+The next step is to find the correct speed for your modem. This depends on
+your modem, and in some cases your serial port. Check your modem documentation
+for a suitable speed.
+
+SET NETINFO=-CWORMS.CFG -W120 -S1212 -T10 -P0 -M_P2F8 -M_I3 -M_B9600 -M_T14
+
+-M_P Com port in hex
+-M_I Com ports IRQ level
+-M_B Baud rate
+-M_T Trigger level (Fast FIFO UARTs only ( exclude this if uart not present))
+-M_D Send command string to modem (using Hayes command set)
+
+Note specifying any -M option makes game use COM port otherwise IPX is used.
+
+The calling user should type MODEOUT before running Worms, the recieving user
+should type MODEIN prior to running Worms. When the modems have connected,
+press a key to commence the game. Play as per the network instructions.
+
+A connection of 9600 is acceptable. Users with performance machines, Fast
+Uart chips and quality modems, may try for a higher speed connection.
+
+You will have to edit the MODEOUT and MODEIN batch files (found on the CD)
+so that they match your modems operation.
+
+To play locally over a null modem cable, type SERIAL before running Worms.
+
+If you have any questions regarding WORMS over MODEM, then please EMAIL us
+at 'wormsmodem@team17.com'  A support area on our web-site will be set up
+and we hope to supply information from your feedback. We also ask that users
+who are enjoying the game over modem to let us know their configurations and
+what is in their batch files, so that we can make other less proficient users
+aware of the required configuration.
+
+Unfortunately Team17 cannot guarantee successful Modem-Modem connections 
+when using WORMS over MODEM.
+
+G) PLAYING WORMS:REINFORCEMENTS
+-------------------------------
+
+Play is as per usual, with one extra feature... MESSAGING!
+
+On your turn, press T to TALK.
+
+You`ll be given a selection of players to talk to, or press A for ALL.
+
+Type your message and hit return. If time runs out, your message is aborted.
+If you send a message to a single player in a multi-player games, only that
+player will see the message and the sender name. Other players will see
+"WORMS ARE TALKING"...  Get ready for Paranoia!
+
+Note: On the menu, Each player must select their own team in the roster as
+this dictates which terminal will control each team.
+
+
+TROUBLESHOOTING
+---------------
+
+Please read the following thoroughly;
+
+(1) TROUBLE.TXT
+(2) NETINFO.TXT
+
+Your supplied driver software notes.
+
+If you have problems, please EMAIL us at SUPPORT@TEAM17.COM
+
+
+
+GETTING APPROPRIATE DRIVER SOFTWARE
+-----------------------------------
+
+In case of difficulty, please pay our website a visit at the following
+URL...  You will find that we offer shortcuts to most IPX software solutions.
+
+http:\\www.team17.com
+
+
+

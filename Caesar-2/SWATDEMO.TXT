@@ -1,0 +1,61 @@
+
+
+Police Quest SWAT Demo
+Copyright (C) 1995, Sierra On-Line, Inc. all rights reserved.
+
+
+Minimum System Requirments
+  - 486/25mhz
+  - 8 megabytes of RAM
+  - Double-Speed CD-ROM Drive
+  - VESA
+  - Sound Card
+
+
+                  INSTALLATION
+
+
+To Install the demo to be played from Windows:
+
+ 1.  From the Files menu, select "Run"
+
+ 2.  Type "D:SETUP.EXE", then <ENTER>.  Where D: is the drive 
+     letter of your CD-ROM drive, where the demo is located.
+
+ 3.  Follow on-screen prompts.
+
+
+To Install the demo to be played from DOS:
+    
+ 1.  From the root directory of your CD-ROM drive. type "INSTALL".
+
+ 2.  Follow on-screen prompts.
+
+
+                    EXECUTION
+
+
+To Run the demo from Windows:
+
+ 1.  Double-click the Police Quest SWAT icon from the Sierra 
+     workgroup.
+
+
+To Run the demo from DOS:
+
+ 1.  Change to the drive and directory in which the demo was installed
+     to.  (If you installed with the default settings, 
+     C:\SIERRA\SWATDEMO would be where the demo resides)
+
+ 2.  Type "SWATDEMO", then <ENTER> to start the demo.
+
+
+                   TERMINATION
+
+
+To Exit the demo while it is running.
+
+ 1.  You may either press the <ESC> key, or <ALT-X>.  
+
+     
+

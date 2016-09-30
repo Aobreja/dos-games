@@ -1,0 +1,34 @@
+axis 2
+clearbuffer static_backdrop bpp\grid.bpp
+palette car\cued.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "btzSIDE RIGHT" SHADED TEXT data\cars\buggy\red\arr0017.bpp
+matdef "btzSIDE LEFT" SHADED TEXT data\cars\buggy\red\arr0018.bpp
+matdef "btzTYRE RING"      SHADED FLAT <4,4,4>
+matdef "btzRAM RACER WHEELS" TRANS SHADED TEXT data\cars\animbase\blitzer.whl
+matdef "btzRAM RACER WHEELS I" TRANS SHADED TWOSIDE TEXT data\cars\animbase\blitzer.whl
+matdef "btzWHEELARCH"      SHADED FLAT <16,16,16>
+matdef "btzBACK"           SHADED TEXT data\cars\buggy\red\arr0006.bpp
+matdef "btzTAIL LIGHT"     SHADED TEXT data\cars\buggy\red\arr0014.bpp
+matdef "btzBONNET"         SHADED TEXT data\cars\buggy\red\arr0007.bpp
+matdef "btzNOSE"           SHADED TEXT data\cars\buggy\red\red0008.bpp
+matdef "btzUNDER CAR"      SHADED TEXT data\cars\buggy\undercar.bpp
+matdef "btzENGINE_TOP_1"   TRANS SHADED TWOSIDE TEXT data\cars\buggy\engtop.bpp
+matdef "btzENGINE BLOCK"   SHADED TEXT data\cars\buggy\red\red0010.bpp
+matdef "btzTOP (CAB)"      SHADED TEXT data\cars\buggy\red\arr0005.bpp
+matdef "btzSUSSPENSION"    TWOSIDE TRANS SHADED TEXT data\cars\buggy\suspn.bpp
+matdef "btzRAM BAR FRONT"  TWOSIDE TRANS SHADED TEXT data\cars\buggy\rambar.bpp
+matdef "btzRAM BAR BACK"   TWOSIDE TRANS SHADED TEXT data\cars\buggy\rambar.bpp
+matdef "btzRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\buggy\armour.bpp
+matdef "btzRAMBAR_right"   TWOSIDE TRANS SHADED TEXT data\cars\buggy\armour.bpp
+matdef "btzTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\blitzer.tur
+
+pf data\cars\blitzer.asc
+
+

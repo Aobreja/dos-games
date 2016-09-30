@@ -1,0 +1,43 @@
+sim hit dist				- 262144
+min car dist				- 13107200
+elasticity					- 175
+armour width				- 393216
+wheel width				- 393216
+obj bounce					- 4
+obj rot min				- 256
+obj vel min				- 4096
+min wheel angle		- 65000
+min vel diff				- 65536
+obj elasticity			- 220
+armour sphere			- 983040
+max iter						- 5
+connected bodge		- 262144
+impact absorb			- 200
+turn mod						- 51200
+lock mod						- 51200
+susp shift					- 262144
+slide min					- 16777216
+rocket power				- 1310720
+rocket lift				- 10
+smoke dens					- 1200000
+water dens					- 1000000
+shadow bodge				- 262144
+obj gravity				- -10000
+driver height			- 20
+driver offset			- 10
+camera height			- 1966080
+out vehicle dist		- 200
+cam pullout max		- 1000
+collide width			- 655360
+top collide width	- 524288
+car height					- 1048576
+damping						- 200
+stiffness					- 300
+gravity						- -50000
+weight div					- 5
+grip mul						- 8
+turn speed					- 300
+return speed				- 900
+max turn						- 8960
+rot shift					- 45000
+rot damping				- 4

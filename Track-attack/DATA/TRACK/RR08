@@ -1,0 +1,68 @@
+axis 2
+clearbuffer moving_backdrop data\backdrop\rockyrid.bpp
+palette data\backdrop\rockyrid.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+sourcing_table data\backdrop\rockyrid.tab
+
+matdef "LINK_A1"	TWOSIDE FLAT <63,63,63>
+matdef "LINK_A2"	TWOSIDE FLAT <63,63,63>
+matdef "LINK_A3"	TWOSIDE FLAT <63,63,63>
+matdef "LINK_A4"	TWOSIDE FLAT <63,63,63>
+matdef "LINK_B1"	TWOSIDE FLAT <63,0,0>
+matdef "LINK_B2"	TWOSIDE FLAT <63,0,0>
+matdef "LINK_B3"	TWOSIDE FLAT <63,0,0>
+matdef "LINK_B4"	TWOSIDE FLAT <63,0,0>
+matdef "LINK_C1"	TWOSIDE FLAT <0,63,0>
+matdef "LINK_C2"	TWOSIDE FLAT <0,63,0>
+matdef "LINK_C3"	TWOSIDE FLAT <0,63,0>
+matdef "LINK_C4"	TWOSIDE FLAT <0,63,0>
+matdef "LINK_D1"	TWOSIDE FLAT <0,0,63>
+matdef "LINK_D2"	TWOSIDE FLAT <0,0,63>
+matdef "LINK_D3"	TWOSIDE FLAT <0,0,63>
+matdef "LINK_D4"	TWOSIDE FLAT <0,0,63>
+
+matdef "SPLIT_POINT"	TWOSIDE FLAT <63,0,63>
+
+matdef "BANK"		SHADED AUTOMAP1 TEXT data\track\gaz\bank1.bpp
+matdef "WALL"		SHADED AUTOMAP1 TEXT data\track\gaz\wall.bpp
+matdef "TOP"		SHADED AUTOMAP1 TEXT data\track\gaz\wall.bpp
+matdef "ROAD"		SHADED AUTOMAP1 TEXT data\track\gaz\road1.bpp
+matdef "TOP005" 	TRANS TWOSIDE SHADED AUTOMAP1 TEXT data\track\gaz\top005.bpp
+
+matdef "ROAD1"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\road01.bpp
+matdef "ROAD2"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\road02.bpp
+
+matdef "BANK1"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\bank02.bpp
+matdef "BANK2"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\bank04.bpp
+matdef "BANK3"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\bank06.bpp
+
+matdef "WALL1"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\wall01.bpp
+matdef "WALL2"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\wall02.bpp
+matdef "WALL3"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\wall03.bpp
+matdef "WALL4"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\wall04.bpp
+
+matdef "CORNER"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\wallc01.bpp
+
+matdef "TOP1"		SHADED AUTOSCALE6 AUTOMAP1 TEXT data\track\gaz\top01.bpp
+
+matdef "ROADJ1"		SHADED AUTOMAP1 TEXT data\track\gaz\roadj01.bpp
+matdef "ROADJ2"		SHADED AUTOMAP1 TEXT data\track\gaz\roadj02.bpp
+
+matdef "BANKJ1"		SHADED AUTOMAP1 TEXT data\track\gaz\bankj01.bpp
+matdef "BANKJ2"		SHADED AUTOMAP1 TEXT data\track\gaz\bankj02.bpp
+
+matdef "WALLJ1"		SHADED AUTOMAP1 TEXT data\track\gaz\wallj01.bpp
+matdef "WALLJ2"		SHADED AUTOMAP1 TEXT data\track\gaz\wallj02.bpp
+matdef "WALLJ1"		SHADED AUTOMAP1 TEXT data\track\gaz\wallj03.bpp
+matdef "WALLJ2"		SHADED AUTOMAP1 TEXT data\track\gaz\wallj04.bpp
+
+pf data\track\smaller.asc
+pf data\track\t_and_xs.asc
+pf data\track\looploop.asc
+pf data\track\corkscrw.asc
+pf data\track\sm_bankd.asc
+pf data\track\sm_cornr.asc
+
+

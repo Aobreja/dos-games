@@ -1,0 +1,32 @@
+
+NOTES ON WORMS: REINFORCEMENTS INSTALLATION
+============================================
+
+To fully install this game, you will require the original WORMS game during
+the installation process. You may also be asked for it from time to time. You will also
+need the original CD ROM should any further patches become available.
+
+Once installed, WORMS:REINFORCEMENTS will copy most of the more commonly used
+files to your hard drive and will make the game run a lot quicker. Due to
+this, the game will need approx 19Mb of hard drive space.
+
+Note that the more custom sample sets and graphics levels you keep on your
+drive, the more space the game will consume.
+
+The game needs the CD ROM to play AUDIO, FMV and retrieve certain files
+during games. You cannot play without it, or play with the original CD ROM
+in place of the REINFORCEMENTS CD.
+
+We recommend that installation is carried out through DOS.
+
+
+
+If you have any problems, please read the TROUBLE.TXT document for
+troubleshooting. Consult CONTENTS.TXT for a full list of all the files
+included on this CD.
+
+
+
+
+
+ 

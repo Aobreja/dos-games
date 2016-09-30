@@ -1,0 +1,23 @@
+CONVERTING SAMPLES TO USE IN WORMS:REINFORCEMENTS
+-------------------------------------------------
+
+Worms uses samples that are the following format;
+RAW 8bit Mono, Signed, played at 15Khz.
+
+We recommend that you sample at the following frequency;
+12KHz using .WAV files.
+
+We also recommend that all editing and replaying is made with standard WAV
+editors and tools that are commonly available, such as GOLDWAVE and many
+others available from good shareware/Public Domain resources.
+
+When you have finished, simply use the CONVERT.EXE (Supplied as FREEWARE)
+to quickly and easily convert all the files to the correct format. The
+resulting files can then be quickly and easily incorporated into the
+samplebank editor.
+
+Read SAMPLES.TXT for an explanation on getting the best out of your samples
+and WORMS, this is written by Bjorn Lynne, who did the original Worm
+samples and custom levels for the game.
+
+

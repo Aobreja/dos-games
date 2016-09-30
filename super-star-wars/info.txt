@@ -1,0 +1,113 @@
+
+Memory needed:
+
+        Base memory:     500 KByte
+        EMS memory:    2.375 KBytes
+
+Win95:
+        There might be some problems when running under Win95 as this
+        program wasn't designed to run under any multitasking OS.
+        Following problems has been observed:
+
+                Timing problems, so sometimes it slows down.
+
+                Joysticks control freaks out.
+
+                And sometimes a crash when loading. Especialy the last
+                3D level (Trench) and the cutscene for the DStar explosion.
+
+        It's recommened to run SSW using a normal DOS boot.
+
+
+Keys:
+        How to enable cheat mode:
+
+        At the main menu write : braindead
+
+        ESC                     Return to main menu.
+
+
+        PLATFORM LEVELS:
+
+        Cursor keys control player.
+
+        Space                   Smart bomb
+        ALT                     Fire
+        CTRL                    Jump
+        PageUp/PageDown         Scroll view up and down
+
+        Return                  Change weapon (Only look and first from Canyon 2)
+        J                       Recalibrate joystick
+        P                       Pause (Restart again with P)
+
+        Cheat keys for platform levels:
+
+        D                       Get extra detonator (Smart bomb)
+        H                       Max health
+        I                       Super shield
+        1,2,3,4,5               Change weapon
+        Plus on the numpad      Get extra life
+        F1                      Next level
+
+
+
+        TATOOINE (FIRST 3D LEVEL):
+
+        Cursor keys move sandspeeder.
+
+        ALT                     Fire
+        CTRL                    Thrust
+        1,2,3                   Detail level
+        J                       Recalibrate joystick
+
+        Cheat keys:
+
+        Plus on the numpad      Get extra life
+        F1                      Next level
+
+
+
+        DEATH STAR (SECOND KIND OF 3D LEVEL):
+
+        Cursor keys move the XWing.
+
+
+        ALT/CTRL                Fire
+        1,2,3                   Detail level
+        J                       Recalibrate joystick
+
+        Cheat keys:
+
+        Plus on the numpad      Get extra life
+        F1                      Next level
+
+
+        TRENCH (LAST 3D LEVEL):
+
+        Cursor keys move the XWing.
+
+
+        ALT                     Fire
+        CTRL                    Fire Torpedo
+        J                       Recalibrate joystick
+
+        Cheat keys:
+
+        Plus on the numpad      Get extra life
+        F1                      Next level
+
+
+
+
+Requirments:
+        80386, with 4 MBytes of ram.
+
+Recommended:
+        Pentium 90, with 8 MBytes of ram, joystick, SoundBlaster, Roland GS
+        and NO Win95.
+
+
+Regards
+        Samuel S. Nova
+
+

@@ -1,0 +1,2 @@
+SET NETINFO= 1
+

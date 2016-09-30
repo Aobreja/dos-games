@@ -1,0 +1,23 @@
+PATCHES
+-------
+
+IMPORTANT NOTE: THERE IS *NO* NEED TO RUN THESE PATCHES ON "REINFORCEMENTS"!
+
+These patches were posted on our WebSite and are for the original version
+of Worms. Seeing as though we had the space, we`ve included them here too.
+
+As a REINFORCEMENTS user, these are probably not of much use to you, but
+who knows... they might be of some interest!
+
+
+INSTFIX
+
+In here is a replacement SETUP program. Some people had experienced problems
+installing the game, this cures it.  See the README.TXT
+
+SHOTFIX
+
+This cured a bug that was reported a couple of times and also updates the
+PC code to a much later version. See the README.TXT
+
+

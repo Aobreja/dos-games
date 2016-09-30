@@ -1,0 +1,40 @@
+Overall keyboard layout:
+
+P:..........Pause.
+
+H:..........Go to headquarters..
+B:..........Go back to start position.
+
+N:..........Opens messages window.
+L:..........Shows map.
+M:..........Main selection.
+
+SPACE:......Switches construction aid function on/off.
+C:..........Check information about houses..
+S:..........Shows status of houses.
+
+Z:..........Zoom current window.
+V:..........Acceleration on or off.
+I:..........Info window.
+
+ALT-W, ESC:.Closes active window.
+ALT-Q:......Exit from game..
+
+F1:.........Load game.
+F2:.........Save game.
+F8:.........Readme "Keyboard layout".
+F9:.........Readme "What's new".
+F10:........CD Audio Player.
+F11:........Midi Player.
+F12:........Option window.
+
+Cursor keys: scroll the main map.
+
+
+In the messages window:
+
+DELETE:.....delete message.
+G:..........Go to site of event.
++/-:........Next/previous message.
+
+

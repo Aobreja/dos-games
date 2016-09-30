@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATdef "YMTREAD"         SHADED FLAT <4,4,4>
+MATdef "YMWHEEL" TRANS SHADED TEXT data\cars\animbase\yelmus.whl
+MATdef "YMWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "YMRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "YMRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "YMRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "YMRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "YMBONNET"        SHADED TEXT data\cars\mustang\yellow\y04.bpp
+MATdef "YMWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "YMFRONT_WINGS"   SHADED TEXT data\cars\mustang\yellow\y03.bpp
+MATdef "YMREAR_WINGS"    SHADED TEXT data\cars\mustang\yellow\y02.bpp
+MATdef "YMDOORS"         SHADED TEXT data\cars\mustang\yellow\y01.bpp
+MATdef "YMBOTTOM"        SHADED TEXT data\cars\mustang\yellow\y12.bpp
+MATdef "YMTOP (CAB)"     SHADED TEXT data\cars\mustang\yellow\y05.bpp
+MATdef "YMSIDE_GLASS"    SHADED TEXT data\cars\mustang\yellow\y06.bpp
+MATdef "YMBACK"          SHADED TEXT data\cars\mustang\yellow\y07.bpp
+MATdef "YMHEAD LIGHT"    SHADED TEXT data\cars\mustang\yellow\y08.bpp
+MATdef "YMTAIL LIGHT"    SHADED TEXT data\cars\mustang\yellow\y10.bpp
+.MATdef "YMTAIL LIGHT H"  SHADED TEXT data\cars\mustang\yellow\y10a.bpp
+MATdef "YMENGINE BLOCK"  SHADED TEXT data\cars\mustang\yellow\y09.bpp
+matdef "YMTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\yelmus.tur
+
+pf data\cars\yelmus.asc
+
+

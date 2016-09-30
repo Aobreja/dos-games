@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATdef "SARTREAD"         SHADED FLAT <4,4,4>
+MATdef "SARWHEEL" TRANS SHADED TEXT data\cars\animbase\saracen.whl
+MATdef "SARWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "SARRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "SARRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "SARRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "SARRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "SARBONNET"        SHADED TEXT data\cars\mustang\green\e04.bpp
+MATdef "SARWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "SARFRONT_WINGS"   SHADED TEXT data\cars\mustang\green\e03.bpp
+MATdef "SARREAR_WINGS"    SHADED TEXT data\cars\mustang\green\e02.bpp
+MATdef "SARDOORS"         SHADED TEXT data\cars\mustang\green\e01.bpp
+MATdef "SARBOTTOM"        SHADED TEXT data\cars\mustang\green\e12.bpp
+MATdef "SARTOP (CAB)"     SHADED TEXT data\cars\mustang\green\e05.bpp
+MATdef "SARSIDE_GLASS"    SHADED TEXT data\cars\mustang\green\e06.bpp
+MATdef "SARBACK"          SHADED TEXT data\cars\mustang\green\e07.bpp
+MATdef "SARHEAD LIGHT"    SHADED TEXT data\cars\mustang\green\e08.bpp
+MATdef "SARTAIL LIGHT"    SHADED TEXT data\cars\mustang\green\e10.bpp
+.MATdef "SARTAIL LIGHT H"  SHADED TEXT data\cars\mustang\green\e10a.bpp
+MATdef "SARENGINE BLOCK"  SHADED TEXT data\cars\mustang\green\e09.bpp
+matdef "SARTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\saracen.tur
+
+pf data\cars\saracen.asc
+
+

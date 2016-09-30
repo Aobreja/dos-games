@@ -1,0 +1,135 @@
+Insufficient far Memory
+BTYPE	BYTES	LOCK	PURGE	RSRC?	RTYPE	ID
+Fix 	  256
+Free	   68
+Relo	  262	Yes	No 	No 
+Relo	  262	Yes	No 	No 
+Free	  196
+Fix 	 1990
+Fix 	 2202
+Fix 	 2050
+Fix 	61440
+Free	 1006
+Fix 	 1000
+Relo	   56	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	  240	No 	No 	No 
+Relo	  228	No 	No 	No 
+Relo	  198	No 	No 	No 
+Relo	  174	No 	No 	No 
+Relo	   96	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   42	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	   46	No 	No 	No 
+Relo	 3012	No 	No 	No 
+Relo	  124	No 	No 	No 
+Relo	   98	No 	No 	No 
+Relo	   58	No 	No 	No 
+Relo	   58	No 	No 	No 
+Relo	   54	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	   56	No 	No 	Yes	SHPL	3000
+Relo	  102	No 	No 	No 
+Relo	   86	No 	No 	No 
+Relo	   54	No 	No 	No 
+Relo	   62	No 	No 	No 
+Relo	   94	No 	No 	No 
+Relo	   86	No 	No 	No 
+Relo	   62	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	  102	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   74	No 	No 	No 
+Relo	   70	No 	No 	No 
+Relo	   78	No 	No 	No 
+Relo	   82	No 	No 	No 
+Relo	   78	No 	No 	No 
+Relo	   76	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   62	No 	No 	No 
+Relo	   94	No 	No 	No 
+Relo	   84	No 	No 	No 
+Relo	   96	No 	No 	No 
+Relo	   86	No 	No 	No 
+Relo	   78	No 	No 	No 
+Relo	   84	No 	No 	No 
+Relo	   76	No 	No 	No 
+Relo	   94	No 	No 	No 
+Relo	   86	No 	No 	No 
+Relo	   94	No 	No 	No 
+Relo	   34	No 	No 	No 
+Relo	   70	No 	No 	No 
+Relo	   94	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   82	No 	No 	No 
+Relo	   34	No 	No 	No 
+Relo	   28	No 	No 	No 
+Relo	   38	No 	No 	No 
+Relo	   70	No 	No 	No 
+Relo	  102	No 	No 	No 
+Relo	   92	No 	No 	No 
+Free	16490
+Relo	   56	Yes	No 	Yes	SHPL	 750
+Relo	  202	No 	No 	No 
+Relo	  150	No 	No 	No 
+Relo	  488	No 	No 	Yes	SHPL	3500
+Relo	   56	No 	No 	Yes	SHPL	1000
+Relo	   62	No 	No 	No 
+Relo	   26	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	   46	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   52	No 	No 	No 
+Relo	  970	No 	No 	No 
+Relo	  214	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   78	No 	No 	No 
+Relo	  114	No 	No 	No 
+Relo	   34	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	  428	No 	No 	Yes	FRAM	 750
+Relo	 2664	No 	No 	No 
+Relo	  874	No 	No 	No 
+Relo	  150	No 	No 	No 
+Relo	  174	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   56	No 	No 	No 
+Relo	   76	No 	No 	No 
+Relo	 4918	No 	No 	Yes	FONT	    
+Relo	   94	No 	No 	No 
+Relo	   46	No 	No 	No 
+Relo	 1026	No 	No 	No 
+Relo	 4306	No 	No 	No 
+Relo	 1982	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   62	No 	No 	No 
+Relo	    4	No 	No 	Yes	WDEF	  -2
+Relo	   96	No 	No 	No 
+Relo	   92	No 	No 	No 
+Relo	   62	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   70	No 	No 	No 
+Relo	   96	No 	No 	No 
+Relo	   28	No 	No 	No 
+Relo	  254	No 	No 	No 
+Relo	   78	No 	No 	No 
+Relo	   66	No 	No 	No 
+Relo	   96	No 	No 	No 
+Relo	  228	No 	No 	No 
+Relo	   56	No 	No 	Yes	SHPL	25001
+Relo	 2952	No 	No 	No 
+Relo	   68	No 	No 	Yes	CURS	    
+Relo	   20	No 	No 	No 
+Relo	   50	No 	No 	No 
+Relo	   82	No 	No 	No 
+Relo	 1260	No 	No 	Yes	FRAM	1000
+Free	58486
+
+Insufficient far Memory
+Total used block size = 102782
+Largest contigous block of far memory = 189558
+Largest contigous block of near memory = 15090

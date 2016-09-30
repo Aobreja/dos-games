@@ -1,0 +1,29 @@
+GFXCON
+------
+
+The aim of this program is to take a PCX file that has your image in it,
+which is using the first 80 colours (ONLY!) of the palette, with colour 0
+acting as transparent, and re-map it to a palette that WORMS:REINFORCEMENTS
+can use.
+
+You MUST use this program or the colours in your file will be corrupt. The
+program also includes default colour ranges for BLUE normal water and
+HILLS as seen on the forest level.
+
+Usage (From DOS);
+
+GFXCON  <in-name.pcx> <out-name.pcx>
+
+You can use the same name for the out-name as for the in-name, but sometimes
+you might not wish to do so...
+
+Eg.  GFXCON     TEST.PCX TEST2.PCX
+
+The file TEST2.PCX will be remapped and ready to go in the game, assuming you
+used the first 80 colours (0 for transparency) in TEST.PCX
+
+For full details of the CUSTOM GRAPHICS PROCESS, read CUSTOM.TXT
+
+
+
+

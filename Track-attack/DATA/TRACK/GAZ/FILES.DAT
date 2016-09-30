@@ -1,0 +1,16 @@
+
+Arc Developments batch converter (c) Alistair Hale  1993
+9999 files processed ...
+
+
+ DTSBANK.BBM ->  DTSBANK.BPP  width 128 depth 128
+Non-background pens set in palette are
+ 0-111, 121-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   WATER.BBM ->    WATER.BPP  width 128 depth 128
+Non-background pens set in palette are
+ 0-111, 121-199, 201-255
+Total of 241 pens set to non-background
+;-------------------------------------------------------------------------------

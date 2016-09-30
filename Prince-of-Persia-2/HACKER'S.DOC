@@ -1,0 +1,73 @@
+              +--------------------------------+
+              | Prince Of Persia II PRINCE.SAV |
+              +--------------------------------+
+
+
+                               Hlavi‡ka
+ 000000   00 00 
+                               Jm‚no 1
+                44 69  6E 67 6F 00  00 00 00 00  00 00 00 00   תתDingoתתתתתתתתת
+ 000010   00 00 00 00  00 00 00 00  00 
+                               Mezera mezi jm‚ny
+                                       00 
+                               Jm‚no 2 ...
+                                          00 4C  65 76 65 6C   תתתתתתתתתתתLevel
+ 000020   20 32 00 00  00 00 00 00  00 00 00 00  00 00 00 00    2תתתתתתתתתתתתתת
+ 000030   00 00 00 00  4C 65 76 65  6C 20 33 00  00 00 00 00   תתתתLevel 3תתתתת
+ 000040   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000050   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000060   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000070   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000080   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000090   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000A0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000B0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000C0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000D0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000E0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 0000F0   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+
+          +------------------- €as
+          |            +------ Kolo
+          |            |  +--- Po‡et ’ivot– 
+          |            |  |
+ 000100   4B 00 CF 02  02 05 FF 00  01 00 00 00  00 FF 00 00   Kתתתתתתתתתתתתתתת
+ 000110   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+ 000120   00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   תתתתתתתתתתתתתתתת
+
+
+ Program upravuje Jm‚no, Kolo, €as a po‡et ‘ivot– v ULO’EN h©e. Tak‘e je 
+   pot©eba nejd©¡ve ulo‘it hru ! Teprve potom co existuje soubor PRINCE.SAV
+   lze mˆnit tyto 4 vˆci !
+
+   ALT - G    Ulo‘¡ rozehranou hru.
+   ALT - L    Obnov¡ rozehranou hru.
+   ALT - A    Restart aktu ln¡ho kola.
+   ALT - Q    Konec Hry.
+
+   Na dal¨¡ kl vesy si u‘ mus¡te p©ij¡t sami :-))) ...
+
+ €as se d  nastavit od 0 do 255 minut, Kol je dohromady 14, Po‡et ‘ivot– se
+   d  tak‚ nastavit na 0 a‘ 255, ale p©i vˆt¨¡m po‡tu ‘ivot– ne‘ 100 se lehko 
+   m–‘e st t ‘e Princ je mrtv˜ a p©esto nˆjak‚ ty 'fla¨ky' je¨te zbyly, tak‘e
+   Hra se zablokuje.
+
+ Jm‚na ulo‘en˜ch her jsou ze za‡ tku souboru PRINCE.SAV d‚lka je 24 Byte,
+   posledn¡ mus¡ b˜t 00 je to ukon‡en¡ jm‚na. Pro Hackera D–le‘it  data 
+   za‡¡naj¡ na adrese 100 HEX a ostatn¡ se nechaj¡ lehce dopo‡¡tat.
+ 
+ P©i 'Training Mode' je nutn‚ vytlouct v¨echny pohybuj¡c¡ se Asiaty, jinak 
+   dojde k p©eplnˆn¡ Bufferu pro animaci a hra se po nˆjak‚ dobˆ 'kousne'.
+
+
+   EDPP2.EXE   - Editor 
+   POP2TRN.EXE - Trainer (ten jsem sprostˆ ukradnul a trochu cracknul) :-)
+
+
+ EDPP2.EXE Je Vytvo©en v Turbo Pascalu 6.0 kdyby nˆkdo chtˆl mermomoc¡ 
+   zdroj ky, tak je vymˆn¡m za podobnou 'literaturu' v TP 6.0 :-)) ...
+
+
+                                               Good Luck Dingo.
+
+

@@ -1,0 +1,44 @@
+# Der LavaSee
+#---Global map settings---------------------------------------------------------
+
+[GLOBAL_MAP_SETTINGS]
+
+#Map id
+!GLOBAL_SET_MAP    112
+
+#Map bob lib id
+!GLOBAL_SET_BOBS	 1
+
+#Pattern set id
+!GLOBAL_SET_PATTERN  3
+
+#Palette id
+!GLOBAL_SET_PALETTE	 1
+
+#Mapbobs id
+!GLOBAL_SET_MAPBOBS 1
+
+#Free play
+!FM_MAX_PLAYER	3
+!FM_MAX_HUMAN	2
+
+#Players
+!FM_HQ_POS	32,18
+!FM_HQ_POS  152,65
+!FM_HQ_POS  91,49
+
+!FM_CHARACTER	0
+!FM_CHARACTER	1
+!FM_CHARACTER	2
+
+
+#---Map commands----------------------------------------------------------------
+
+[MAPCOMMANDS]
+
+# H„user
+
+!ENABLE_ALL_HOUSES
+
+
+

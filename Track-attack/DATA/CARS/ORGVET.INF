@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "OVTREAD"         SHADED FLAT <4,4,4>
+MATdef "OVWHEEL" TRANS SHADED TEXT data\cars\animbase\orgvet.whl
+MATdef "OVWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "OVRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "OVRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "OVRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "OVRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "OVENGINE BLOCK"  SHADED TEXT data\cars\vette\v04\h07.bpp
+MATdef "OVBACK"          SHADED TEXT data\cars\vette\v04\h10.bpp
+MATdef "OVWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "OVBOTTOM"        SHADED TEXT data\cars\vette\v04\h11.bpp
+MATdef "OVBONNET"        SHADED TEXT data\cars\vette\v04\h01.bpp
+MATdef "OVFRONT_WINGS"   SHADED TEXT data\cars\vette\v04\h02.bpp
+MATdef "OVTOP (CAB)"     SHADED TEXT data\cars\vette\v04\h05.bpp
+MATdef "OVREAR_WINGS"    SHADED TEXT data\cars\vette\v04\h03.bpp
+MATdef "OVDOORS"         SHADED TEXT data\cars\vette\v04\h06.bpp
+MATdef "OVHEAD LIGHT"    SHADED TEXT data\cars\vette\v04\h04.bpp
+MATdef "OVSIDES"         SHADED TEXT data\cars\vette\v04\h08.bpp
+MATdef "OVBACKLITES"     SHADED TEXT data\cars\vette\v04\h09.bpp
+matdef "OVTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\orgvet.tur
+
+pf data\cars\orgvet.asc
+
+

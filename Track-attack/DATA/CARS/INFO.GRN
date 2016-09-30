@@ -1,0 +1,37 @@
+axis 2
+clearbuffer static_backdrop bpp\grid.bpp
+palette car\cued.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "GSIDE RIGHT" SHADED TEXT data\cars\bpp3\lgrn_a6.bpp
+matdef "GSIDE LEFT" SHADED TEXT data\cars\bpp3\lgrn_a7.bpp
+matdef "GTREAD"      SHADED FLAT <4,4,4>
+matdef "GWHEEL" TRANS SHADED TEXT data\cars\bpp2\wheelmap.bpp
+matdef "GWHEEL_INSIDE" TRANS SHADED TWOSIDE TEXT data\cars\bpp2\wheelma2.bpp
+matdef "GWHEELARCH"      SHADED FLAT <16,16,16>
+matdef "GBACK"           SHADED TEXT data\cars\bpp3\lgrn_a2.bpp
+matdef "GTAIL LIGHT"     SHADED TEXT data\cars\bpp3\lgrn0014.bpp
+matdef "GBONNET"         SHADED TEXT data\cars\bpp3\lgrn_a3.bpp
+matdef "GNOSE"           SHADED TEXT data\cars\bpp3\lgrn0008.bpp
+matdef "GUNDER CAR"      SHADED TEXT data\cars\bpp3\lgrn0019.bpp
+matdef "GENGINE_TOP_1"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\lgrn0011.bpp
+matdef "GENGINE_TOP_2"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\lgrn0012.bpp
+matdef "GENGINE_TOP_3"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\lgrn0013.bpp
+matdef "GENGINE BLOCK"   SHADED TEXT data\cars\bpp3\lgrn0010.bpp
+matdef "GTOP (CAB)"      SHADED TEXT data\cars\bpp3\lgrn_a1.bpp
+matdef "GSUSSPENSION"    TWOSIDE TRANS SHADED TEXT data\cars\bpp3\lgrn0009.bpp
+matdef "GRAM BAR FRONT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0004.bpp
+matdef "GRAM BAR BACK"   TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0005.bpp
+matdef "GRAMBAR_LEFT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0008.bpp
+matdef "GRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0009.bpp
+matdef "GEXHAUST"   	SHADED TEXT data\cars\bpp2\exhaust.bpp
+matdef "GEXHAUST_END"   SHADED TEXT data\cars\bpp2\exhst_tp.bpp
+
+pf data\cars\car.grn
+
+

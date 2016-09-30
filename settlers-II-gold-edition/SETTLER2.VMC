@@ -1,0 +1,6 @@
+! VMM configuration for Settlers 2
+VIRTUALSIZE = 16000
+MINMEM = 4096
+MAXMEM = 4096
+DELETESWAP
+

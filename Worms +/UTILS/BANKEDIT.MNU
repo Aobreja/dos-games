@@ -1,0 +1,1170 @@
+;здддддддддддддддддддбддддддддддддддддбдддддддддддддддддддддддддддддддд©
+;ЁCOMMAND            Ё POSITION       Ё DESCRIPTION                    Ё
+;фмммммммммммммммммммьммммммммммммммммьмммммммммммммммммммммммммммммммм╣
+;ЁBOX name           Ё Start of box   Ё Make a BOX called 'name'       Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁPOSITION xx yy     Ё Anywhere in theЁ The X and Y position you would Ё
+;Ё                   Ё box EXCEPT in  Ё like the box to appear at.     Ё
+;Ё                   Ё an ENTRY group Ё Use OLD to work from last      Ё
+;Ё                   Ё                Ё button pressed i.e OLD+5       Ё
+;Ё                   Ё An Entry group Ё                                Ё
+;Ё                   Ё consists of    Ё                                Ё
+;Ё                   Ё ENTRY followed Ё                                Ё
+;Ё                   Ё by ACTION and  Ё                                Ё
+;Ё                   Ё if required    Ё                                Ё
+;Ё                   Ё HELP           Ё                                Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁSIZE Xsize Ysize   Ё As above.      Ё Box size override. (Will not   Ё
+;Ё                   Ё                Ё be used if override to small)  Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁAUTOCLOSE          Ё As above.      Ё Will automaticaly close the    Ё
+;Ё                   Ё                Ё box if the right mouse button  Ё
+;Ё                   Ё                Ё is released                    Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁLINE               Ё As above.      Ё Will draw a box line           Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁBLANK number       Ё As above.      Ё Will move 'number' spaces in.  Ё
+;Ё                   Ё                Ё If 'number' if excluded it willЁ
+;Ё                   Ё                Ё add a blank line instead       Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTITLE 'text'       Ё As above.      Ё Will display 'text' as a title Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT 'text'        Ё As above.      Ё Will display 'text' on a new   Ё
+;Ё                   Ё                Ё line                           Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT ADD 'text'    Ё As above, but  Ё Will display 'text' directly   Ё
+;Ё                   Ё can't follow   Ё after the last text displayed  Ё
+;Ё                   Ё line with      Ё (If the previous text was      Ё
+;Ё                   Ё CENTER or RIGHTЁ  centered or right justified,  Ё
+;Ё                   Ё                Ё  it will be displayed on a     Ё
+;Ё                   Ё                Ё  new line)                     Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT ADD CENTER 't'Ё As above.      Ё As above but centered in the   Ё
+;Ё                   Ё                Ё remaining space                Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT ADD RIGHT 'te'Ё As above.      Ё As above but right justified   Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT CENTER 'text' Ё Anywhere in theЁ Will display centered text     Ё
+;Ё                   Ё box but not in Ё on a new line                  Ё
+;Ё                   Ё an ENTRY group Ё                                Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT RIGHT 'text'  Ё As above.      Ё Will display right justified   Ё
+;Ё                   Ё                Ё text on a new line             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁTEXT AT xx yy      Ё As above.      Ё Will display text at xx and yy Ё
+;Ё                   Ё                Ё positions relative to box      Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁENTRY 'text'       Ё ANYWHERE.      Ё Start of an entry group. Will  Ё
+;Ё                   Ё It has to be   Ё display the button 'text' on   Ё
+;Ё                   Ё followed by a  Ё the display. ENTRY uses the    Ё
+;Ё                   Ё ACTION command Ё same params as TEXT so ADD,    Ё
+;Ё                   Ё                Ё CENTER, RIGHT, AT are allowed. Ё
+;Ё                   Ё                Ё An ACTION command must follow  Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁACTION OPEN name nnЁ After an ENTRY Ё Open box called 'name' sample nЁ
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁACTION CLOSE       Ё After an ENTRY Ё Close current box              Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁACTION EXIT        Ё After an ENTRY Ё Quick program exit             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁACTION COPY n      Ё As above.      Ё Copies selected file into the  Ё
+;Ё                   Ё                Ё current file store             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁACTION INPUT       Ё As above.      Ё allows you to enter a sound    Ё
+;Ё                   Ё                Ё set file name                  Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁHELP name          Ё After an ACTIONЁ Will open box 'name' if right  Ё
+;Ё                   Ё                Ё mouse button is used on a      Ё
+;Ё                   Ё                Ё entry button (works well with  Ё
+;Ё                   Ё                Ё AUTOCLOSE)                     Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁOUTSIDE OPEN name  Ё Anywhere in theЁ Opens the box 'name' if the    Ё
+;Ё                   Ё box but not in Ё left mouse button is pressed   Ё
+;Ё                   Ё an ENTRY group Ё outside the current window     Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁOUTSIDE CLOSE      Ё Anywhere in theЁ Closes the current box if the  Ё
+;Ё                   Ё box but not in Ё left mouse button is pressed   Ё
+;Ё                   Ё an ENTRY group Ё outside the current window     Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;ЁOUTSIDE EXIT       Ё Anywhere in theЁ Quick exits the program if the Ё
+;Ё                   Ё box but not in Ё left mouse button is pressed   Ё
+;Ё                   Ё an ENTRY group Ё outside the current window     Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Bnn               Ё Inside a text  Ё Will change the background     Ё
+;Ё                   Ё string         Ё colour of the text (00-15)     Ё
+;Ё                   Ё                Ё             or                 Ё
+;Ё                   Ё                Ё XX - Use Box colour            Ё
+;Ё                   Ё                Ё TT - Use Title colour          Ё
+;Ё                   Ё                Ё NN - Use Normal text colour    Ё
+;Ё                   Ё                Ё BB - Button colour             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Fnn               Ё Inside a text  Ё Will change the Foreground     Ё
+;Ё                   Ё string         Ё colour of the text (00-15)     Ё
+;Ё                   Ё                Ё             or                 Ё
+;Ё                   Ё                Ё XX - Use Box colour            Ё
+;Ё                   Ё                Ё TT - Use Title colour          Ё
+;Ё                   Ё                Ё NN - Use Normal text colour    Ё
+;Ё                   Ё                Ё BB - Button colour             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Annn              Ё As above       Ё Display a special text char    Ё
+;Ё                   Ё                Ё (the type your editor may not  Ё
+;Ё                   Ё                Ё  allow you to type)            Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Nn                Ё As above       Ё Display file name n from the   Ё
+;Ё                   Ё                Ё directory list 0-9             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Sn                Ё As above       Ё Display file size n from the   Ё
+;Ё                   Ё                Ё directory list 0-9             Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{Rnn               Ё As above       Ё Display size of sample nn      Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{T                 Ё As above       Ё Display total space used       Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{C                 Ё As above       Ё Display name of currently      Ё
+;Ё                   Ё                Ё selected file                  Ё
+;цдддддддддддддддддддеддддддддддддддддедддддддддддддддддддддддддддддддд╢
+;Ё{P                 Ё As above       Ё Display current Directory path Ё
+;юдддддддддддддддддддаддддддддддддддддадддддддддддддддддддддддддддддддды
+
+
+BOX start
+	POSITION 0 0
+	SIZE 80 25
+	OUTSIDE CLOSE
+	TITLE ' {F13TEAM 17{FTT WORMS REINFORCEMENTS SOUND SAMPLE EDITOR '
+	LINE
+	BLANK
+	BLANK
+	BLANK
+	BLANK
+	BLANK
+	BLANK
+	BLANK 7
+	ENTRY ADD ' LOAD A NEW SOUND SET '
+	ACTION OPEN loadall
+	HELP helploadset
+	BLANK 20
+	IF FULL
+	ENTRY ADD ' SAVE A NEW SOUND SET '
+	ACTION OPEN saveset
+	HELP helpsaveset
+	BLANK
+	BLANK
+	BLANK
+	IF FULL
+	ENTRY CENTER ' EDIT SOUND SET '
+	ACTION OPEN changesounds
+	HELP helpchangesounds
+	BLANK
+	BLANK
+	BLANK
+	IF CHANGED
+	ENTRY CENTER ' EXIT '
+	ACTION CLOSE
+	HELP helpexit
+	BLANK
+	BLANK
+	BLANK
+	BLANK
+	LINE
+	TEXT CENTER '    The current SOUND SET is using {T'
+
+
+BOX changesounds
+	POSITION 19 0
+	SIZE 40 0
+	OUTSIDE CLOSE
+	TITLE 'EDIT SOUND SET'
+	LINE
+	BLANK
+
+	ENTRY CENTER ' As you Fire your weapon ... '
+	ACTION OPEN menufire
+	BLANK
+
+	ENTRY CENTER ' I just made a COOL Shot ... '
+	ACTION OPEN menucool
+	BLANK
+	ENTRY CENTER ' I just made a BAD Shot ...  '
+	ACTION OPEN menubadshot
+	BLANK
+
+	ENTRY CENTER ' A worms last Words ...      '
+	ACTION OPEN menuwormdie
+	BLANK
+
+	ENTRY CENTER ' You hit your own Worms ...  '
+	ACTION OPEN menuteammate
+	BLANK
+
+	ENTRY CENTER ' Being hit by opponent ...   '
+	ACTION OPEN menubeinghit
+	BLANK
+
+	ENTRY CENTER ' Sliding and Hurting ...     '
+	ACTION OPEN menuslide
+	BLANK
+
+	ENTRY CENTER ' NEXT '
+	ACTION open changesoundsmore
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+
+BOX changesoundsmore
+	POSITION 21 2
+;	SIZE 80 0
+	OUTSIDE CLOSE
+	TITLE 'EDIT SOUND SET (more)'
+	LINE
+	BLANK
+
+
+	ENTRY CENTER ' Sliding and Hurting ...  '
+	ACTION OPEN menuslide
+	BLANK
+
+	ENTRY CENTER ' Miscellaneous FX ...     '
+	ACTION OPEN menumiscfx
+	BLANK
+
+	ENTRY CENTER ' Miscellaneous Speech ... '
+	ACTION OPEN menumiscspeech
+	BLANK
+
+	ENTRY CENTER ' Grenade Lands nearby ... '
+	ACTION OPEN menugrenade
+	BLANK
+
+	ENTRY CENTER ' Waiting/Timewasting ...  '
+	ACTION OPEN menutime
+	BLANK
+
+	TEXT '           '
+	ENTRY ADD ' Revenge! '
+	ACTION OPEN loadsample 0
+	TEXT ADD '  [Size {R00]        '
+	BLANK
+
+	TEXT '           '
+	ENTRY ADD ' Fatality '
+	ACTION OPEN loadsample 57
+	TEXT ADD '  [Size {R57]'
+	BLANK
+
+	ENTRY CENTER ' PREVIOUS '
+	ACTION CLOSE
+	BLANK
+
+
+BOX menubeinghit
+	POSITION OLD-10 OLD-8
+	OUTSIDE CLOSE
+	TITLE ' Being hit by opponent '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Ill Get you '
+	ACTION OPEN loadsample 35
+	TEXT ADD RIGHT '  [Size {R35]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Just You Wait '
+	ACTION OPEN loadsample 36
+	TEXT ADD RIGHT '  [Size {R36]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' You{A039ll regret that '
+	ACTION OPEN loadsample 27
+	TEXT ADD RIGHT '  [Size {R27]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Leave me Alone '
+	ACTION OPEN loadsample 39
+	TEXT ADD RIGHT '  [Size {R39]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+BOX menutime
+	POSITION 0 5
+	OUTSIDE CLOSE
+	TITLE ' Waiting/Timewasting '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Hurry '
+	ACTION OPEN loadsample 34
+	TEXT ADD RIGHT '  [Size {R34]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Boring! '
+	ACTION OPEN loadsample 45
+	TEXT ADD RIGHT '  [Size {R45]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Come On '
+	ACTION OPEN loadsample 48
+	TEXT ADD RIGHT '  [Size {R48]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Hello '
+	ACTION OPEN loadsample 28
+	TEXT ADD RIGHT '  [Size {R28]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+BOX menumiscspeech
+	POSITION 5 2
+	SIZE 80 0
+	OUTSIDE CLOSE
+	TITLE ' Miscellaneous Speech '
+	LINE
+	BLANK
+	ENTRY CENTER ' Bungee and Rope FX ... '
+	ACTION OPEN menubungee
+	BLANK
+
+	TEXT '     '
+	ENTRY ADD ' Flawless        '
+	ACTION OPEN loadsample 61
+	TEXT ADD  ' [Size {R61]   '
+	ENTRY AT 41 ' Confirm Action  '
+	ACTION OPEN loadsample 26
+	TEXT AT 58  ' [Size {R26]'
+	BLANK
+
+	TEXT '     '
+	ENTRY ADD ' Suicide         '
+	ACTION OPEN loadsample 37
+	TEXT ADD  ' [Size {R37]   '
+	ENTRY AT 41 ' Laugh           '
+	ACTION OPEN loadsample 38
+	TEXT AT 58  ' [Size {R38]'
+	BLANK
+
+	TEXT '     '
+	ENTRY ADD ' Thrown off Edge '
+	ACTION OPEN loadsample 42
+	TEXT ADD  ' [Size {R42]   '
+	ENTRY AT 41 ' Give Up/Skip Go '
+	ACTION OPEN loadsample 50
+	TEXT AT 58  ' [Size {R50]'
+	BLANK
+
+	TEXT '     '
+	ENTRY ADD ' Dragon Punch    '
+	ACTION OPEN loadsample 52
+	TEXT ADD  ' [Size {R52]   '
+	ENTRY AT 41 ' First Blood     '
+	ACTION OPEN loadsample 60
+	TEXT AT 58  ' [Size {R60]'
+	BLANK
+
+	TEXT '     '
+	ENTRY ADD ' Collect a crate '
+	ACTION OPEN loadsample 67
+	TEXT ADD  ' [Size {R67]   '
+	ENTRY AT 41 ' Victory         '
+	ACTION OPEN loadsample 68
+	TEXT AT 58  ' [Size {R68]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+
+BOX menumiscfx
+	POSITION OLD-10 1
+	SIZE 80 0
+	OUTSIDE CLOSE
+	TITLE ' Miscellaneous FX '
+	LINE
+	BLANK
+	TEXT '   '
+	ENTRY ADD ' Airstrike     '
+	ACTION OPEN loadsample 66
+	TEXT ADD ' [Size {R66]'
+	ENTRY AT 40 ' Bazooka FX    '
+	ACTION OPEN loadsample 43
+	TEXT AT 56 '[Size {R43]'
+	BLANK
+
+	TEXT '   '
+	ENTRY ADD ' Sheep FX      '
+	ACTION OPEN loadsample 17
+	TEXT ADD ' [Size {R17]'
+	ENTRY AT 40 ' Explosion     '
+	ACTION OPEN loadsample 55
+	TEXT AT 56 '[Size {R55]'
+	BLANK
+
+	TEXT '   '
+	ENTRY ADD ' Drill FX      '
+	ACTION OPEN loadsample 53
+	TEXT ADD ' [Size {R53]'
+	ENTRY AT 40 ' BlowTorch FX  '
+	ACTION OPEN loadsample 44
+	TEXT AT 56 '[Size {R44]'
+	BLANK
+
+	TEXT '   '
+	ENTRY ADD ' Punch         '
+	ACTION OPEN loadsample 11
+	TEXT ADD ' [Size {R11]'
+	ENTRY AT 40 ' Jumped to far '
+	ACTION OPEN loadsample 25
+	TEXT AT 56 '[Size {R25]'
+	BLANK
+
+	TEXT '   '
+	ENTRY ADD ' Shotgun FX ...  '
+	ACTION OPEN menushotgun
+	ENTRY AT 40 ' Teleport FX ... '
+	ACTION OPEN menuteleport
+	BLANK
+	TEXT '   '
+	ENTRY ADD ' Jump Sounds ... '
+	ACTION OPEN menujump
+	BLANK
+
+	TEXT '   '
+	ENTRY ADD ' Pull head out of ground   '
+	ACTION OPEN loadsample 10
+	TEXT ADD '  [Size {R10]'
+	BLANK
+	TEXT '   '
+	ENTRY ADD ' Hit the ground Head First '
+	ACTION OPEN loadsample 20
+	TEXT ADD '  [Size {R20]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+BOX menujump
+	POSITION OLD+10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' Jump '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Jump1 '
+	ACTION OPEN loadsample 32
+	TEXT ADD RIGHT '  [Size {R32]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Jump2 '
+	ACTION OPEN loadsample 33
+	TEXT ADD RIGHT '  [Size {R33]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+BOX menuteleport
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' Teleport FX '
+	LINE
+	BLANK
+	BLANK 5
+	ENTRY ADD ' Teleporting '
+	ACTION OPEN loadsample 18
+	TEXT ADD RIGHT '  [Size {R18]'
+	BLANK
+	BLANK 5
+	ENTRY ADD ' Communicator '
+	ACTION OPEN loadsample 49
+	TEXT ADD RIGHT '  [Size {R49]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menushotgun
+	POSITION OLD+10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' Shotgun FX '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Fire Shotgun '
+	ACTION OPEN loadsample 13
+	TEXT ADD RIGHT '  [Size {R13]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Reload Shotgun '
+	ACTION OPEN loadsample 12
+	TEXT ADD RIGHT '  [Size {R12]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menucool
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' I just made a Cool Shot '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Perfect! '
+	ACTION OPEN loadsample 9
+	TEXT ADD RIGHT '  [Size {R09]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Excellent '
+	ACTION OPEN loadsample 54
+	TEXT ADD RIGHT '  [Size {R54]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menuslide
+	POSITION OLD-10 OLD-8
+	OUTSIDE CLOSE
+	TITLE ' Sliding and Hurting '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooff1 '
+	ACTION OPEN loadsample 3
+	TEXT ADD RIGHT '  Sliding/Hurting [Size {R03]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooff2 '
+	ACTION OPEN loadsample 4
+	TEXT ADD RIGHT '  Sliding/Hurting [Size {R04]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooff3 '
+	ACTION OPEN loadsample 5
+	TEXT ADD RIGHT '  Sliding/Hurting [Size {R05]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooww1 '
+	ACTION OPEN loadsample 6
+	TEXT ADD RIGHT '  Hurting [Size {R06]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooww2 '
+	ACTION OPEN loadsample 7
+	TEXT ADD RIGHT '  Hurting [Size {R07]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oooww3 '
+	ACTION OPEN loadsample 8
+	TEXT ADD RIGHT '  Hurting [Size {R08]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menuwormdie
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' What a worm says when it Dies '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oh Dear! '
+	ACTION OPEN loadsample 1
+	TEXT ADD RIGHT '  [Size {R01]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' ByeBye '
+	ACTION OPEN loadsample 47
+	TEXT ADD RIGHT '  [Size {R47]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menuteammate
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' You hit your own Team Mate '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Oi! Nutter '
+	ACTION OPEN loadsample 2
+	TEXT ADD RIGHT '  [Size {R02]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Stupid! '
+	ACTION OPEN loadsample 15
+	TEXT ADD RIGHT '  [Size {R15]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Traitor! '
+	ACTION OPEN loadsample 19
+	TEXT ADD RIGHT '  [Size {R19]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menugrenade
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' When a Grenade Lands nearby '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Take Cover '
+	ACTION OPEN loadsample 16
+	TEXT ADD RIGHT '  [Size {R16]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' What The? '
+	ACTION OPEN loadsample 23
+	TEXT ADD RIGHT '  just before explosion [Size {R23]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Grenade '
+	ACTION OPEN loadsample 31
+	TEXT ADD RIGHT '  [Size {R31]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menufire
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' As You Fire '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Watch This '
+	ACTION OPEN loadsample 22
+	TEXT ADD RIGHT '  [Size {R22]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Fire! '
+	ACTION OPEN loadsample 58
+	TEXT ADD RIGHT '  [Size {R58]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Die! '
+	ACTION OPEN loadsample 51
+	TEXT ADD RIGHT '  [Size {R51]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+BOX menubadshot
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' When you miss/Have a bad shot '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Whoops! '
+	ACTION OPEN loadsample 24
+	TEXT ADD RIGHT '  [Size {R24]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Missed! '
+	ACTION OPEN loadsample 41
+	TEXT ADD RIGHT '  [Size {R41]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+BOX menubungee
+	POSITION OLD-10 OLD-4
+	OUTSIDE CLOSE
+	TITLE ' Bungee and Rope '
+	LINE
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Scream Bungee '
+	ACTION OPEN loadsample 46
+	TEXT ADD RIGHT '  [Size {R46]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Wheeeee '
+	ACTION OPEN loadsample 62
+	TEXT ADD RIGHT '  [Size {R62]'
+	BLANK
+	TEXT '     '
+	ENTRY ADD ' Whooooo '
+	ACTION OPEN loadsample 63
+	TEXT ADD RIGHT '  [Size {R63]'
+	BLANK
+	ENTRY RIGHT ' CLOSE {BNN '
+	ACTION CLOSE
+
+
+
+
+BOX helpexit
+	POSITION OLD-7 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' Quit Back to DOS '
+	BLANK
+
+
+BOX helpchangesounds
+	POSITION OLD-8 OLD-3
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' This button will allow you to '
+	TEXT CENTER ' change the many sound samples '
+	TEXT CENTER ' used in the game '
+	BLANK
+
+BOX helploadset
+	POSITION OLD-5 OLD-3
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' This button will give you a list '
+	TEXT CENTER 'of SOUND SETS you can load'
+	BLANK
+
+BOX helpsaveset
+	POSITION OLD-10 OLD-3
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' This button will give you a list '
+	TEXT CENTER ' of SOUND SETS you can save or allow '
+	TEXT CENTER ' you to enter your own file name '
+	BLANK
+
+BOX helpclose
+	POSITION OLD-1 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' Close current window '
+	BLANK
+BOX currentpath
+	POSITION OLD-1 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' This shows the current Path '
+	TEXT CENTER ' If you Leftclick here it will'
+	TEXT CENTER ' take you back one level '
+	BLANK
+BOX availablefiles
+	POSITION OLD-1 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' The files/Directories you '
+	TEXT CENTER ' have access to '
+	BLANK
+BOX saveselection
+	POSITION OLD-7 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' Save your SOUND SET '
+	BLANK
+BOX loadasample
+	POSITION OLD-7 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' Load your SOUND Sample '
+	BLANK
+BOX loadaset
+	POSITION OLD-7 OLD-1
+	AUTOCLOSE
+	BLANK
+	TEXT CENTER ' Load your SOUND SET '
+	BLANK
+
+
+
+BOX loadsample
+	POSITION OLD+20 OLD-7
+	OUTSIDE CLOSE
+	DOUBLE LOAD
+	DIRECTORY *.raw *.sfx
+	TITLE ' Load a sample File '
+	LINE
+	TEXT ' '
+	ENTRY ADD '{F14{B00{P'
+	ACTION BACK
+	HELP currentpath
+	TEXT ' {BXXзддддддддддддддддддддддд©'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A030 '
+	ACTION TOP
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N0'
+	ACTION COPY 0
+	HELP availablefiles
+	TEXT ADD '{B03 {S0{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 20
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N1'
+	ACTION COPY 1
+	HELP availablefiles
+	TEXT ADD '{B03 {S1{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N2'
+	ACTION COPY 2
+	HELP availablefiles
+	TEXT ADD '{B03 {S2{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N3'
+	ACTION COPY 3
+	HELP availablefiles
+	TEXT ADD '{B03 {S3{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N4'
+	ACTION COPY 4
+	HELP availablefiles
+	TEXT ADD '{B03 {S4{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N5'
+	ACTION COPY 5
+	HELP availablefiles
+	TEXT ADD '{B03 {S5{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N6'
+	ACTION COPY 6
+	HELP availablefiles
+	TEXT ADD '{B03 {S6{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N7'
+	ACTION COPY 7
+	HELP availablefiles
+	TEXT ADD '{B03 {S7{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N8'
+	ACTION COPY 8
+	HELP availablefiles
+	TEXT ADD '{B03 {S8{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N9'
+	ACTION COPY 9
+	HELP availablefiles
+	TEXT ADD '{B03 {S9{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 20
+	TEXT ' {BXXюддддддддддддддддддддддды'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A031 '
+	ACTION BOTTOM
+	TEXT ' Current File: {F15{C'
+	TEXT ' '
+	ENTRY ADD '  LOAD  '
+	ACTION LOAD
+	HELP loadasample
+	BLANK 10
+	ENTRY ADD ' CANCEL '
+	ACTION CLOSE
+	HELP helpclose
+
+BOX loadall
+	POSITION OLD+20 OLD-7
+	OUTSIDE CLOSE
+	DOUBLE LOADALL
+	DIRECTORY *.sfx
+	TITLE ' Load a sound set '
+	LINE
+	TEXT ' '
+	ENTRY ADD '{F14{B00{P'
+	ACTION BACK
+	HELP currentpath
+	TEXT ' {BXXзддддддддддддддддддддддд©'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A030 '
+	ACTION TOP
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N0'
+	ACTION COPY 0
+	HELP availablefiles
+	TEXT ADD '{B03 {S0{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 20
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N1'
+	ACTION COPY 1
+	HELP availablefiles
+	TEXT ADD '{B03 {S1{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N2'
+	ACTION COPY 2
+	HELP availablefiles
+	TEXT ADD '{B03 {S2{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N3'
+	ACTION COPY 3
+	HELP availablefiles
+	TEXT ADD '{B03 {S3{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N4'
+	ACTION COPY 4
+	HELP availablefiles
+	TEXT ADD '{B03 {S4{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N5'
+	ACTION COPY 5
+	HELP availablefiles
+	TEXT ADD '{B03 {S5{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N6'
+	ACTION COPY 6
+	HELP availablefiles
+	TEXT ADD '{B03 {S6{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N7'
+	ACTION COPY 7
+	HELP availablefiles
+	TEXT ADD '{B03 {S7{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N8'
+	ACTION COPY 8
+	HELP availablefiles
+	TEXT ADD '{B03 {S8{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N9'
+	ACTION COPY 9
+	HELP availablefiles
+	TEXT ADD '{B03 {S9{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 20
+	TEXT ' {BXXюддддддддддддддддддддддды'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A031 '
+	ACTION BOTTOM
+	TEXT ' Current File: {F15{C'
+	TEXT ' '
+	ENTRY ADD '  LOAD  '
+	ACTION LOADALL
+	HELP loadaset
+	BLANK 10
+	ENTRY ADD ' CANCEL '
+	ACTION CLOSE
+	HELP helpclose
+
+
+BOX saveset
+	POSITION OLD+20 OLD-7
+	OUTSIDE CLOSE
+	DOUBLE SAVEALL
+	DIRECTORY *.sfx
+	TITLE ' Save a sound set '
+	LINE
+	TEXT ' '
+	ENTRY ADD '{F14{B00{P'
+	ACTION BACK
+	HELP currentpath
+	TEXT ' {BXXзддддддддддддддддддддддд©'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A030 '
+	ACTION TOP
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N0'
+	ACTION COPY 0
+	HELP availablefiles
+	TEXT ADD '{B03 {S0{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 20
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N1'
+	ACTION COPY 1
+	HELP availablefiles
+	TEXT ADD '{B03 {S1{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N2'
+	ACTION COPY 2
+	HELP availablefiles
+	TEXT ADD '{B03 {S2{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N3'
+	ACTION COPY 3
+	HELP availablefiles
+	TEXT ADD '{B03 {S3{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N4'
+	ACTION COPY 4
+	HELP availablefiles
+	TEXT ADD '{B03 {S4{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A024 '
+	ACTION UP 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N5'
+	ACTION COPY 5
+	HELP availablefiles
+	TEXT ADD '{B03 {S5{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 1
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N6'
+	ACTION COPY 6
+	HELP availablefiles
+	TEXT ADD '{B03 {S6{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 5
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N7'
+	ACTION COPY 7
+	HELP availablefiles
+	TEXT ADD '{B03 {S7{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N8'
+	ACTION COPY 8
+	HELP availablefiles
+	TEXT ADD '{B03 {S8{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 10
+	TEXT ' {BXXЁ'
+	ENTRY ADD '{B03{N9'
+	ACTION COPY 9
+	HELP availablefiles
+	TEXT ADD '{B03 {S9{BXXЁ'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A025 '
+	ACTION DOWN 20
+	TEXT ' {BXXюддддддддддддддддддддддды'
+	BLANK 1
+	ENTRY ADD '{F03{BXX {A031 '
+	ACTION BOTTOM
+	TEXT ' Current File: '
+	ENTRY ADD '{B08{C'
+	ACTION INPUT
+	TEXT ' '
+	ENTRY ADD '  SAVE  '
+	ACTION SAVEALL
+	HELP saveselection
+	BLANK 10
+	ENTRY ADD ' CANCEL '
+	ACTION CLOSE
+	HELP helpclose
+
+
+
+
+
+
+; ERROR messages
+
+
+
+
+
+BOX tobig
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12File [{C] is to big'
+TEXT CENTER '{B08{F12This file must be less than 760kb'
+
+BOX nomemory
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12Out of memory'
+TEXT CENTER '{B08{F12I do not have enough RAM'
+TEXT CENTER '{B08{F12to allocate this file [{C]'
+
+BOX notthere
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12{B08Could not find file'
+TEXT CENTER '{B08{F12[{C]'
+TEXT CENTER 'Where is it'
+
+BOX tosmall
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12[{C] File is not'
+TEXT CENTER '{B08{F12a sound set file'
+
+BOX savetobig
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12This SOUND SET is to big'
+TEXT CENTER '{B08{F12The sound set must not'
+TEXT CENTER '{B08{F12exceed 760kb'
+
+BOX cannotcreate
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12I can not create file'
+TEXT CENTER '{B08{F12[{C]'
+
+BOX errorfull
+POSITION OLD-5 OLD-2
+OUTSIDE CLOSE
+TEXT CENTER '{B08{F12 Sorry you must load '
+TEXT CENTER '{B08{F12 a Sound Set first '
+
+BOX end
+
+
+
+

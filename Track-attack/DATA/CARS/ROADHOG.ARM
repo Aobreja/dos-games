@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATDEF "HOGTREAD"         SHADED FLAT <4,4,4>
+MATDEF "HOGWHEEL" TRANS SHADED TEXT data\cars\animbase\roadhog.whl
+MATDEF "HOGWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "HOGRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "HOGRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "HOGRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "HOGRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "HOGBONNET"        SHADED TEXT data\cars\mustang\grey\h04.bpp
+MATDEF "HOGWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "HOGFRONT_WINGS"   SHADED TEXT data\cars\mustang\grey\h03.bpp
+MATDEF "HOGREAR_WINGS"    SHADED TEXT data\cars\mustang\grey\h02.bpp
+MATDEF "HOGDOORS"         SHADED TEXT data\cars\mustang\grey\h01.bpp
+MATDEF "HOGBOTTOM"        SHADED TEXT data\cars\mustang\grey\h12.bpp
+MATDEF "HOGTOP (CAB)"     SHADED TEXT data\cars\mustang\grey\h05.bpp
+MATDEF "HOGSIDE_GLASS"    SHADED TEXT data\cars\mustang\grey\h06.bpp
+MATDEF "HOGBACK"          SHADED TEXT data\cars\mustang\grey\h07.bpp
+MATDEF "HOGHEAD LIGHT"    SHADED TEXT data\cars\mustang\grey\h08.bpp
+MATDEF "HOGTAIL LIGHT"    SHADED TEXT data\cars\mustang\grey\h10.bpp
+MATDEF "HOGTAIL LIGHT H"  SHADED TEXT data\cars\mustang\grey\h10a.bpp
+MATDEF "HOGENGINE BLOCK"  SHADED TEXT data\cars\mustang\grey\h09.bpp
+matDEF "HOGTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\roadhog.tur
+
+pf data\cars\roadhog.asc
+
+

@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATdef "GMTREAD"         SHADED FLAT <4,4,4>
+MATdef "GMWHEEL" TRANS SHADED TEXT data\cars\animbase\grnmus.whl
+MATdef "GMWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "GMRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "GMRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATdef "GMRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "GMRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATdef "GMBONNET"        SHADED TEXT data\cars\mustang\green\e04.bpp
+MATdef "GMWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "GMFRONT_WINGS"   SHADED TEXT data\cars\mustang\green\e03.bpp
+MATdef "GMREAR_WINGS"    SHADED TEXT data\cars\mustang\green\e02.bpp
+MATdef "GMDOORS"         SHADED TEXT data\cars\mustang\green\e01.bpp
+MATdef "GMBOTTOM"        SHADED TEXT data\cars\mustang\green\e12.bpp
+MATdef "GMTOP (CAB)"     SHADED TEXT data\cars\mustang\green\e05.bpp
+MATdef "GMSIDE_GLASS"    SHADED TEXT data\cars\mustang\green\e06.bpp
+MATdef "GMBACK"          SHADED TEXT data\cars\mustang\green\e07.bpp
+MATdef "GMHEAD LIGHT"    SHADED TEXT data\cars\mustang\green\e08.bpp
+MATdef "GMTAIL LIGHT"    SHADED TEXT data\cars\mustang\green\e10.bpp
+.MATdef "GMTAIL LIGHT H"  SHADED TEXT data\cars\mustang\green\e10a.bpp
+MATdef "GMENGINE BLOCK"  SHADED TEXT data\cars\mustang\green\e09.bpp
+matdef "GMTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\grnmus.tur
+
+pf data\cars\grnmus.asc
+
+

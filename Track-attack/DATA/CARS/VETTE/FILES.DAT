@@ -1,0 +1,70 @@
+
+Arc Developments batch converter (c) Alistair Hale  1993
+9999 files processed ...
+
+
+   NTR02.LBM ->    NTR02.BPP  width 640 depth 400
+Non-background pens set in palette are
+ 0-127, 136-255
+Total of 242 pens set to non-background
+;-------------------------------------------------------------------------------
+
+   NTR01.LBM ->    NTR01.BPP  width 640 depth 400
+Non-background pens set in palette are
+ 0-127, 136-255
+Total of 242 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  SRAM03.LBM ->   SRAM03.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  SRAM02.LBM ->   SRAM02.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  SRAM01.LBM ->   SRAM01.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  SRAM04.LBM ->   SRAM04.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  MRAM03.LBM ->   MRAM03.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  MRAM04.LBM ->   MRAM04.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  MRAM01.LBM ->   MRAM01.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  MRAM02.LBM ->   MRAM02.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------
+
+  MRAM00.LBM ->   MRAM00.BPP  width  64 depth  64
+Non-background pens set in palette are
+ 0-255
+Total of 247 pens set to non-background
+;-------------------------------------------------------------------------------

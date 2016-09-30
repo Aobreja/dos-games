@@ -1,0 +1,65 @@
+CONTENTS OF THIS CD...
+----------------------
+
+Directory               Contents
+---------               --------------------------------------------------
+DATA                    GAME FILES (Some are copied to your Hard Drive)
+DATA/CUSTOM/GFX         CUSTOM GRAPHICS FILES
+DATA/CUSTOM/SFX         CUSTOM SOUND-BANK FILES
+FMV                     FULL MOTION VIDEO FILES  (Non-standard .AVI files)
+PATCHES                 ALL PATCHES RELEASED FOR "WORMS" AND RELEVENT DOCS
+DOCS                    COLLECTION OF ALL TEXT FILES FOUND ON THIS CD
+UTILS                   CUSTOM FILE TOOLS AND DOCS
+
+
+Programs Included
+-----------------
+VIEW.EXE                Text file viewer (C)1995/1996 Team17.
+INSTALL.EXE             Worms:Reinforcements Installer.
+DOS4GW.EXE              Dos Extender required by game.
+UTILS/BANKEDIT.EXE      Custom Sample Bank editor.
+UTILS/WORMVERT.EXE      Custom Graphics File editor.
+UTILS/CONVERT.EXE       Freeware Sound conversion utility.
+
+
+Documents Included      [Read them with VIEW <name>  ]
+------------------
+INSTALL.TXT             Notes on installation.
+TROUBLE.TXT             Notes on troubleshooting.
+WIN95.TXT               Specific notes regarding WORMS and WINDOWS'95
+DOCS/NETINFO.TXT        Notes regarding NETWORK play
+DOCS/CUSTOM.TXT         Notes regarding CUSTOM GRAPHICS PRODUCTION & USE
+DOCS/CONVERT.TXT        Notes regarding CONVERTING CUSTOM SOUND FILES
+DOCS/PATCHES.TXT        Notes regarding supplied Patches
+UTILS/SAMPLES.TXT       Notes on achieving best sampling results for Worms
+UTILS/CONTENTS.TXT      This document
+UTILS/CONVERT.DOC       Document on CONVERT.EXE (Freeware)
+UTILS/CONVERT.REV       Revision history of above program
+UTILS/BANKEDIT.TXT      Document regarding the sample-bank compiler
+NETWORM.BAT             Batch file for running the game on an IPX LAN
+SERIAL.BAT              Batch file for running the game on null modem
+MODEIN.BAT              Set-up batch file for a recieving Modem
+MODEOUT.BAT             Set-up batch file for a calling Modem
+
+
+CONTACTING TEAM17...
+--------------------
+Team17 Software Limited, Longlands House,
+Wakefield Road, Ossett, West Yorkshire, England WF5 9JS.
+
+Tel. +44 (0)1924 271637 (09:00 - 17:00 GMT)
+Fax. +44 (0)1924 267658 (24hrs)
+
+Email:          Technical Assistance    :       support@team17.com
+		General Enquiries       :       dudes@team17.com
+		Worms Specific Mail     :       worms@team17.com
+
+World Wide Web:
+
+		http://www.team17.com
+
+		Select the WORM from the main menu.
+
+		Full support for WORMS is available on THE WORLD WIDE WORM
+		Including free custom sounds and levels to play!
+

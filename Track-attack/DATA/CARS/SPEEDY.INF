@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "speTREAD"         SHADED FLAT <4,4,4>
+MATdef "speWHEEL" TRANS SHADED TEXT data\cars\animbase\speedy.whl
+MATdef "speWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "speRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "speRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "speRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "speRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "speENGINE BLOCK"  SHADED TEXT data\cars\vette\v04\h07.bpp
+MATdef "speBACK"          SHADED TEXT data\cars\vette\v04\h10.bpp
+MATdef "speWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "speBOTTOM"        SHADED TEXT data\cars\vette\v04\h11.bpp
+MATdef "speBONNET"        SHADED TEXT data\cars\vette\v04\h01.bpp
+MATdef "speFRONT_WINGS"   SHADED TEXT data\cars\vette\v04\h02.bpp
+MATdef "speTOP (CAB)"     SHADED TEXT data\cars\vette\v04\h05.bpp
+MATdef "speREAR_WINGS"    SHADED TEXT data\cars\vette\v04\h03.bpp
+MATdef "speDOORS"         SHADED TEXT data\cars\vette\v04\h06.bpp
+MATdef "speHEAD LIGHT"    SHADED TEXT data\cars\vette\v04\h04.bpp
+MATdef "speSIDES"         SHADED TEXT data\cars\vette\v04\h08.bpp
+MATdef "speBACKLITES"     SHADED TEXT data\cars\vette\v04\h09.bpp
+matdef "speTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\speedy.tur
+
+pf data\cars\speedy.asc
+
+

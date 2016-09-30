@@ -1,0 +1,99 @@
+SAMPLING YOUR OWN SOUND SETS
+----------------------------
+
+Here are a few useful tips for sampling your own sets of Worms
+Reinforcements sound effects.
+
+Generally, when sampling you should of course try to achieve the best
+sound quality possible. Don't despair if your samples sound a bit
+hissy and rough, after all, you will be working with 8bit samples and
+fairly low sampling frequencies. Chances are you will be surprised to hear
+how well your samples work once they are in the game, even if you thought
+they sounded gritty and "off" when played on their own.
+
+
+Sampling frequency
+------------------
+First of all, you should keep in mind that once in the game, all the
+samples will be played back at exactly 15000 Hz. This means that anything
+sampled at a lower frequency than this will be higher pitched when it
+plays from within the game. Anything sampled at a higher frequency
+than 15000 Hz, will play back slower and with a deeper voice than your
+original sample. If you sample something at, for example, 11 KHz, it will sound
+"Donald Duck"'ified when it is played inside the game. We have indeed
+used this method to create cute and cuddly sounds for some of the worms
+in the custom sound effect sets provided on the Worms Reinforcements CD.
+
+Sampling at these fairly low frequencies may cause certain sounds to
+distort slightly. You will find that you can only go as low as about
+11-12 Khz before sounds such as "s", "f" and "t" start to distort.
+However we do not recommend that you operate with different sample
+frequencies within the same one sound-set, that is, if you want your
+sample-set to sound consistent and sound like the same team of worms.
+Once you have decided on a frequency to use for your sample-set,
+we recommend that you stick to it throughout that set. Commonly, we used
+effects sampled at 12Khz.
+
+Volumes
+-------
+Try to keep all your samples at approximately the same volume. We have
+found that somewhere between 60 and 80 percent of peak volume gives you a
+nice volume balance inside the game. If you get samples that "flatten"
+out at the top or bottom of the sample-display, then you are using a too
+loud input volume, and your samples will "clip", i.e. they will distort.
+
+Saving space
+------------
+You've got a total of 760 Kb for all the sounds in your sound set.
+This means that you will have to try to be economic with the space each
+sample takes, so it's important that you cut off any unused space at the
+beginning or end of each sample.
+
+You will find that some of the sounds in the default sample-set are quite
+long, in particular the "airstrike", "teleport" and "blowtorch" samples.
+In some of our custom sound sets, we have shortened these sounds and thus
+saved about 100 kb of space, leaving those 100 kb free to use for
+more/longer speech samples instead. So if you are experiencing trouble
+with fitting all your samples inside the 760 kb limit, it may be a good
+idea to load up one of these custom sets and use that set as a basis to
+put your own samples into. One such sound set is "Scots", this one has a
+lot of speech and quite short "teleport", "airstrike" and "blowtorch"
+sounds. So if you need a lot of space for your speech, start the bank
+editor, load the set "SCOTS.SFX" and replace all the speech bits with
+your own samples. You will notice that you get about 100 kb more speech
+into this one, than what you would have done if you started off with the
+"default.sfx" file.
+
+Saving time and effort
+----------------------
+If you are setting out to create a complete sound set in one go, as
+quickly and effectively as possible, then you should do things
+systematically. I.E. First get all the samples done and stored, then
+convert the whole batch to raw files in one go, finally start up
+the bank editor and insert all your samples. True, this will not allow
+you to hear each sound inside the game as you capture the samples, but
+it will save you a lot of time by not having to change between the
+different programs, converting the samples to raw-format one at a time,
+and so on.
+
+You may also find that a good way to sample sounds for Worms
+Reinforcements is to start your sampler-software recording, then go
+through the list of samples needed and do several of them in one go,
+into one single sample-file. Afterwards, you can easily and effectively
+split this big sample into smaller ones. Another good reason to
+"mass capture" samples like this is that your voice will be consistant
+throughout the different samples, whereas if you sample one word/sentence
+and then come back for another one half an hour later, your voice or
+expression may not be able to pick up on that same sound.
+
+If you're not in a hurry though, and you just want to have a jolly good
+time making the funniest Worms sounds ever, feel free to sample one sound
+at a time and try them out in the game right away!
+
+
+Happy sampling!!! And please share your funniest sound sets with other
+Worms players by uploading your sets to our FTP site, so we can make it
+publicly available.
+
+The website can be reached at            http:\\www.team17.com
+The FTP server (anonymous connection)    ftp2.team17.com\incoming\

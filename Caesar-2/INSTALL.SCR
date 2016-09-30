@@ -1,0 +1,103 @@
+REM Install script for CaesarII by Impressions/Sierra
+REM     DJM 8/17/95
+
+REM p1 = Destination drive
+REM p2 = Source path
+REM p3 = contents of RESOURCE.CFG
+REM p4 = Destination directory
+
+clear
+
+REM Check dest for disk space
+space %1: 25000 nospace2
+
+REM Set to dest directory, create if needed
+godir %1:%4 cantcreate
+godir %2:\ cantcreate
+
+REM Copy Setup utilities and data files. THESE FILE ARE AT THE ROOT OF THE CD
+copy %2:sierra.exe %1:%4\
+copy %2:bootdisk.exe %1:%4\
+copy %2:sierra.err %1:%4\
+copy %2:interp.err %1:%4\
+rem copy %2:C2check.bat %1:checkcd.bat
+copy %2:what.exe %1:%4\
+copy %2:*.pif %1:%4\
+copy %2:univesa.* %1:%4\
+copy %2:copyrigh %1:%4\
+copy %2:check.exe %1:%4\
+copy %2:install.* %1:%4\
+copy %2:resource.cfg %1:%4\
+copy %2:readme.txt %1:%4\
+
+REM Copy Game components (root dir only)ALL FILES THAT GET COPIED TO THE HARDDRIVE.
+copy %2:\hd\*.* %1:%4\
+
+REM setup caesar2.ini file for running under WIN95
+REM STUB CREATES THE INI FILE THAT TELL AUTORUN HOW TO FIND C2
+stub %1:%4\c2.bat
+
+clear
+
+:INSTALL
+
+REM Create batch file to run game from game directory MAKING THE .BAT FILE FOR CR TO TO RUN FROM
+
+godir %1:%4 cantcreate
+echo @echo off >c2.bat
+echo cls >>c2.bat
+echo havevesa.exe >>c2.bat
+echo if errorlevel 1 UNIVESA.EXE >>c2.bat
+echo ps.exe>>c2.bat
+
+REM *** Do Sound setup *** THIS IS RUNNING SETSOUND FROM THE GAME DIRECTORY
+godir %1:%4
+setsound
+
+REM *** Write out Resource.CFG file ***
+echo %3 >resource.cfg
+echo resaud=%2:\ >>resource.cfg
+echo resmap=%2:\ >>resource.cfg
+echo ressfx=%2:\ >>resource.cfg
+echo rescdisc=%2:\ >>resource.cfg
+echo sync=%2:\ >>resource.cfg
+echo patchDir=%1:%4;%2:\;%2:\patches >>resource.cfg
+echo audiosize=63 >>resource.cfg
+goto done
+
+REM *******THIS SECTION ALLOWS YOU TO PRINT A MESSAGE TO THE USER *********
+:done
+rem cd ..>NUL
+cls
+echo
+echo If you are running under DOS:
+echo ÿTo play Caesar II now:
+echo ÿ   Type C2 and press [ENTER]
+echo
+echo ÿTo play Caesar II later:
+echo ÿ   From the directory of %1:%4,
+echo ÿ   Type C2 and press [ENTER]
+echo
+echo If you are running under Windows 95:
+echo  Caesar II will now automatically start.
+echo
+pause
+goto quit
+
+:cantcreate
+alert Unable to create directory %1:%4
+pause
+goto quit
+
+:nospace2
+cls
+echo
+echo There is not enough space on %1: to install. 
+echo 25 Megabytes of disk space is necessary for
+echo the install.
+echo
+pause
+goto quit
+
+:quit
+end

@@ -1,0 +1,293 @@
+Troubleshooting Guide
+---------------------
+
+Here at Team 17 we endeavour to make our games as compatible with as many 
+machine configurations as is possible within the PC market.
+
+But unfortunately, due to the vast number of hardware manufacturers and
+different system setups, there may be times when some further action may be
+required by you, as the user, to enable you to get up and running.
+
+The aim of this document is to outline the questions we are frequently
+asked and help you avoid calling us up and asking them again!
+
+However, we are confident that the vast majority of WORMS:REINFORCEMENTS
+players will be up and running with a minimum of fuss.
+
+If, at the end of this document, you are still finding that you are unable
+to get the game running fine, then preferably EMAIL us at SUPPORT@TEAM17.COM
+or if it`s extremely urgent, you can call our Tech Support on +44 (0)1924
+271637 during Mon-Fri 09:00-17:00 GMT.
+
+
+
+Why can't I get the game to install?
+------------------------------------
+
+Firstly check the minimum system requirements for this game and make 
+sure your machine complies to all of them.
+
+Ensure that your CD ROM drive is working fine and that you are logged onto
+it. You can do this by typing the name of the device at the command prompt.
+
+Eg. Assuming your CD ROM drive is identified by the letter 'D'...
+
+D:  <enter>
+
+The prompt will then show;      D:\>
+
+To install the game from here, type;
+
+INSTALL  <enter>
+
+If you are using doublespace or any other drive compression software,
+You may have to try installing the game to another uncompressed drive or 
+partition.
+
+If none of the above works try installing the game on another machine, 
+if possible, to see if the disk/disks are faulty or if there is a conflict 
+within your machine. Team17 installation software is written as simple as
+possible and is designed to work on all hardware.
+
+
+-----------------------------------------------------------------------------
+I have installed the game fine, but it is very unstable under Windows 3.0/3.1
+-----------------------------------------------------------------------------
+
+Worms has not been designed to run under Windows 3.0/3.1/3.11. If you have
+this system setup then exit Windows and run/install from DOS.
+
+
+---------------------------------------------------------------------
+I am running the game under Windows 95 but it seems very slow/or have
+sound/memory problems
+---------------------------------------------------------------------
+
+Depending on your Spec, Worms runs slightly slower under Win'95. You will
+also have problems running the game under Windows 95 with only 8Mb of RAM
+or whilst other large applications are running. It is recommended that you
+configure Worms to run in DOS (Single Application Mode). You can do this by
+selecting the WORMS icon and selecting Properties.
+
+Click on PROGRAM and then on ADVANCED. In here, click on the MS-DOS mode
+button and USE CURRENT MS-DOS configuration. You may also like to click on
+the WARN BEFORE ENTERING MS-DOS MODE button to skip the warning box.
+
+Worms will then go to MS-DOS, run, then restart Windows when you have
+finished playing.
+
+Owners of higher spec machines (Eg. Pentium with 16Mb of Ram, should not
+encounter any problems running Worms under Windows).
+
+Note that your MS-DOS must have appropriate sound-drivers and CD drivers
+present, this should work automatically, but you may find that you have to
+re-install DOS versions of the drivers to re-enable them.
+
+
+--------------------------------------------------------------------
+I have installed the game, but when I try and run it, it says that I
+do not have a mouse. But I have and it works fine in Windows.
+--------------------------------------------------------------------
+
+The reason for this is that the game you are running requires a DOS
+mouse driver. When using Windows it automatically loads a program to 
+enable the mouse to work, but when you run the game in DOS this does not 
+happen.
+
+You need to install a DOS mouse driver, which is similar to the same
+program that Windows loads for you. When you purchased your
+machine, or mouse, there would have been a disk that came packaged with 
+the mouse.
+
+Place the mouse disk in your floppy drive and follow the instructions as
+supplied. Installing a mouse driver is usually very quick and efficient. You
+only need to do it once.
+
+If you do not have this disk then you must contact the company where you 
+purchased the machine from.
+
+
+
+-----------------------------------------------------------
+The game plays fine but I don't get any GAME sound effects.
+-----------------------------------------------------------
+
+Firstly check that your speakers are connected correctly and that you 
+can get sound on the test software that came with the soundcard.
+
+Make sure that you have a 100% compatible soundcard and that you have 
+chosen the correct settings in the setup program. For example if your test 
+software states you have a Soundblaster Pro set at A220 I5 D1 then you 
+must make sure that the settings in the setup program match.
+
+Make sure that if you are using a Soundblaster or compatible sound 
+card that you have a "Set Blaster" command in the autoexec.bat file. 
+
+An example of this would be SET BLASTER=A220 I5 D1
+
+If you have a printer connected and your sound card is set to IRQ7, 
+you will need to change this to 5, assuming that this IRQ is free within 
+your system, as the printer is defaulted to this interupt setting and may 
+cause problems.
+
+If your machine only just meets the minimum system requirements, there 
+may not be enough performance/memory left to enable sound effects.
+
+
+
+-------------------------------------------------------------------
+I get the sound effects during the game but I do not get any music.
+-------------------------------------------------------------------
+
+Check that other programs (notably CD player software) can get sound from
+the CD ROM.
+
+Check that the cable that supplys audio signals is connected from your
+CD ROM to your soundcard. This is a small, thin cable with a small 3/4 pin
+square connection.
+
+If the CD ROM light is on, check the output by plugging some personal stereo
+headphones into the CD ROM jack on the front. (Be careful to adjust the
+volume beforehand!)
+
+If you are using the CD rom version of this game and are still  
+experiencing problems, ensure that the surface of the disk is clean and 
+free from dust. This can be done by using a soft dry cloth, preferably a 
+CD cleaning cloth, and lightly stroke the cloth from the center of the 
+disk to the outer edge.
+
+Ensure that your soundcard mixer settings have not got the sound volume
+for the CD ROM output set to zero!
+
+
+--------------------------
+How do I make a Boot Disk?
+--------------------------
+
+If all else fails and you are still experiencing random lock-ups or not
+able to get the game to run correctly then follow the listed steps on how 
+to make a boot disk. This help will eliminate all possible software 
+conflicts.
+
+1> You will need a blank floppy disk inserted into the floppy drive of 
+your machine.
+
+2> At the C:\>_ prompt type Format A:/S and then press the return/enter 
+key. This will produce a system disk.
+
+3> Once this is completed type once again from the C:\>_ prompt 
+
+COPY CONFIG.SYS A:              and then press return.
+
+Once this is complete type
+COPY AUTOEXEC.BAT A:            and then press return.
+
+Once this is complete type A: and press return to log onto the floppy drive. 
+Now type:
+
+EDIT CONFIG.SYS                 and then press return.
+
+You will be presented with a blue screened text editor that contains your 
+computer's configuration file. You will need to remove anything that is 
+not required by the game you are trying to run. The best way to achieve 
+this is to place a REM command at the start of the line, then if you 
+subsequently find you have removed a line that is needed by your system it 
+can easily be replaced by removing the REM statment. If the game uses 
+DOS4GW which is a memory manager you will not need another manager present, 
+and in some cases will cause problems.
+
+An example is given below of the typical config.sys file needed to run
+the game. Obviously you may have a different sound card and CD ROM drive
+so you will need to replace them with your own commands found in your
+config file.
+
+The file below would setup a Soundblaster AWE32, an Aztech CD rom drive 
+and a Microsoft mouse..
+
+rem DEVICE=C:\DOS\HIMEM.SYS
+rem DEVICE=C:\DOS\EMM386.EXE RAM
+rem FILES=50
+rem DOS=UMB
+rem DOS=HIGH
+DEVICE=C:\SB16\DRV\CSP.SYS /UNIT=0 /BLASTER=A:220
+DEVICE=C:\SB16\DRV\CTSB16.SYS /UNIT=0 /BLASTER=A:220 I:5 D:1 H:5 P:330 
+DEVICE=C:\SB16\DRV\CTMMSYS.SYS
+DEVICE=C:\CDROM\SGIDE268.SYS /D:MSCD000
+
+Once you have finished editing your file, press the ALT key and then press 
+F for the file menu and S to save. Press the ALT key again, then F and 
+then X to quit.
+
+Now you need to repeat this process but this time for the autoexec.bat 
+file. So at the A:\>_ prompt type 
+
+EDIT AUTOEXEC.BAT               and then press return.
+
+@ECHO OFF
+PROMPT $P$G
+C:\DOS\MSCDEX.EXE /D:MSCD000
+SET BLASTER=A220 I5 D1 H5 P330 E620 T6
+PATH=C:\WINDOWS;C:\DOS;C:\MSINPUT\MOUSE;C:\SB16
+keyb uk,,C:\DOS\keyboard.sys
+C:\msinput\mouse\mouse                  *NOTE: Check location of MOUSE!*
+
+Once you have finished editing your file, press the ALT key and then 
+press F for the file menu and S to save. Press the ALT key again, then F 
+and then X to quit.
+
+You have now created a boot disk. Leave this disk in the drive and reset 
+your machine.
+
+
+-------------------------------------
+That's great but I'm using Windows 95!
+--------------------------------------
+
+Ok what you need to do is;
+
+Go to your Windows directory and locate the DOSPRMPT file within it.
+Press and hold the right mouse button on this file and drag it to the
+desktop. You will be presented with a list of choices, highlight
+"create shortcut here" and release. Now right-click on the icon that has
+been created.
+
+Once again you are presented with a list of choices, highlight "properties"
+and then left click. You are now shown a box, across the top of this box
+are small menu bars of which one will say "program", click on it.
+
+Click on the button that says advanced. Turn on the statement that says
+"MS-DOS mode" and specify a new MS-DOS configuration.
+
+Now click on the start button that is located on the Windows 95 taskbar, 
+choose "run" and type SYSEDIT in the space provided. You are now presented 
+with your startup files that can be cut and pasted into the "specify a 
+new MS-DOS configuration" window in the box we discussed earlier. 
+
+Now follow the steps mentioned previously about making a boot disk so
+that you remove any programs that may be causing conflicts by entering 
+the REM statement at the start of each line you wish to remove. Once you 
+have done this close all windows by clicking ok, and you have just created 
+a DOS mode for your PC. When you double click on this icon your machine 
+will reset and take you to the DOS loaded system you have specified. To 
+return to Windows simply type exit and your machine will be as normal.
+
+If you are still experiencing trouble and you have tried all the previous 
+suggestions then please contact the Team 17 Tech Support Helpline.
+But before you reach for that phone please make sure that you have a
+complete a listing of your system as is possible. This entails a copy of
+the Config.sys and Autoexec.bat files you are using, the Chip type and
+running speed (i.e 486 DX2 66), the amount of ram that is installed in
+your computer (i.e 8 meg), the make and model of your sound card
+(i.e.Soundblaster Pro), what make and speed of your CD rom (i.e Aztech
+quad speed) and anything else you may feel relevant.
+
+Also make sure you have a pen and paper handy.
+
+Team 17 Tech support can be contacted on 01924 271637 between the hours 
+of 09.00-17:00 GMT Mon-Fri. Or alternatively, email us at SUPPORT@TEAM17.COM
+
+Email is cool as we can include files and suggested configs as attachments!
+
+
+
+

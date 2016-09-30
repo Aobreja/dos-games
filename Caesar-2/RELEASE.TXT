@@ -1,0 +1,585 @@
+
+                           I N S T A L L  3 . 7 5 8
+Version 3.758
+
+   Added logic to force magicExeFiles to always load low. Changes:
+   Made magicExeFiles[] and pointer 'msp" global.
+   Added Bool Autoexecline::isMagicExeFile.
+   Used isMagicExeFile in WriteAutoexec()
+
+
+Version 3.757
+   8-1-95
+   
+   Forced bootdisk autoexec.bat to be written in upper case letters by adding strupr
+   to function BootFile::ReadLine
+   
+   Changed driverstruct vesaDriver to magicExeFiles in bootdisk.cpp.
+   This was done because of the increasing tendency for add on cards such
+   as sound and video to use there own proprietary set up executables.
+   This provides a convienent method to force bootdisk to include recongnized
+   files in the created autoexec.
+ 
+   Added ssinit.exe, diagnose, aweutil, sb16set, sbconfig. To magicExeFiles
+
+Version 3.756
+   7/31/95
+   
+   Forced smartdrv to use autoexec.bat anytime smartdrv.exe is availible.
+   (commented out the install=smartdrv logic).
+   
+   Made smartdrv command upper case.
+   
+   Added int smartDriveAmt to hold default cache size value.
+   
+   Modified -s flag to optionaly set smartdrv cache size in K, Example -s128
+   will set cache to 128K
+   
+   Set smartdrv default to 512K
+   
+   Commented out call to Rap10Detect in snddetct.s. Some SCSI CDROM systems
+   would loss their ability to read CD when this function was called.
+   
+   Changed order of autoexec.bat construction, to put calls to smartdrv after
+   mscdex line (to allow cdrom to be cached).
+
+Version 3.755
+   7/30/95
+ 
+   Fixed bug where bootdisk -p was not loading dos high. Now it uses 
+   himem.sys to do so.
+   
+
+Version 3.754
+   7/30/95   
+   
+   Stopped adding drivers. Fixed uninitiated variable
+   foundCDDriver to force original algolrithm to work. Now, once again
+   any driver in front of a D: in the config.sys file will be added to
+   bootdisk.
+   Sound choices presented to user in a order taken from install.hlp again,
+   by resolving confict in order which Driverlist and textdict where
+   instantiated.
+   
+
+Version 3.753
+
+   Added ATAPI_CD.SYS, NEC_CD.SYS, MTMCDAIS.SYS to driver list.
+   Made command line switches case insensitive.
+   Set Smartdrv to 512K
+
+Version 3.752
+
+   Added NEC_IDE.SYS to needed driver list.
+   Fixed bug where bootdisk.exe was ignoring -p option.
+
+Version 3.751
+   7/18/95
+
+   Sound card detection code for Sound Blaster AWE32 added.
+
+Version 3.750
+   7/14/95   
+
+   Non-Inn version. 
+   Fixed the bug that causes the install program to abort when argv[0] != CWD.
+
+   A list of VESA drivers need by Diamond ATI and Video 7 cards was created,
+   at some point.. not sure when. 
+
+   BOOTDISK.EXE & INSTALL.EXE share the same version id label.
+
+   Fixed bug where resource.cfg was being written out with a space in front
+   of entries like "directory"
+
+   Hardware tests (video speed, cpu speed, cdrom speed) created.
+
+Version 3.748
+   6/7/95
+
+   INN version. Checks the path supplied by the user for the existance of 
+   certain INN specific files or reports bad path.
+
+
+Version 3.745
+   3/17/95
+   
+   Updated CD driver names in Bootdisk.cpp to allow users to make a bootdisk
+   with their CD drvers included. This could get to be an on going problem.
+
+Version 3.744
+   3/14/95
+
+   Smartdrv cache size set to 128k for Alien Legacy. The Kludge of hard
+   coding such a small buffer was deemed acceptable because of the assumption
+   that this would be the last program to ship with a DOS only install.
+   ( Ummm, ya sure ). Also added string to disable write cacheing on dest.
+   drive.
+
+                         
+Version 3.743
+   3/13/95
+
+   Format command now uses /U /V:SIERRA to unconditionaly format and 
+   name the bootdisk. Bootdisk also uses smartdrv /X to turn write caching
+   off on all drives.
+   
+
+Version: 3.742
+   2/27/95
+
+   Changed box borders to characters that translate better.
+
+   Changed disk space free report to round down .1 meg instead of up.
+
+   Added feature that allows script writter to display to the user the disk 
+   space available on a selected drive. The script writer can now use %7
+   which holds the last result of a SPACE script command. Provided the 
+   resource.cfg does not have an space = (size) entry, which disables using
+   'space' in the script.
+
+   space %1: 1 NO_WHERE
+
+   The 1 and NO_WHERE are dummy variables that force a check for at least 
+   1 kb free and jump to label NO_WHERE if the check fails, which it won't. 
+   The important thing is %7 get set to a character string containing 
+   free space.
+
+   echo drive %1: has %7 megs free
+
+   Will print out something like "drive c: has 54.3 megs free".
+   
+   Also fixed some destination path parsing bugs. Users who add \ at the 
+   end of the destination path will not be punished, users who type a space
+   in the path will define end of string at that point and get "bad path"
+   message. 
+
+   Rounded up some missing source files and created a makefile. 
+   Saddly, using bc 3.1 instead of 4.x oh well.
+
+Version: 3.74
+
+  Added feature that allows you to have two different installation
+  sizes.  Instead of using;
+
+     space = (size)
+
+  you can now use;
+
+     polyspac = (small size),(large size)   
+
+  A menu will appear and ask the user to make a selection.
+  The users choice is represented in the script file as
+  a new variable %6.  It can have values of either BIG or SMALL
+  depending on the users selection.  In your script file, you
+  would probably have some code that looks like this:
+  
+  goto %6
+  
+  :SMALL
+    echo installing small version of program
+    goto end
+  
+  :BIG
+    echo installing large version of program
+    goto end
+  
+  :end
+
+Version: 3.73
+
+  Fixed some bugs involving SMARTDRv.  There are some differences 
+  between how DOS 5.x and 6.x deal with this, that are now working.
+  
+  Added detection of SBCONFIG.EXE in the AUTOEXEC.BAT file for
+  sound blaster.  This program is now included in your boot autoexec
+  if it was found in your hard drives autoexec.  Absence of this was
+  causing SoundSet to crash.
+  
+  Install no longer duplicates SET=variables in multi-boot autoexec
+  files.
+  
+  Resolved some bugs involving MSCDEX being loaded multiple times in 
+  autoexec if multi-boot was used.
+  
+  Program can resolve between duplicate programs in config.sys and
+  autoexec.bat files now.  For instance, if you load mouse.sys in
+  config.sys and mouse.com in autoexec.bat, the program only puts
+  mouse.sys in the config.sys file.
+  
+  Fixed a problem where Install was attempting to load your path as
+  an executable in autoexec.bat if you had a directory in your path
+  called \mouse.
+  
+  Modified reading of resource.cfg so that its variables and variable
+  settings are no longer case-sensitive.  This would cause problems if
+  you entered SmartDrv instead of smartdrv, or Yes instead of yes.
+
+Version: 3.72
+
+  Added new .CFG feature to allow you to force SMARTDRV to be
+  included in the config.sys file even if the user does not
+  originally have it there.  This allows disk-intensive games
+  to force SMARTDRV to be loaded.
+  
+  Fixed a small bug that was not recognizing that you had
+  re-inserted the install disk.  It would not allow you to
+  rename install.exe to some other file name.
+  
+  Fixed some bugs relating to CD=yes option.  Install was not
+  recognizing MSCDEX loaded in the config.sys file with the 
+  INSTALL option, (this is new to DOS 6.x).  It was installing
+  the file all the time even if CD=no.  It was also loading the
+  driver.sys file when it wasn't supposed to.
+                                   
+Version: 3.71
+
+  SR941003:  Setting the environment variable %LANGUAGE% to a directory name 
+  instructs the install program to read its supporting files from an alternate 
+  directory.  This was to facilitate foreign language versions of the programs 
+  menu, help text, etc.  Files to be included in this directory are:  .TXT, 
+  .HLP, .SCR, .SIP, README, READ.ME, and any other files unique to language
+  installation.  The program looks on the foreign directory first before 
+  searching in the current directory.
+
+
+Version: 3.70  
+
+  SR941002:  The program used to stop searching for bootdisk files when it 
+  found the first one. Now it continues its search until it finds the one 
+  with the most recent date.
+
+  SR941004:  Boot disk operation was not recognizing INSTALL= instructions 
+  in the config.sys file and thus it was not loading CD ROM TSR drivers 
+  that were being loaded in the config.sys file.  The Boot disk making 
+  feature now recognizes INSTALL=.
+
+  SR941005:  Boot disk operation would choke on multi-boot config and 
+  autoexec files by adding duplicate entries in the boot disk's config.sys.  
+  It now checks to see if the file has already been recognized by the 
+  config.sys parser before adding it to the list of files to process.  
+
+********  Support for this program was transferred over to Dynamix, Inc. ****** 
+
+3.690            7/20/94   Use new names for compression files in DOS
+                 6.22.
+                 
+3.680            4/5/94    Recognize MSCDEX replacements NWCDEX and
+                 CORELCDX.
+                 
+3.670            11/21/93  Detect SADL.DRV (Ed Critchlow).
+                 
+3.661            11/16/93  Copy over CSP.SYS.  Don't load MSCDEX twice
+                 unless one of them is loaded high.
+                 
+3.660            11/14/93  Boot disk maker:  SCI32 protected mode boot
+                 disk (doesn't load things high).  Copies SET BLASTER=
+                 line.  Doesn't abort if can't find DBLSPACE.DRV.
+                 Doesn't use "I=C800-EFFF M3" option to EMM386.
+                 Prompt puts our text on line above prompt.
+                 Other changes:  Fixed SPACE command in script
+                 language to treat argument as unsigned.  Added
+                 "mode=" line to RESOURCE.CFG to use for real mode
+                 (SCI16) programs (for bootdisk maker's benefit).
+                 Better handling of nonexistent or empty drives in
+                 drive selection list.
+                 
+3.648            5/21/93   Boot disk maker:  Make boot disk
+                 AUTOEXEC.BAT go to install destination hard disk,
+                 instead of COMSPEC disk.  Pause after running FORMAT
+                 so user can view FORMAT error messages, if any.
+                 
+3.647            5/13/93   Boot disk maker: fixed FORMAT command
+                 invocation for DOS 3.3.
+                 
+3.645-6          5/10/93   Boot disk maker:  load mouse driver first.
+                 
+3.644            4/26/93   Handle checking for disk compression on a
+                 write-protected drive.  If no space on drive to test,
+                 or if file error, report no compression.  Boot disk
+                 maker:  Support DOS 6's DoubleSpace disk compression.
+                 Load mouse driver last.  Fixed bug if MSCDEX is
+                 loaded but no CD driver is.
+                 
+3.630            3/25/93   Detect Aria sound driver (Ed Critchlow).
+                 
+3.620            3/8/93    Source directory wasn't being set properly.
+                 Allow SPACE script command if RESOURCE.CFG doesn't
+                 contain a "space=" entry.  "directory=" entry was
+                 being written twice to RESOURCE.CFG.
+                 
+3.612            2/25/93   Boot disk maker allows changing to a
+                 directory on boot even if a command isn't specified,
+                 and vice versa.
+                 
+3.611            2/23/93   Fixed bug in user defined directory screen
+                 where the prompt was not adjusted when the
+                 destination drive has been changed.
+                 
+3.610            2/22/93   Drive selection screen.
+                 
+3.600            2/16/93   Added the ability for the install to
+                 operating using files compressed using the SIP
+                 archive format.  The install can also work as normal
+                 without any compression at all.
+                 
+3.590            2/5/93    If MSCDEX specifies more than one CD drive,
+                 both will be looked for in the user's CONFIG.SYS and
+                 used in the boot disk.  If KEYB is used in user's
+                 AUTOEXEC.BAT, it will be used in the boot disk.
+                 Fixed bug where 64K EMS was eaten each time program
+                 was run.
+                 
+3.580            1/12/93   The prompt for the user chosen directory
+                 now includes the slash built into the prompt.  The
+                 user no longer has to provide it.
+                 
+                      The rest of the changes were for the boot disk
+                 maker:  Memory managed boot file lines are detected.
+                 Added improved CD device driver recognition.  Low
+                 density disk can be formatted in high density drive.
+                 EMM386 and HIMEM.SYS now copied to boot disk for
+                 compatibility with compressed hard drives.   CD
+                 drivers are not loaded unless 'CD=yes' appears in
+                 RESOURCE.CFG.  If the game does not require EMS
+                 (indicated by lack of 'minEMS=' line in RESOURCE.CFG)
+                 the boot disk maker won't direct EMM386 to provide
+                 EMS. If the game requires EMS and a CD driver or hard
+                 disk manager is loading (requiring more high memory),
+                 EMM386  will be run with the I=C800-EFFF M3 option.
+                 Lines in AUTOEXEC preceded with '@' are now processed
+                 correctly.  MSCDEX, if found, is loaded twice:  once
+                 high and once low.  This is because if it fails to
+                 load high because of insufficient memory, it won't
+                 load low unless we explicitly tell it to.  Program
+                 now searches entire floppy disk to make sure the disk
+                 with Install is or isn't in the drive.  After boot
+                 disk is made, changes back to install directory on
+                 floppy.  This allows the boot disk maker to work
+                 properly if Install is                 not run from
+                 the root directory of the floppy.
+                 
+3.570            12/17/92  Return an errorlevel from external programs
+                 even if output is redirected (we handle all
+                 redirection of output now).  Made tab character a
+                 delimiter when parsing tokens from script.
+                 
+3.568            11/24/92  Added support for midnone.drv.
+                 
+3.567            10/1/92   Install will now detect if you are on a CD
+                 drive.  Added support for the Microsoft Windows sound
+                 card.
+                 
+3.566            9/29/92   Updated copyright notice.
+                 
+3.565            9/27/92   Fixed a bug so disk errors like disengaging
+                 a floppy too early will be correctly reported.
+                 
+3.564            9/15/92   For the moment, the install will not append
+                 the 220 usually included on the config file line to
+                 indicate the audio port.  A more complete solution is
+                 forthcoming.
+                 
+3.563            9/2/92    Added the /s flag to the copy command. This
+                 performs a copy with echoing to the screen.  Fixed
+                 the 'if exist' command to now work properly.
+                 
+3.562            7/23/92   Program now allows user to pick the
+                 directory where game files will be placed.  Also
+                 added support for the Sound Blaster Pro driver.
+                 
+3.561            6/15/92   After creating boot disk, prompt to replace
+                 boot disk with install disk after prompting to label
+                 boot disk.
+                 
+3.560            6/12/92   After making a boot disk, program asks user
+                 to put Install disk back in.  Corrected Gameblaster
+                 and SoundBlaster number of voices information in
+                 INSTALL.HLP.  Changed help and menu text for EGA640
+                 driver so that it doesn't say RGB monitors are
+                 supported (Dan Foy).
+                 
+3.551            6/10/92   Added several more device drivers to be
+                 copied when making a boot disk.
+                 
+3.550a           6/8/92    (TSN) TSN.CFG wasn't being written on a
+                 reinstall.
+                 
+3.550            5/27/92   Support more drivers when creating boot
+                 disk.
+                 
+3.540            5/26/92   Making a boot disk on a '286 with DOS 5.0
+                 will load DOS high.
+                 
+3.531            5/15/92   Boot disk making function can start game if
+                 directory and startup command provided in
+                 RESOURCE.CFG.  (Version number wasn't incremented.)
+                 
+
+
+3.531a           5/14/92   (TSN) Always write out the password file,
+                 instead of having the script do it on an initial
+                 install.
+                 
+3.531            5/13/92   Fixed bug in 'xxx = none' which made
+                 program think 'no' == 'none'.
+                 
+3.530            5/4/92    Added support for 'xxx = none' resource
+                 file entry so Dynamix can avoid showing the mouse and
+                 memory menus.
+                 
+3.521            4/30/92   Made so "Make boot disk" is never default
+                 choice.
+                 
+3.520            4/27/92   Added 'if exist'.
+                 
+3.511            4/24/92   Fixed another bug where previous install's
+                 config files weren't read properly.
+                 
+3.510            4/24/92   Added concatenation capability to copy
+                 command.
+                 
+3.501            4/24/92   Fixed bug where previous install's config
+                 files weren't read properly.
+                 
+3.500            4/22/92   Added boot disk making function for all
+                 versions of DOS and all CPUs.
+                 
+3.411a           4/21/92   Added password screens for TSN.
+                 
+3.411            3/24/92   Found and worked around bug in Borland C++
+                 in boot disk making module.  Added option in code not
+                 to allow making boot disk, for TSN.
+                 
+3.410            3/20/92   Added DOS 5.0, '386 boot disk making
+                 function.  Fixed some bugs related to faulty
+                 optimization in Borland C++ 3.0.
+                 
+3.400            3/5/92    Converted to Borland C++ 3.0.  Fixed bug
+                 where shelling to a program in the install script
+                 cleared the screen regardless of presence of
+                 indirection.
+                 
+3.396c           1/30/92   (TSN only)  Forwent secondary phone number
+                 for this version.
+                 
+3.396b           1/28/92   (TSN only)  Added secondary phone number
+                 and mailbox number screens.
+                 
+3.396            1/13/92   Fixed bug where shelling to a program in
+                 the install script truncated the command line after
+                 the first argument.
+                 
+3.395a           12/19/91  (TSN only)  Made modem setup string input
+                 field wider (from 35 to 55 chars).
+                 
+3.395            11/21/91  If installing on a network, limit max drive
+                 to install to to Z:.
+                 
+3.394            11/14/91  Improved detection of Sound Blaster on fast
+                 machines (Chris Smith).
+                 
+3.393            11/5/91   Fixed bug when a version number was long,
+                 like 3.393a.  Changed title of TSN phone list window
+                 and allowed wider entries.
+                 
+3.392            11/1/91   Added /q flag to copy command.
+                 
+3.391            10/14/91  Fixed compiler option that was incompatible
+                 with library.
+                 
+3.39             10/8/91   Minor internal changes to support The
+                 Laffer Utilities.  Integrated with library used in
+                 other programs (like View Editor).
+                 
+3.381            10/1/91   (TSN only) Added 9600 baud menu choice.
+                 
+3.38             9/26/91   Added screen at end of install telling user
+                 to send in his warranty card.
+                 
+3.371            9/26/91   Sound and speech choices weren't showing
+                 the user's previous choices on a re-install.  Dan Foy
+                 fixed a bug in detection of a Tandy w/VGA.  Increased
+                 size of version number.  Thousandths will be used for
+                 bug fixes; hundredths for small improvements; tenths
+                 for major improvements; and unit for rewrites.
+                 
+3.37             9/6/91    Fixed YATB (Yet Another Tandy Bug) where
+                 the Tandy would hang while detecting extended memory
+                 if there is none.
+                 
+                 Made right window shadow narrower if in greater than
+                 25-line mode to match size of bottom shadow.
+                 
+                 If an external command is redirected, don't clear
+                 screen.
+                 
+3.36             9/4/91    Help for TSN phone number views a file
+                 containing phone numbers.
+                 
+3.35             8/29/91   Wasn't getting text for joystick menu label
+                 from INSTALL.HLP.
+                 
+3.34             8/28/91   Fixed video display routines to be
+                 compatible with UltraVision.
+                 
+3.33             8/20/91   Clear screen on abort from critical error.
+                 
+3.32             8/19/91   Added ability to execute external programs
+                 and test their return value with new IF ERRORLEVEL
+                 command.
+                 
+                      Fixed bug where port wasn't appended to sound
+                 and audio configuration lines.
+                 
+3.31             8/2/91    Made command log window larger.
+                 
+3.30             7/31/91   Major rewrite of display and window
+                 handling routines.  The display speed is considerably
+                 faster.  A few windows use different colors.
+                 Converted to large memory model, which has made the
+                 program bigger.
+                 
+3.22             7/17/91   Improved error message when a text entry
+                 isn't found.
+                 
+3.21a            7/17/91   (TSN only) New comm port detection.
+                 
+3.21             7/16/91   Added option to view README file.
+                 
+                      When checking for extended memory capability and
+                 0 is reported free, see if someone else might be
+                 using it; otherwise, say the user doesn't have
+                 extended memory capability.  Takes care of cosmetic
+                 problem where a '286 with no extended memory allows
+                 user to "use extra memory" (even though the game
+                 would not actually try to use it).
+                 
+3.20             7/15/91   Converted to acompact model to make more
+                 memory available.  This increased the size of the
+                 program by about 11,500 bytes.
+                 
+3.15                  Fixed bug where a Tandy with no extended memory
+                 could report a bogus amount.
+                 
+3.14                  Fixed bug where a file created by redirection
+                 could be read-only.
+                 
+3.13                  Fixed some bugs having to do with long text
+                 messages (observed when testing Spanish language
+                 version).  Improved detection of full target disk.
+                 
+3.12                  Made the order of driver menu choices dependent
+                 on the order of the associated entries in
+                 INSTALL.HLP.
+                 
+                      Added autodetection for audio (Chris Smith).
+                 
+3.11                  Added floppy = yes entry to default config file.
+                 
+3.10                  Moved all text into text file(s).
+                 
+3.00                  Show menu of default choices.  Read existing
+                 config file.
+
+

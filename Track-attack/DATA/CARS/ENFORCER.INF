@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATDEF "ENFTREAD"         SHADED FLAT <4,4,4>
+MATDEF "ENFWHEEL" TRANS SHADED TEXT data\cars\animbase\enforcer.whl
+MATDEF "ENFWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "ENFRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATDEF "ENFRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATDEF "ENFRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATDEF "ENFRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATDEF "ENFENGINE BLOCK"  SHADED TEXT data\cars\vette\v02\s07.bpp
+MATDEF "ENFBACK"          SHADED TEXT data\cars\vette\v02\s10.bpp
+MATDEF "ENFWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "ENFBOTTOM"        SHADED TEXT data\cars\vette\v02\s11.bpp
+MATDEF "ENFBONNET"        SHADED TEXT data\cars\vette\v02\s01.bpp
+MATDEF "ENFFRONT_WINGS"   SHADED TEXT data\cars\vette\v02\s02.bpp
+MATDEF "ENFTOP (CAB)"     SHADED TEXT data\cars\vette\v02\s05.bpp
+MATDEF "ENFREAR_WINGS"    SHADED TEXT data\cars\vette\v02\s03.bpp
+MATDEF "ENFDOORS"         SHADED TEXT data\cars\vette\v02\s06.bpp
+MATDEF "ENFHEAD LIGHT"    SHADED TEXT data\cars\vette\v02\s04.bpp
+MATDEF "ENFSIDES"         SHADED TEXT data\cars\vette\v02\s08.bpp
+MATDEF "ENFBACKLITES"     SHADED TEXT data\cars\vette\v02\s09.bpp
+matdeF "ENFTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\enforcer.tur
+
+pf data\cars\enforcer.asc
+
+

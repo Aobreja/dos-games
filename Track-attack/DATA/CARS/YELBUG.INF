@@ -1,0 +1,34 @@
+axis 2
+clearbuffer static_backdrop bpp\grid.bpp
+palette car\cued.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "YSIDE RIGHT" SHADED TEXT data\cars\buggy\yellow\yel0017.bpp
+matdef "YSIDE LEFT" SHADED TEXT data\cars\buggy\yellow\yel0018.bpp
+matdef "YTYRE RING"      SHADED FLAT <4,4,4>
+matdef "YRAM RACER WHEELS" TRANS SHADED TEXT data\cars\animbase\yelbug.whl
+matdef "YRAM RACER WHEELS I" TRANS SHADED TWOSIDE TEXT data\cars\animbase\yelbug.whl
+matdef "YWHEELARCH"      SHADED FLAT <16,16,16>
+matdef "YBACK"           SHADED TEXT data\cars\buggy\yellow\yel0006.bpp
+matdef "YTAIL LIGHT"     SHADED TEXT data\cars\buggy\yellow\yel0014.bpp
+matdef "YBONNET"         SHADED TEXT data\cars\buggy\yellow\yel0007.bpp
+matdef "YNOSE"           SHADED TEXT data\cars\buggy\yellow\yel0008.bpp
+matdef "YUNDER CAR"      SHADED TEXT data\cars\buggy\undercar.bpp
+matdef "YENGINE_TOP_1"   TRANS SHADED TWOSIDE TEXT data\cars\buggy\engtop.bpp
+matdef "YENGINE BLOCK"   SHADED TEXT data\cars\buggy\yellow\yel0010.bpp
+matdef "YTOP (CAB)"      SHADED TEXT data\cars\buggy\yellow\yel0005.bpp
+matdef "YSUSSPENSION"    TWOSIDE TRANS SHADED TEXT data\cars\buggy\suspn.bpp
+matdef "YRAM BAR FRONT"  TWOSIDE TRANS SHADED TEXT data\cars\buggy\rambar.bpp
+matdef "YRAM BAR BACK"   TWOSIDE TRANS SHADED TEXT data\cars\buggy\rambar.bpp
+matdef "YRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\buggy\armour.bpp
+matdef "YRAMBAR_right"   TWOSIDE TRANS SHADED TEXT data\cars\buggy\armour.bpp
+matdef "YTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\yelbug.tur
+
+pf data\cars\yelbug.asc
+
+

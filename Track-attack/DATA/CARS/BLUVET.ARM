@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "BVTREAD"         SHADED FLAT <4,4,4>
+MATdef "BVWHEEL" TRANS SHADED TEXT data\cars\animbase\bluvet.whl
+MATdef "BVWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "BVRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "BVRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "BVRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "BVRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "BVENGINE BLOCK"  SHADED TEXT data\cars\vette\v03\e07.bpp
+MATdef "BVBACK"          SHADED TEXT data\cars\vette\v03\e10.bpp
+MATdef "BVWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "BVBOTTOM"        SHADED TEXT data\cars\vette\v03\e11.bpp
+MATdef "BVBONNET"        SHADED TEXT data\cars\vette\v03\e01.bpp
+MATdef "BVFRONT_WINGS"   SHADED TEXT data\cars\vette\v03\e02.bpp
+MATdef "BVTOP (CAB)"     SHADED TEXT data\cars\vette\v03\e05.bpp
+MATdef "BVREAR_WINGS"    SHADED TEXT data\cars\vette\v03\e03.bpp
+MATdef "BVDOORS"         SHADED TEXT data\cars\vette\v03\e06.bpp
+MATdef "BVHEAD LIGHT"    SHADED TEXT data\cars\vette\v03\e04.bpp
+MATdef "BVSIDES"         SHADED TEXT data\cars\vette\v03\e08.bpp
+MATdef "BVBACKLITES"     SHADED TEXT data\cars\vette\v03\e09.bpp
+matdef "BVTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\bluvet.tur
+
+pf data\cars\bluvet.asc
+
+

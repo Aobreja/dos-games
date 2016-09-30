@@ -1,0 +1,185 @@
+------------------------------------------
+GENERATING YOUR OWN CUSTOM GRAPHICS LEVELS
+------------------------------------------
+
+Generating your own custom worm levels has been made easy and fun. You have
+the choice of quickly getting your level into the game, or spending a little
+more time and customising it further through other methods - all of which are
+explained here.
+
+This document is in four parts;
+
+(A)     BASIC (Getting your custom level in there)
+(B)     ADDITIONAL EDITING (Setting Wind/Gravity/Background values)
+(C)     EDITING COLOUR RANGES (For Water/Backgrounds)
+(D)     ADDING YOUR OWN BACKGROUNDS
+
+
+A Basic Steps;
+--------------
+
+1.      Digitise/Source/Draw your artwork, ensuring that the main graphics
+        screen is EXACTLY 960x400 in resolution.
+
+2.      You must ensure that your picture only uses 80 colours and these
+        must be the first 80 colours in the palette. (Colours 0-79, or 00H
+        to 4FH). There are many image processors available that will remap
+        the colours for you, such as GRAPHICS WORKSHOP (C) Alchemy Mindlabs
+        and shareware versions are available from all good PD/Shareware
+        resources. Consult your image processor documentation with respect
+        to "COLOUR REDUCTION" - try different versions with dithering on
+        and off to get the best results.
+
+3.      You must ensure that all areas of your picture that are to be
+        transparent in the game are filled with colour 0. This is the only
+        area that Worms can move and fire. Anything else is treated as
+        solid.
+
+        Also, try and leave a 32 pixel gap at the top of your image as
+        any worms placed here will be obscured by the KO bar. This area of
+        the image will automatically be cropped by WORMS anyway!
+
+4.      Save/Convert your image to ".PCX" format. Again, there are many
+        image processors and utilities available to help you do this.
+
+5.      Use the GFXCON conversion program on the file. This utility auto
+        remaps the palette for use in the game. (See about changing the
+        water colour later in the doc).
+
+6.      Place the file (making sure it has a ".PCX" suffix) in the
+        WORMS/DATA/CUSTOM/GFX directory and load up the game.
+
+7.      On the landscape generation screen, press space and type the
+        name of the file (no need to type ".PCX") and that file should
+        load and play. Providing you have followed the instructions,
+        you should not have any problems.
+
+8.      You can list all the custom graphics levels present on the disk
+        by going to the WORM OPTIONS, LOAD/SAVE OPTIONS and selecting
+        LIST CUSTOM FILES.  You can toggle between sample sets and
+        custom levels.
+
+
+Note:
+-----
+The above procedure is the easiest way to get your image into the game, but
+there is quite a lot more you can do to change the way your level looks
+and reacts - and even sounds...
+
+
+
+B Additional Editing;
+---------------------
+
+".INF" Files
+------------
+If you look at any of the supplied custom levels (in DATA/CUSTOM/GFX) then
+you will notice that each PCX picture file has a relevent INF file along
+with it. This file is a standard text file, you can read/edit it with
+a standard text editor, such as EDIT from DOS or NOTEPAD from Windows.
+
+The .INF file (which should have the same name as your PCX file) allows
+you to; For example the Team17.pcx would have a Team17.inf file.
+
+1) Set the gravity              0 Min
+                                1 Med
+                                2 Max
+
+2) Set the friction (slide)     0 Min
+                                1 Med
+                                2 Max
+
+3) Set the wind strength        0 Off
+                                1 Min
+                                2 Med
+                                3 Max
+
+4) Which background to use      0       Default/Normal
+                                1       Hellish Spiky Mountains
+                                2       Alien Style Mountains
+                                3       Alps Style mountains
+                                4       Alternative Alps style mountains
+                                5       Distant City/Hills
+
+5) Which water set to use       0       Default/Normal       
+                                1       Martian Gloop
+                                2       Lava/Fire
+
+6) Set which CD track to play   0       Forest/Ambient
+                                1       Snow/Ice
+                                2       Hell/Evil
+                                3       Mars/Alien
+                                4       Desert/Arid/Rocks
+                                5       City/Urban
+                                6       Warzone
+                                7       Spooky/Graveyard
+                                8       Bizarre/Crazy/Weird/Dreamstate
+                                9       Farmyard/Alps
+                                10      Znork in Z minor!/Tense Muzak!
+
+The numbers on the top line of the file are seperated by commas and anything 
+below the line is ignored. Do not let that stop you typing some text about
+how you did it, how to get the best out of the level and stuff like that - 
+check the example files that are already on the CD.
+
+If the .PCX file does not have a similar .INF file, then WORMS assumes
+default values.
+
+
+C Editing Colour Ranges;
+------------------------
+
+You can change the colour ranges of the water and the backgrounds by editing
+the .PCX file AFTER you have used the GFXCON program. Note: If you edit it
+before, the GFXCON program inserts default colours on re-writing the file!
+
+Water:                             16 Colours, in the palette these
+                                   are ranges 80-95  (50H-5FH). A spread of
+                                   1 colour is usually best. 
+
+Background layer 1 (front layer):  16 Colours, in the palette these are
+                                   ranges 16-31 (10H-1FH). You will have to
+                                   check depending on the chosen background
+                                   graphic, to see what is best as some gfx
+                                   have cities in them etc.
+
+Background layer 2 (back layer);   47 Colours, in the palette these are
+                                   ranges 129-175 (81H-AFH). Remember that
+                                   the top half of mountain graphics is
+                                   usually the sky.
+
+You can also copy one of the .BK1 and .BK2 sets (which are background layers)
+and rename them to the name of your .PCX file. These will then be loaded
+instead without the need to edit the .PCX file colour ranges.
+
+
+D Adding Background Graphics;
+-----------------------------
+
+A facility for adding your own backgrounds has been added. You must draw them
+in the following sizes and colour-resolutions only;
+
+Background layer 1;     320x200         16 colours (Colour 0 is transparent)
+Background layer 2;     320x200         48 colours (Colour 0 is transparent)
+                                        Note: The bottom line of pixels MUST
+                                        be all the same colour!
+
+The colours must be in the first 16/48 respectively and the program will
+automatically map the colours into the appropriate palette range in the game.
+
+When done, name the files <name>.BK1 and <name>.BK2 - the same as your
+<name>.PCX file and <name>.INF files.  If .BK1 and .BK2 exist, they will
+auto-load, replacing the setting in the .INF file for background graphics
+and the colour range you set for the background layers in your .PCX file.
+
+And that`s about it... Phew!
+
+If you produce any stunning levels, do not be afraid to send them to us!
+Prizes await the best ones and we`ll put good ones on our site for all to
+download!
+
+<For reference, see GFXCON.TXT for using the conversion utility>
+
+
+
+

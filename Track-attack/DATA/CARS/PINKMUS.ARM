@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATDEF "pTREAD"         SHADED FLAT <4,4,4>
+MATDEF "pWHEEL" TRANS SHADED TEXT data\cars\animbase\pinkmus.whl
+MATDEF "pWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "pRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\pink\mram03.bpp
+MATDEF "pRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\pink\mram03.bpp
+MATDEF "pRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\pink\sram03.bpp
+MATDEF "pRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\pink\sram03.bpp
+MATDEF "pBONNET"        SHADED TEXT data\cars\mustang\pink\r04.bpp
+MATDEF "pWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "pFRONT_WINGS"   SHADED TEXT data\cars\mustang\pink\r03.bpp
+MATDEF "pREAR_WINGS"    SHADED TEXT data\cars\mustang\pink\r02.bpp
+MATDEF "pDOORS"         SHADED TEXT data\cars\mustang\pink\r01.bpp
+MATDEF "pBOTTOM"        SHADED TEXT data\cars\mustang\pink\r12.bpp
+MATDEF "pTOP (CAB)"     SHADED TEXT data\cars\mustang\pink\r05.bpp
+MATDEF "pSIDE_GLASS"    SHADED TEXT data\cars\mustang\pink\r06.bpp
+MATDEF "pBACK"          SHADED TEXT data\cars\mustang\pink\r07.bpp
+MATDEF "pHEAD LIGHT"    SHADED TEXT data\cars\mustang\pink\r08.bpp
+MATDEF "pTAIL LIGHT"    SHADED TEXT data\cars\mustang\pink\r10.bpp
+MATDEF "pTAIL LIGHT H"  SHADED TEXT data\cars\mustang\pink\r10a.bpp
+MATDEF "pENGINE BLOCK"  SHADED TEXT data\cars\mustang\pink\r09.bpp
+matdef "pTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\pinkmus.tur
+
+pf data\cars\pinkmus.asc
+
+

@@ -1,0 +1,261 @@
+#############################################################################
+#
+# ÜßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ Üßß Üßß Û Û Û Û Û Û Û Û Û Û Û Û
+# ÛßÛ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ ÛßÜ Û Û Û Û ÛßÛ ÛßÛ ÛßÛ ÛßÛ ÛßÛ ÛßÛ
+# ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß ß  ß   ß  ß ß ß ß ß ß ß ß ß ß ß ß
+#
+#############################################################################
+#
+# ÛßÜ ÜßÜ ÛÜ ÜÛ    ÛßÜ ÜßÜ ÜßÜ Ûßß ÛßÜ
+# ÛßÜ ÛßÛ Û ß Û    ÛßÜ ÛßÛ Û Ü Ûß  ÛßÜ
+# ß ß ß ß ß   ß    ß ß ß ß  ß  ßßß ß ß
+#
+# Fondly known as:
+#
+# ÜßÜ Û Û Û Û Üßß
+# Û Ü ÛßÛ Û Û Û Û
+#  ß  ß ß ßßß  ß 
+#
+# But sometimes called:
+#
+# ÛÜ Û ÜßÜ    ÛßÜ ÜßÜ ßÛß ÛÜ Û    ÛÜ Û ÜßÜ    Üßß ÜßÜ ßÛß ÛÜ Û
+# Û ßÛ Û Û    Ûß  ÛßÛ  Û  Û ßÛ    Û ßÛ Û Û    Û Û ÛßÛ  Û  Û ßÛ
+# ß  ß  ß     ß   ß ß ßßß ß  ß    ß  ß  ß      ß  ß ß ßßß ß  ß
+# ÛßÜ ÜßÜ Û   Û    ÛßÜ ÜßÜ Û   Û Ûßß ÛßÜ
+# ÛßÜ ÛßÛ ÛÜßÜÛ    Ûß  Û Û ÛÜßÜÛ Ûß  ÛßÜ
+# ß ß ß ß ß   ß    ß    ß  ß   ß ßßß ß ß
+# Üßß Û   Û ßÛß ßÛß ÜßÜ Û Û ÛßÜ ÜßÜ ÜßÜ Û Üß
+#  ßÜ ÛÜßÜÛ  Û   Û  Û Ü ÛßÛ ÛßÜ ÛßÛ Û Ü ÛßÜ 
+# ßß  ß   ß ßßß  ß   ß  ß ß ßß  ß ß  ß  ß  ß
+# ßÛß ÛßÜ ÜßÜ ÜßÜ Û Üß    ÜßÜ ßÛß ßÛß ÜßÜ ÜßÜ Û Üß
+#  Û  ÛßÜ ÛßÛ Û Ü ÛßÜ     ÛßÛ  Û   Û  ÛßÛ Û Ü ÛßÜ  - errgh!
+#  ß  ß ß ß ß  ß  ß  ß    ß ß  ß   ß  ß ß  ß  ß  ß
+#
+#############################################################################
+#
+# UK version Messages File
+# 
+# Written by Neil Topham
+#
+# (C) Copyright Arc Developments & (C) Copyright Microprose, 1995/1996
+#
+#############################################################################
+#
+# Don't alter this file without prior written permission of the author
+# 
+# ÜßÜ ÛßÜ    Ûßß Û   Üßß Ûßß
+# Û Û ÛßÜ    Ûß  Û    ßÜ Ûß 
+#  ß  ß ß    ßßß ßßß ßß  ßßß
+# 
+#############################################################################
+
+#############################################################################
+#
+# ÛßÜ ÜßÜ ÛÜ Û ßÛß    ÜßÜ Û Û ÜßÜ ÛÜ Û Üßß Ûßß    ßÛß Û Û Ûßß
+# Û Û Û Û Û ßÛ  Û     Û Ü ÛßÛ ÛßÛ Û ßÛ Û Û Ûß      Û  ÛßÛ Ûß 
+# ßß   ß  ß  ß  ß      ß  ß ß ß ß ß  ß  ß  ßßß     ß  ß ß ßßß
+# Ûßß ÜßÜ Û   Û   ÜßÜ Û   Û ßÛß ÛÜ Û Üßß    Û   ßÛß ÛÜ Û Ûßß
+# Ûß  Û Û Û   Û   Û Û ÛÜßÜÛ  Û  Û ßÛ Û Û    Û    Û  Û ßÛ Ûß 
+# ß    ß  ßßß ßßß  ß  ß   ß ßßß ß  ß  ß     ßßß ßßß ß  ß ßßß
+# It's very important that you don't set cheat_mode to On, as this will
+# activate the cheat mode and that will be naughty.
+
+cheat_mode:Off
+
+# Only kidding -- we haven't got a cheat mode.
+
+# So if you were to set this and press the following keys all together,
+# nothing will honestly happen.
+
+# The keys are A Q T F1 H D U S V M I O 5 and [
+
+# Yeah!  Keyboard Twister (tm) rules OK.
+
+# Try it and feel foolish.
+
+#############################################################################
+#
+# The following are the calibrate joystick messages.
+
+jystk_pf:Press fire to calibrate joystick.
+jystk_tl:Move the joystick to the top left and press a fire button.
+jystk_br:Move the joystick to the bottom right and press a fire button.
+jystk_cn:Move the joystick to the centre and press a fire button.
+
+#############################################################################
+#
+# The following is the text displayed when the player selects the CD Player
+# but have chosen the 'No Sound Card' option.
+
+cd_no_sound:You have no sound card selected and so cannot use the CD player. 
+
+#############################################################################
+#
+# The following is the text displayed when the player loads or saves a game.
+
+file_saved:Game saved!
+file_loaded:Game loaded!
+
+#############################################################################
+#
+# In the following (challenge_menu_*) the following
+# mappings occur:
+# %0 => He/She (or equivalent) depending on sex of challenge.
+# %1 => Amount of cash he/she is betting.
+
+challenge_menu_text:Challenges you to a race. %0 bets œ%1 %0 can beat you. Do you accept?
+challenge_menu_he:He
+challenge_menu_she:She
+
+#############################################################################
+#
+# The following are the names of the venues.
+
+venue_name_1:Speed Burn
+venue_name_2:Desert Blur
+venue_name_3:Mountain High
+venue_name_4:Gutter Run
+venue_name_5:Salt Spray
+venue_name_6:High Rise
+venue_name_7:Gator Bite
+venue_name_8:Rocky Ride
+venue_name_9:Beach Blast
+venue_name_10:White Rapid
+venue_name_11:Cross Town Chaos
+venue_name_12:Hyper Quake
+venue_name_13:Mondo Rush
+
+#############################################################################
+#
+# The following are the filenames of the tracks.
+
+track_name_1:tracks\oval.dat
+track_name_2:tracks\desert.dat
+track_name_3:tracks\mount.dat
+track_name_4:tracks\sewer.dat
+track_name_5:tracks\salt.dat
+track_name_6:tracks\high.dat
+track_name_7:tracks\gator.dat
+track_name_8:tracks\rocky.dat
+track_name_9:tracks\beach.dat
+track_name_10:tracks\white.dat
+track_name_11:tracks\cross.dat
+track_name_12:tracks\quake.dat
+track_name_13:tracks\oval.dat
+
+#############################################################################
+#
+# The following is the text displayed in the AutoShop (tm)
+
+# Components
+
+as_wheels:Wheels
+as_ram_plates:Ram Plates
+as_armour:Armour
+as_engine:Engine
+as_shell:Shell
+
+# The messages
+
+as_no_upgrade:You cannot afford this upgrade to your %0.
+as_no_od:You have been granted an overdraft by the bank to repair your %0.
+as_no_repair:You cannot afford to repair your %0 to this level, try using a cheaper component.
+as_no_exit:You must repair all damaged components before exiting the autoshop.
+
+#############################################################################
+#
+# The following are the titles used in the load/save menu
+
+saveload_normal:Load and Save
+saveload_load:Load Game
+saveload_save:Save Game
+
+#############################################################################
+#
+# The following are the names of each of the computer drivers
+# They are prefixed by F; for female and M; for male
+
+driver_name_1:M;Dave Surfer Lowery
+driver_name_2:M;Dan Road Hog Hickman
+driver_name_3:F;Juanita Speedy Gonzales
+driver_name_4:F;Angie Showtime Rue
+driver_name_5:M;Ed Raging Bird Greene
+driver_name_6:M;Georgio Lucky Luciano
+driver_name_7:F;Babs Space Cadet Jones
+driver_name_8:F;Anna The Cossack Kutusak
+driver_name_9:M;Max The Enforcer Reed
+driver_name_10:F;Jane Fire Brand Summers
+driver_name_11:F;Grace Nitro Curtis
+driver_name_12:F;The Snow Queen
+driver_name_13:M;Bob Ram Master Stax
+driver_name_14:M;Mishiro Ronin Toyoda
+driver_name_15:F;Maria The Panther Rodriquez
+driver_name_16:M;Hans The Blitzer Shultz
+driver_name_17:M;Steve Megablaster Herd
+driver_name_18:F;Catherine Can Can D'Clere
+
+#############################################################################
+#
+# The following are car info filenames for each of the computer drivers
+
+car_name_1:data\cars\surfer.dat
+car_name_2:data\cars\roadhog.dat
+car_name_3:data\cars\speedy.dat
+car_name_4:data\cars\voodoo.dat
+car_name_5:data\cars\ragebird.dat
+car_name_6:data\cars\lucky.dat
+car_name_7:data\cars\cadet.dat
+car_name_8:data\cars\cossack.dat
+car_name_9:data\cars\enforcer.dat
+car_name_10:data\cars\brand.dat
+car_name_11:data\cars\enemy.dat
+car_name_12:data\cars\queen.dat
+car_name_13:data\cars\master.dat
+car_name_14:data\cars\ronin.dat
+car_name_15:data\cars\stiletto.dat
+car_name_16:data\cars\blitzer.dat
+car_name_17:data\cars\saracen.dat
+car_name_18:data\cars\blaster.dat
+
+#############################################################################
+#
+# The following are car info filename that the player can use
+
+driver_car_0:data\cars\redbug.dat
+driver_car_1:data\cars\grymus.dat
+driver_car_2:data\cars\yelmus.dat
+driver_car_3:data\cars\pinkmus.dat
+driver_car_4:data\cars\redbug.dat
+driver_car_5:data\cars\grymus.dat
+driver_car_6:data\cars\yelmus.dat
+driver_car_7:data\cars\pinkmus.dat
+driver_car_8:data\cars\redbug.dat
+driver_car_9:data\cars\grymus.dat
+driver_car_10:data\cars\yelmus.dat
+driver_car_11:data\cars\pinkmus.dat
+driver_car_12:data\cars\redbug.dat
+driver_car_13:data\cars\grymus.dat
+driver_car_14:data\cars\yelmus.dat
+driver_car_15:data\cars\pinkmus.dat
+
+#############################################################################
+#
+# The following are car info filename that the player can use
+
+car_desc_0:Red bugger
+car_desc_1:Grey mustang
+car_desc_2:Yeller mustang
+car_desc_3:Puffy pink mustang
+car_desc_4:Red bugger
+car_desc_5:Grey mustang
+car_desc_6:Yeller mustang
+car_desc_7:Puffy pink mustang
+car_desc_8:Red bugger
+car_desc_9:Grey mustang
+car_desc_10:Yeller mustang
+car_desc_11:Puffy pink mustang
+car_desc_12:Red bugger
+car_desc_13:Grey mustang
+car_desc_14:Yeller mustang
+car_desc_15:Puffy pink mustang
+

@@ -1,0 +1,135 @@
+RAMRACER TECHNICAL SPECIFICATION
+
+Target machine minimum specification
+____________________________________
+
+PC 486
+The game will include options to reduce the detail levels.
+For example -
+	Light sourcing can be turned off.
+	Texture maps can be turned off in the distance.
+	Perspective texture mapping can be turned off.
+	Reduced screen size.
+	Fewer polygons can be displayed in the distance.
+
+
+
+Sound cards to be supported
+___________________________
+
+All sound cards from the minimum specification should be supported.
+However, ARC will need assistance in obtaining drivers for some
+of the devices.
+
+
+
+Screen resolutions and colours supported
+________________________________________
+
+The standard game will run in normal 256 colour VGA.
+There MAY be an option to run in 256 colour SVGA, but only for the
+very fast machines.
+
+
+
+Maximum number of polygons in 3D engine
+_______________________________________
+
+This is difficult to quantify because it depends on a multitude of factors.
+These are -
+	Machine speed.
+	Video card speed.
+	Polygon size, mapping type, lighting, arrangement, etc.
+
+
+To help with this, we present some figures representing the number
+of polygons per second for various polygon types. These figures were
+obtained from the 3D engine generating a reasonably complex scene made
+from a variation of large and small polygons, so note that there is more
+than just polygon filling in operation here.
+
+Polygons are mapped as either triangles or quadrilaterals.
+
+-----------------------------------------------------
+			Polygons	Vertices
+			per second	per second
+-----------------------------------------------------
+Textured polygon	7000		9200
+No shading
+
+Textured polygon	6000		8000
+Flat shaded
+
+Textured polygon	5100		6800
+Gouraud shading
+-----------------------------------------------------
+Non textured polygon	11700		15600
+No shading
+
+Non textured polygon	10500		14000
+Flat shaded
+
+Non textured polygon	7800		10400
+Gouraud shading
+-----------------------------------------------------
+
+
+
+Maximum number of moving objects in 3D
+______________________________________
+
+These require a rotation and translation for each vertex in every object.
+At worst, this amounts to 12 multiplies per vertex per object.
+So accordingly, the more complicated an object, the fewer can be transformed
+to keep the game speed up.
+
+The maximum number of moving objects has not yet been investigated.
+However, it can be seen from the design specification that not many objects
+transform anyway. Apart from the cars, catapults, bumpers, track sections
+and some hazards move. Many of these do not need to rotate, hence saving
+computation time.
+
+If using rotations with light sourcing, an extra consideration will be the
+rotation of the surface normals, and for gouraud shading, the vertex normals.
+
+Note that transformations do not necessarily occur for each object in
+every frame. The transformations can also be connected to the frame rate
+so that if the frame rate drops, the transformations will take on greater
+steps.
+
+
+
+Shading and image mapping supported
+___________________________________
+
+These methods apply to both triangles and quadrilaterals.
+
+Non textured
+	No shading
+	Flat shading
+	Gouraud shading
+
+Textured
+	Transparent
+	No shading
+	Flat shading
+	Gouraud shading
+
+The following methods will also be supported -
+
+Polygon outline
+Line drawing
+Perspective texture mapping
+
+
+
+The polygon fill routines are reasonably well optimised. Drawing to the
+screen is done horizontally, line by line down the screen. No pixels on
+the polygon are overwritten.
+
+The horizontal fills for every polygon mapping type are written in assembly
+language and are hand optimised.  Speedups are now being looked at in other
+areas since the inner loops are nearly as fast as they can go.  Wherever
+possible, data is copied in double words (for non-textured polygons) and the
+optimisations cater for pipelining considerations.
+

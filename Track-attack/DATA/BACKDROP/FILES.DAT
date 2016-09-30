@@ -1,0 +1,70 @@
+
+Arc Developments batch converter (c) Alistair Hale  1993
+11 files processed ...
+
+
+BEACHBLS.LBM -> BEACHBLS.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-255
+Total of 246 pens set to non-background
+;-------------------------------------------------------------------------------
+
+CROSSTON.LBM -> CROSSTON.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+DESBLUR.LBM  ->  DESBLUR.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+GATORBIT.LBM -> GATORBIT.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 242 pens set to non-background
+;-------------------------------------------------------------------------------
+
+GUTRUN.LBM   ->   GUTRUN.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+HIGHRISE.LBM -> HIGHRISE.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+HYPERQU.LBM  ->  HYPERQU.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+MNTHIGH.LBM  ->  MNTHIGH.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+ROCKYRID.LBM -> ROCKYRID.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------
+
+SALTSPRA.LBM -> SALTSPRA.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 0-255
+Total of 248 pens set to non-background
+;-------------------------------------------------------------------------------
+
+WHITERAP.LBM -> WHITERAP.PAL  width 640 depth 400
+Non-background pens set in palette are
+ 1-247, 255
+Total of 245 pens set to non-background
+;-------------------------------------------------------------------------------

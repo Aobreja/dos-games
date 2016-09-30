@@ -1,0 +1,74 @@
+1,1,2,4,0,8 
+
+
+----------------------------------------------------------------------------
+                Team17 WORMS:REINFORCEMENTS INFORMATION FILE
+----------------------------------------------------------------------------
+
+
+                    For use in WORMS:REINFORCEMENTS ONLY!
+
+                     (C)1995/96 Team17 Software Limited.
+
+----------------------------------------------------------------------------
+
+The numbers on the first line can be altered with the following details;
+
+GRAVITY                         0=MIN
+                                1=MED
+                                2=MAX
+
+FRICTION                        0=MIN
+                                1=MED
+                                2=MAX
+
+WINDSTRENGTH                    0=OFF
+                                1=MIN
+                                2=MED
+                                3=MAX
+
+BACKGROUND MOUNTAIN SET         0=MOUNTAINS
+                                1=ALIEN
+Note: When using these          2=HELL
+backgrounds, you can            3=ALPS (1)
+alter the palette after         4=ALPS (2)
+converting the image.           5=DISTANT CITY
+See "Custom.TXT".
+
+WATER SET                       0=Default/Normal
+                                1=Martian Gloop
+Note: You can control the       2=Fire
+palette after converting
+your main image. See the
+file "Custom.TXT".
+
+CD-TRACK TO PLAY ON LEVEL       0=Forest/Ambience
+                                1=Hell/Evil
+                                2=Snow/Ice 
+                                3=Alien
+                                4=Arid/Desert
+                                5=City/Urban
+                                6=Warzone
+                                7=Spooky/Graveyard
+                                8=Bizarre Ambiences
+                                9=Znork in Z minor Music
+                               10=Alps/Farmyard Ambience
+
+---------------------------------------------------------------------------
+                   NOTES ON THIS PARTICULAR WORM LEVEL
+---------------------------------------------------------------------------
+
+
+Level Created By:                    RICO HOLMES                    
+
+Method:                              SOME FUSSY 24BIT ART PACKAGE.      
+                                        
+Source (if applicable):              WORMY STUFF                    
+
+Special Notes:                       Suitable for general play.           
+
+Humourous Note:                      Rico used to let people sleep on a
+                                     beanbag.
+                                                                                                                                                          
+---------------------------------------------------------------------------
+

@@ -1,0 +1,32 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATDEF "PTREAD"         SHADED FLAT <4,4,4>
+MATDEF "PRAM RACER WHEELS" TRANS SHADED TEXT data\cars\mustang\bpp\wheel3.bpp
+MATDEF "PRAM RACER WHEELS I" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "PRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\bpp\p11.bpp
+MATDEF "PRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\bpp\p11.bpp
+MATDEF "PBONNET"        SHADED TEXT data\cars\mustang\bpp\p04.bpp
+MATDEF "PWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "PFRONT_WINGS"   SHADED TEXT data\cars\mustang\bpp\p03.bpp
+MATDEF "PREAR_WINGS"    SHADED TEXT data\cars\mustang\bpp\p02.bpp
+MATDEF "PDOORS"         SHADED TEXT data\cars\mustang\bpp\p01.bpp
+MATDEF "PBOTTOM"        SHADED TEXT data\cars\mustang\bpp\p12.bpp
+MATDEF "PTOP (CAB)"     SHADED TEXT data\cars\mustang\bpp\p05.bpp
+MATDEF "PSIDE_GLASS"    SHADED TEXT data\cars\mustang\bpp\p06.bpp
+MATDEF "PBACK"          SHADED TEXT data\cars\mustang\bpp\p07.bpp
+MATDEF "PHEAD LIGHT"    SHADED TEXT data\cars\mustang\bpp\p08.bpp
+MATDEF "PTAIL LIGHT"    SHADED TEXT data\cars\mustang\bpp\p10.bpp
+MATDEF "PTAIL LIGHT H"  SHADED TEXT data\cars\mustang\bpp\p10a.bpp
+MATDEF "PENGINE BLOCK"  SHADED TEXT data\cars\mustang\bpp\p09.bpp
+matdef "PTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\gaz\turbo3.bpp
+
+pf data\cars\car.pin
+
+

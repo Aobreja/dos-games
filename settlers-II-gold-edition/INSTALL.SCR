@@ -1,0 +1,234 @@
+// Install script for the Settlers II Gold
+// (c) 1995 - 1997 Blue Byte Software GmbH
+
+// Set language
+SET_LANGUAGE 2
+
+// Load background image
+LOAD_BACKGROUND "gfx\pics\install.lbm"
+
+// Go to setup if already installed, else go to install
+IF_EXISTS setup.ini
+	GOTO SetupMainMenu
+ELSE
+	GOTO InstallMainMenu
+ENDIF
+
+
+// Install main menu
+:InstallMainMenu
+
+MENU_START
+MENU_ENTRY "Settlers II Gold Installation"
+MENU_ENTRY "Install Settlers II Gold" InstallGame
+MENU_ENTRY "Quit program" ExitInstallFromInstall
+MENU_END
+
+
+// Install the game
+:InstallGame
+
+
+// Info for Brian!
+INFO "Installing the Settlers II Gold will erase any previous Settlers II saved games. Please see the README.TXT or the manual."
+
+
+// Select a target drive
+SELECT_TARGET_DRIVE 40000 InstallMainMenu
+
+// Select target path
+SELECT_TARGET_PATH BLUEBYTE\SETTLER2
+
+
+// Inform the user that installation has started
+PRINT "Preparing installation"
+
+// Change to target directory
+CD_TARGET
+
+// Delete everything that may already be here
+DELETE *.*
+DELETE DRIVERS
+DELETE DATA\MASKS
+DELETE DATA\BOBS
+DELETE DATA\IO
+DELETE DATA\TXT
+DELETE DATA\ANIMDAT
+DELETE DATA\SOUNDDAT\SNG
+DELETE DATA\SOUNDDAT\SAM
+DELETE DATA\SOUNDDAT
+DELETE DATA\TEXTURES
+DELETE DATA\MBOB
+DELETE DATA\CBOB
+DELETE DATA\TXT2
+DELETE DATA\MISSIONS
+DELETE DATA\MAPS
+DELETE DATA\ONLINE
+DELETE DATA
+DELETE GFX\PALETTE
+DELETE GFX\PICS
+DELETE GFX\TEXTURES
+DELETE GFX\LAND
+DELETE GFX
+DELETE SAVE
+DELETE WORLDS
+DELETE DATA\MAPS2
+DELETE DATA\MAPS3
+DELETE DATA\MAPS4
+DELETE GFX\PICS\MISSION
+DELETE DATA\TXT3
+
+// Create directories
+MD DRIVERS
+MD DATA
+MD DATA\MASKS
+MD DATA\BOBS
+MD DATA\IO
+MD DATA\TXT
+MD DATA\ANIMDAT
+MD DATA\SOUNDDAT
+MD DATA\SOUNDDAT\SAM
+MD DATA\SOUNDDAT\SNG
+MD DATA\TEXTURES
+MD DATA\MBOB
+MD DATA\CBOB
+MD DATA\TXT2
+MD DATA\MISSIONS
+MD DATA\MAPS
+MD DATA\ONLINE
+MD GFX
+MD GFX\PALETTE
+MD GFX\PICS
+MD GFX\TEXTURES
+MD GFX\LAND
+MD SAVE
+MD WORLDS
+MD DATA\MAPS2
+MD DATA\MAPS3
+MD DATA\MAPS4
+MD GFX\PICS\MISSION
+MD DATA\TXT3
+
+// Change to source directory
+CD_SOURCE
+
+// Inform the user that installation has started
+PRINT "Installing Settlers II Gold"
+
+// Copy AIL drivers
+INSTALL DRIVERS\*.* DRIVERS\*.*
+
+// Copy stuff
+INSTALL ROOT\S2.exe       S2.exe
+INSTALL ROOT\S2EDIT.exe   S2EDIT.exe
+INSTALL ROOT\START.BAT    START.BAT
+INSTALL ROOT\NOSOUND.BAT  NOSOUND.BAT
+INSTALL ROOT\SETTLER2.EXE SETTLER2.EXE
+INSTALL ROOT\SETTLER2.VMC SETTLER2.VMC
+INSTALL SETUP.EXE         SETUP.EXE
+INSTALL INSTALL.SCR       INSTALL.SCR
+INSTALL INSTALL.LBM       INSTALL.LBM
+INSTALL DOS4GW.EXE        DOS4GW.EXE
+INSTALL README.TXT        README.TXT
+INSTALL NEWS.TXT          NEWS.TXT
+INSTALL DATA\*.*          DATA\*.*
+INSTALL DATA\MASKS\*.*    DATA\MASKS\*.*
+INSTALL DATA\BOBS\*.*     DATA\BOBS\*.*
+INSTALL DATA\IO\*.*       DATA\IO\*.*
+INSTALL DATA\TXT\*.*      DATA\TXT\*.*
+INSTALL DATA\ANIMDAT\*.*  DATA\ANIMDAT\*.*
+INSTALL DATA\SOUNDDAT\*.* DATA\SOUNDDAT\*.*
+INSTALL DATA\SOUNDDAT\SNG\*.* DATA\SOUNDDAT\SNG\*.*
+INSTALL DATA\TEXTURES\*.* DATA\TEXTURES\*.*
+INSTALL DATA\MBOB\*.*     DATA\MBOB\*.*
+INSTALL DATA\CBOB\*.*     DATA\CBOB\*.*
+INSTALL DATA\TXT2\*.*     DATA\TXT2\*.*
+INSTALL DATA\MISSIONS\*.* DATA\MISSIONS\*.*
+INSTALL DATA\MAPS\*.*     DATA\MAPS\*.*
+INSTALL DATA\ONLINE\*.*   DATA\ONLINE\*.*
+INSTALL GFX\*.*           GFX\*.*
+INSTALL GFX\PALETTE\*.*   GFX\PALETTE\*.*
+INSTALL GFX\PICS\*.*      GFX\PICS\*.*
+INSTALL GFX\TEXTURES\*.*  GFX\TEXTURES\*.*
+INSTALL GFX\LAND\*.*      GFX\LAND\*.*
+INSTALL SAVE\*.*          SAVE\*.*
+INSTALL WORLDS\*.*        WORLDS\*.*
+INSTALL DATA\MAPS2\*.*    DATA\MAPS2\*.*
+INSTALL DATA\MAPS3\*.*    DATA\MAPS3\*.*
+INSTALL DATA\MAPS4\*.*    DATA\MAPS4\*.*
+INSTALL GFX\PICS\MISSION\*.* GFX\PICS\MISSION\*.*
+INSTALL DATA\TXT3\*.* DATA\TXT3\*.*
+
+CD_TARGET
+
+// Create and update setup file
+CREATE SETUP.INI
+UPDATE_INI
+
+// Inform the user that installation has been completed successfully
+INFO "Settlers II Gold has been installed successfully"
+
+GOTO SetupMainMenu
+
+
+// Setup main menu
+:SetupMainMenu
+
+MENU_START
+MENU_ENTRY "Settlers II Gold: Setup"
+MENU_ENTRY "Setup sound" SetupSound
+MENU_ENTRY "Change editor-screen-resolution" ChangeScreen
+MENU_ENTRY "Additional information" ReadDoc
+MENU_ENTRY "Blue Byte News" NewsInfo
+MENU_ENTRY "Quit program" ExitInstallFromSetup
+MENU_END
+
+
+:SetupSound
+CD DRIVERS
+EXECUTE_OWN_SCREEN SETSOUND.EXE
+CD ..
+GOTO SetupMainMenu
+
+
+:ReadDoc
+TEXT README.TXT
+GOTO SetupMainMenu
+
+
+:NewsInfo
+TEXT NEWS.TXT
+GOTO SetupMainMenu
+
+
+// change resolution
+:ChangeScreen
+MENU_START
+MENU_ENTRY "Screen resolution"
+MENU_ENTRY "640x480" ChangeTo640
+MENU_ENTRY "800x600" ChangeTo800
+MENU_ENTRY "1024x768" ChangeTo1024
+MENU_END
+
+// resolutions
+:ChangeTo640
+WRITE_INI_ENTRY EDIT_SCREEN 0
+GOTO SetupMainMenu
+
+:ChangeTo800
+WRITE_INI_ENTRY EDIT_SCREEN 1
+GOTO SetupMainMenu
+
+:ChangeTo1024
+WRITE_INI_ENTRY EDIT_SCREEN 2
+GOTO SetupMainMenu
+
+
+:ExitInstallFromSetup
+INFO "Have fun playing Settlers II!"
+END
+
+:ExitInstallFromInstall
+END
+
+

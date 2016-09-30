@@ -1,0 +1,38 @@
+axis 2
+scale 1
+
+matdef "SWITCH"		SHADED TRANS TWOSIDE TEXT data\objects\bpp\switch.bpp
+matdef "SIGN1"		SHADED TRANS TWOSIDE TEXT data\objects\bpp\sign1.bpp
+matdef "SIGN4"		SHADED TRANS TWOSIDE TEXT data\objects\bpp\sign4.bpp
+matdef "WALL2"		SHADED AUTOMAP1 TEXT data\track\bpp\wall.bpp
+matdef "WEIGHT_MAP"	SHADED TEXT data\objects\bpp\tons.bpp
+matdef "WEIGHT"		SHADED FLAT <0,0,63>
+matdef "ROD"		SHADED FLAT <63,0,0>
+matdef "camera_map"	AUTOMAP5 SHADED TEXT data\objects\bpp\camera.bpp
+matdef "BARRIER"	AUTOMAP2 TRANS TWOSIDE SHADED TEXT data\objects\bpp\barrier.bpp
+
+matdef "ARROW1"		AUTOMAP5 SHADED TEXT data\objects\bpp\arrow1.bpp
+matdef "ARROW2"		AUTOMAP5 SHADED TEXT data\objects\bpp\arrow2.bpp
+matdef "ARROW3"		AUTOMAP5 SHADED TEXT data\objects\bpp\arrow3.bpp
+matdef "ARROW4"		AUTOMAP5 SHADED TEXT data\objects\bpp\arrow4.bpp
+matdef "CAR_MARKER"	AUTOMAP2 SHADED TEXT data\objects\bpp\car.bpp
+matdef "CAR_MARKER_REV"	AUTOMAP6 SHADED TEXT data\objects\bpp\car.bpp
+matdef "CAR_START_SIDES"SHADED FLAT <16,16,16>
+matdef "FLOORSWITCH"	SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\floorsw.bpp
+
+matdef "BEER"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\beer.bpp
+matdef "FAGS"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\fags.bpp
+matdef "AD1"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\adverts.bpp
+matdef "NAD1"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\nad1.bpp
+matdef "NAD2"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\nad2.bpp
+matdef "NAD3"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\nad3.bpp
+
+matdef "AIM_NORM"	AUTOMAP5 SHADED TEXT data\objects\bpp\aim1.bpp
+matdef "AIM_TURBO"	AUTOMAP5 SHADED TEXT data\objects\bpp\aim2.bpp
+matdef "AIM_SIDES"	SHADED FLAT <16,16,16>
+
+matdef "COKE"		SHADED AUTOMAP1 TWOSIDE TEXT data\objects\bpp\coke1.bpp
+matdef "SPIKES"		SHADED AUTOMAP1 TRANS TWOSIDE TEXT data\objects\bpp\spikes.bpp
+
+pf data\objects\objs.asc
+

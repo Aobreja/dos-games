@@ -1,0 +1,34 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table mustang\light.tab
+
+MATDEF "BSTTREAD"         SHADED FLAT <4,4,4>
+MATDEF "BSTWHEEL" TRANS SHADED TEXT data\cars\animbase\blaster.whl
+MATDEF "BSTWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATDEF "BSTRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "BSTRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\mram03.bpp
+MATDEF "BSTRAMBAR_left"  TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "BSTRAMBAR_right" TWOSIDE TRANS SHADED TEXT data\cars\mustang\grey\sram03.bpp
+MATDEF "BSTBONNET"        SHADED TEXT data\cars\mustang\grey\g04.bpp
+MATDEF "BSTWHEELARCH"     SHADED FLAT <0,0,0>
+MATDEF "BSTFRONT_WINGS"   SHADED TEXT data\cars\mustang\grey\g03.bpp
+MATDEF "BSTREAR_WINGS"    SHADED TEXT data\cars\mustang\grey\g02.bpp
+MATDEF "BSTDOORS"         SHADED TEXT data\cars\mustang\grey\g01.bpp
+MATDEF "BSTBOTTOM"        SHADED TEXT data\cars\mustang\grey\g12.bpp
+MATDEF "BSTTOP (CAB)"     SHADED TEXT data\cars\mustang\grey\g05.bpp
+MATDEF "BSTSIDE_GLASS"    SHADED TEXT data\cars\mustang\grey\g06.bpp
+MATDEF "BSTBACK"          SHADED TEXT data\cars\mustang\grey\g07.bpp
+MATDEF "BSTHEAD LIGHT"    SHADED TEXT data\cars\mustang\grey\g08.bpp
+MATDEF "BSTTAIL LIGHT"    SHADED TEXT data\cars\mustang\grey\g10.bpp
+MATDEF "BSTTAIL LIGHT H"  SHADED TEXT data\cars\mustang\grey\g10a.bpp
+MATDEF "BSTENGINE BLOCK"  SHADED TEXT data\cars\mustang\grey\g09.bpp
+matDEF "BSTTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\blaster.tur
+
+pf data\cars\blaster.asc
+
+

@@ -1,0 +1,31 @@
+axis 2
+clearbuffer
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+MATdef "cadTREAD"         SHADED FLAT <4,4,4>
+MATdef "cadWHEEL" TRANS SHADED TEXT data\cars\animbase\cadet.whl
+MATdef "cadWHEEL_INSIDE" TRANS SHADED TEXT data\cars\mustang\bpp\wheeli.bpp
+MATdef "cadRAM BAR BACK"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "cadRAM BAR FRONT" TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\vram03.bpp
+MATdef "cadRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "cadRAMBAR_LEFT"   TWOSIDE TRANS SHADED TEXT data\cars\vette\v02\sram03.bpp
+MATdef "cadENGINE BLOCK"  SHADED TEXT data\cars\vette\v01\x07.bpp
+MATdef "cadBACK"          SHADED TEXT data\cars\vette\v01\x10.bpp
+MATdef "cadWHEELARCH"     SHADED FLAT <0,0,0>
+MATdef "cadBOTTOM"        SHADED TEXT data\cars\vette\v01\v11.bpp
+MATdef "cadBONNET"        SHADED TEXT data\cars\vette\v01\x01.bpp
+MATdef "cadFRONT_WINGS"   SHADED TEXT data\cars\vette\v01\x02.bpp
+MATdef "cadTOP (CAB)"     SHADED TEXT data\cars\vette\v01\x05.bpp
+MATdef "cadREAR_WINGS"    SHADED TEXT data\cars\vette\v01\x03.bpp
+MATdef "cadDOORS"         SHADED TEXT data\cars\vette\v01\x06.bpp
+MATdef "cadHEAD LIGHT"    SHADED TEXT data\cars\vette\v01\x04.bpp
+MATdef "cadSIDES"         SHADED TEXT data\cars\vette\v01\x08.bpp
+MATdef "cadBACKLITES"     SHADED TEXT data\cars\vette\v01\x09.bpp
+matdef "cadTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\animbase\cadet.tur
+
+pf data\cars\cadet.asc
+
+

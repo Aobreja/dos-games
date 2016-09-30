@@ -1,0 +1,38 @@
+axis 2
+clearbuffer static_backdrop bpp\grid.bpp
+palette car\cued.pal
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "PSIDE RIGHT" SHADED TEXT data\cars\bpp3\prpl_a6.bpp
+matdef "PSIDE LEFT" SHADED TEXT data\cars\bpp3\prpl_a7.bpp
+matdef "PTREAD"      SHADED FLAT <4,4,4>
+matdef "PRAM RACER WHEELS" 	TRANS SHADED TWOSIDE TEXT data\cars\gaz\wheel4.bpp
+matdef "PRAM RACER WHEELS I"	TRANS SHADED TWOSIDE TEXT data\cars\gaz\wheel4.bpp
+matdef "PWHEELARCH"      SHADED FLAT <16,16,16>
+matdef "PBACK"           SHADED TEXT data\cars\bpp3\prpl_a2.bpp
+matdef "PTAIL LIGHT"     SHADED TEXT data\cars\bpp3\prpl0014.bpp
+matdef "PBONNET"         SHADED TEXT data\cars\bpp3\prpl_a3.bpp
+matdef "PNOSE"           SHADED TEXT data\cars\bpp3\prpl0008.bpp
+matdef "PUNDER CAR"      SHADED TEXT data\cars\bpp3\prpl0019.bpp
+matdef "PENGINE_TOP_1"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\prpl0011.bpp
+matdef "PENGINE_TOP_2"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\prpl0012.bpp
+matdef "PENGINE_TOP_3"   TRANS SHADED TWOSIDE TEXT data\cars\bpp3\prpl0013.bpp
+matdef "PENGINE BLOCK"   SHADED TEXT data\cars\bpp3\prpl0010.bpp
+matdef "PTOP (CAB)"      SHADED TEXT data\cars\bpp3\prpl_a1.bpp
+matdef "PSUSSPENSION"    TWOSIDE TRANS SHADED TEXT data\cars\bpp3\prpl0009.bpp
+matdef "PRAM BAR FRONT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0004.bpp
+matdef "PRAM BAR BACK"   TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0005.bpp
+matdef "PRAMBAR_LEFT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0008.bpp
+matdef "PRAMBAR_RIGHT"  TWOSIDE TRANS SHADED TEXT data\cars\bpp2\arm0009.bpp
+matdef "PEXHAUST"   	SHADED TEXT data\cars\bpp2\exhaust.bpp
+matdef "PEXHAUST_END"   SHADED TEXT data\cars\bpp2\exhst_tp.bpp
+matdef "PTURBO_SCREEN"	 TWOSIDE TRANS TEXT data\cars\gaz\turbo4.bpp
+
+pf data\cars\car.ppl
+
+

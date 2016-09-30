@@ -1,0 +1,31 @@
+.clearbuffer
+backdrop bpp\blank.bpp
+palette data\cued.pal
+axis 2
+scale 1
+camera pos <0,0,6000> target <0,0,0> focal 31
+
+light point <1000,1000,1000> <0,0,0>
+
+sourcing_table data\light.tab
+
+matdef "SIDE RIGHT" SHADED TEXT data\cars\bpp\blue0017.bpp
+matdef "SIDE LEFT" SHADED TEXT data\cars\bpp\blue0018.bpp
+matdef "TYRE RING"	SHADED FLAT <4,4,4>
+matdef "RAM RACER WHEELS" TRANS SHADED TEXT data\cars\bpp\wheelmap.bpp
+matdef "BACK"		SHADED TEXT data\cars\bpp\blue0006.bpp
+matdef "TAIL LIGHT"	SHADED TEXT data\cars\bpp\blue0014.bpp
+matdef "BONNET"		SHADED TEXT data\cars\bpp\blue0007.bpp
+matdef "NOSE"		SHADED TEXT data\cars\bpp\blue0008.bpp
+matdef "UNDER CAR"	SHADED TEXT data\cars\bpp\blue0019.bpp
+matdef "ENGINE_TOP_1"	TRANS SHADED TEXT data\cars\bpp\blue0011.bpp
+matdef "ENGINE_TOP_2"	TRANS SHADED TEXT data\cars\bpp\blue0012.bpp
+matdef "ENGINE_TOP_3"	TRANS SHADED TEXT data\cars\bpp\blue0013.bpp
+matdef "ENGINE BLOCK"	SHADED TEXT data\cars\bpp\blue0010.bpp
+matdef "TOP (CAB)"	SHADED TEXT data\cars\bpp\blue0005.bpp
+matdef "SUSSPENSION"	TWOSIDE TRANS SHADED TEXT data\cars\bpp\blue0009.bpp
+matdef "RAM BAR FRONT"	TWOSIDE TRANS SHADED TEXT data\cars\bpp\blue0016.bpp
+matdef "RAM BAR BACK"	TWOSIDE TRANS SHADED TEXT data\cars\bpp\blue0015.bpp
+
+pf data\cars\car.asc
+
